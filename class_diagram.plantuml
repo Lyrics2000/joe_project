@@ -1,0 +1,220 @@
+@startuml
+class TblPatienInfo {
+
+    patiend_id : PrimaryKey
+    username : Charfield
+    email : EmailField
+    password : Charfield
+
+
+}
+
+class Admin {
+
+    admin_id : PrimaryKey
+    admin_username : Charfield
+    admin_email : Email
+    admin_password : Charfield
+
+}
+
+class Admin
+note left : Admin controles the enter function of the system
+
+
+
+TblPatienInfo --|> TbltPatientExtraInfo
+
+class TblPatienInfo
+note left : Holds patients info
+
+class TbltPatientExtraInfo {
+    patiend_id : Integer
+    patinent_extra_id : PrimaryKey
+    Relationship_status : Charfield
+
+
+}
+
+TblPatienInfo --|> TblHouseVisits
+
+class TblHouseVisits{
+    house_visit_id : PrimaryKey
+    patient_id : Integer
+    therapycounselor_id : IntegerField
+    DateOfHouseVisit : DateTime
+}
+
+class TblHouseVisits
+note top : this holds information about the house visits done my the counselellor
+
+TblTherapeauticCousellor --|> TblHouseVisits
+
+class TblTherapeauticCousellor {
+    therapeutic_id : PrimaryKey
+    therapeutic_counsellor_name : Charfield
+    therapeutic_counsellor_username : Charfield
+    therapeutic_counsellor_phone : Charfield
+    therapeutic_counsellor_email : Email
+}
+
+
+TblPatienInfo  --|> TblPatientClinicalInfo
+
+class TblPatientClinicalInfo{
+    clinical_id : PrimaryKey
+    patiend_id : Integer
+    Height : Integer
+    Weight : Integer
+}
+
+
+TblPatientInfo --|> TblPatientFinancialInfo
+
+class TblPatientFinancialInfo {
+    financial_id : PrimaryKey
+    patient_id : Integer
+    Occupation_status : Charfield
+    Income_per_month : DecimalField
+}
+
+
+TblPatientInfo --|> TblMedicalHistory
+
+class TblMedicalHistory{
+    medical_history_id : PrimaryKey
+    patiend_id : Integer
+    Date_of_first_positive_test : DateTime
+    Place_of_diagnosis : Charfield
+}
+
+
+TblPatienInfo --|> TblClinicalVisi
+
+class TblClinicalVisi{
+    clinical_visit_id : PrimaryKey
+    patiend_id : Integer
+    physician_id : Integer
+    date_of_visit : DateTime
+}
+
+
+TblPhysician --|> TblClinicalVisi
+
+class TblPhysician {
+    physician_id : PrimaryKey
+    physician_username : Charfield
+    physician_name : Charfield
+    physician_phone : Charfield
+    physician_building : Charfield
+}
+
+
+TblClinicalVisi --|> TblViralLoad
+
+class TblViralLoad{
+    viral_load_id : PrimaryKey
+    clinic_visit_id : Integer
+}
+
+TblHouseVisits --|> TblAppointmentReport
+TblClinicalVisi --|> TblAppointmentReport
+
+
+class TblAppointmentReport{
+    Appointment_id : PrimaryKey
+    clinical_visit_id : Integer
+    house_visit_id : Integer
+    Date_of_appointment : DateTime
+}
+
+TblHouseVisits --|> TBlAdhereheReport
+TblClinicalVisi --|> TBlAdhereheReport
+
+
+class TBlAdhereheReport{
+    adhereReport_id : PrimaryKey
+    house_visit_id : Integer
+    clinic_visit_id : Integer
+    DrugType : Charfield
+    DrugType2 : Charfield
+    DrugType3 : Charfield
+    DosingMf : Integer
+}
+
+
+TblClinicalVisi --|> TblSignsAndSymptomsReport
+TblHouseVisits --|> TblSignsAndSymptomsReport
+
+
+class TblSignsAndSymptomsReport{
+    symptoms_id : PrimaryKey
+    clinical_visit_id : Integer
+    House_visit_id : Integer
+    symptom_type : Charfield
+}
+
+
+TblClinicalVisi --|> TblAleartReport
+TblHouseVisits --|> TblAleartReport
+
+class TblAleartReport{
+    aleart_id : PrimaryKey
+    clinical_visit_id : Integer
+    houseVisit_id : Integer
+}
+
+
+TblClinicalVisi --|> TblAleargyReport
+
+class TblAleargyReport{
+    aleargy_id : PrimaryKey
+    clinical_visit_id : Integer
+}
+
+
+class Drugs {
+
+    drugs_id : PrimaryKey
+    drug_type : Charfield
+    drug_name : Charfield
+
+}
+
+class Drugs
+note left : This class holds all the functions of drugs example when it will be shipped , if it is available or not , pick up date ect
+
+
+Drugs --|> DrugShipping
+
+
+class DrugShipping{
+    drug_id : Integer
+    drug_shipping_id : PrimaryKey
+    shipping_date : DateTime
+    shipping_arrival_time : DateTime
+
+}
+
+Drugs --|> DrugAvailabeLocation
+
+class DrugAvailabeLocation{
+    location_id : PrimaryKey
+    location_name : Charfield
+    drug_id : Integer
+}
+
+
+Drugs --|> DrugInStock
+
+class DrugInStock{
+    in_stock_id : PrimaryKey
+    Quantity : Integer
+    drug_id : Integer
+    active : Boolean
+
+
+}
+
+
+@enduml
