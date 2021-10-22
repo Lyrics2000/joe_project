@@ -1,0 +1,100 @@
+@startuml database_tracy 
+!define DARKBLUE
+!includeurl https://raw.githubusercontent.com/Drakemor/RedDress-PlantUML/master/style.puml
+
+
+
+ entity User{
+     id: pk 
+     first_name : CharField 
+     last_name : CharField 
+     email : EmailField 
+     phone :  CharField 
+     password : CharField 
+     re_password :  CharField 
+     type : CharField("parents","teacher","student")
+ }
+
+ entity Classes{
+     id:pk 
+     class_name : CharField
+     active : BooleanField
+ }
+
+
+entity ClassCategory{
+    id:pk
+    class_id = ForeignKey(Classes)
+    class_title = CharField
+    slug = models.SlugField
+
+}
+
+Class_ ||..|{ ClassCategory
+
+entity Courses{
+    id:pk 
+    title_ =  models.CharField
+    teacher_id = models.ForeignKey(User)
+    course_category = models.ForeignKey(ClassCategory)
+    short_description = models.TextField
+    description = models.TextField
+    language = models.CharField 
+    thumbnail = models.ImageField 
+    video_url = models.URLField
+    slug :  SlugField 
+    short_description = TextField
+    is_published = models.BooleanField
+    
+    }
+
+ClassCategory ||..|{ Courses
+User ||..|{ Courses
+
+
+entity  Enrolment{
+    id:pk 
+    courses_id = models.ForeignKey(Courses)
+    user_id = models.ForeignKey(User)
+    enrolled = models.BooleanField
+    
+}
+
+Courses ||..|{ Enrolment
+User ||..|{ Enrolment
+
+entity Lessons{
+    id:pk
+    course = models.ForeignKey(Courses)
+    title_ = models.CharField
+    duration = models.FloatField
+    video_url = models.CharField
+
+}
+
+Courses ||..|{ Lessons
+
+entity LessonFiles{
+    id:pk 
+    lesson = models.ForeignKey(Lessons)
+    file_name = models.CharField
+    file_description = models.TextField
+    zip_file_upload = models.FileField
+
+}
+
+Lessons||..|{ LessonFiles
+
+entity LessonAssignmentFiles{
+    id:pk 
+    lesson = models.ForeignKey(Lessons)
+    file_name = models.CharField
+    file_description = models.TextField
+    zip_file_upload = models.FileField
+
+}
+
+Lessons ||..|{ LessonAssignmentFiles
+
+
+@enduml

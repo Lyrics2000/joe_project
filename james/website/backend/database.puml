@@ -1,0 +1,169 @@
+@startuml database_jemo
+!define DARKBLUE
+!includeurl https://raw.githubusercontent.com/Drakemor/RedDress-PlantUML/master/style.puml
+
+ entity Contacts{
+     id : pk 
+    full_name  : CharField(max_length=150)
+    email_address : EmailField()
+    subject : CharField(max_length=150)
+    message : CharField(max_length=150)
+    created_date : DateTimeField(default=now, editable=False)
+    
+
+ }
+
+ entity GuestEmail{
+     id: pk
+     email : EmailField()
+    active : BooleanField(default=True)
+    updated : DateTimeField(auto_now=True)
+    timestamp : DateTimeField(auto_now_add=True)
+
+ }
+
+entity User{
+    id : pk     
+    username : CharField(db_index=True, max_length=255, unique=True)
+    email : EmailField(db_index=True, unique=True)
+    is_active : BooleanField(default=True)
+    is_staff : BooleanField(default=False)
+    created_at : DateTimeField(auto_now_add=True)
+    updated_at : DateTimeField(auto_now=True)
+    
+
+}
+
+ entity BillingProfile{
+     id : pk
+    **user  : ForeignKey(User, null=True,blank=True,on_delete=models.CASCADE)
+    email : EmailField()
+    active : BooleanField(default=True)
+    updated : DateTimeField(auto_now=True)
+    timestamp : DateTimeField(auto_now_add=True)
+    
+ }
+BillingProfile }|..|| User
+
+
+
+ entity Address{
+     id: pk 
+   ** billing_profile : ForeignKey(BillingProfile,on_delete=models.CASCADE)
+    addresstype : CharField(max_length=120,choices=ADDRESS_TYPES)
+    address_line1 : CharField(max_length=120)
+    address_line2 : CharField(max_length=120, blank=True)
+    city : CharField(max_length=120)
+    name : CharField(max_length=120)
+    email : CharField(max_length=120)
+    phone : CharField(max_length=120)
+    estate_decsription : CharField(max_length=120,blank=True,null=True)
+    created_date : DateTimeField(default=now, editable=False)
+
+ }
+Address }|..|| BillingProfile
+
+entity DeliveryTime{
+    id:pk 
+    ** address : ForeignKey(Address,on_delete=models.CASCADE)
+    date : DateTimeField(blank=True,null=True)
+    today : BooleanField(default=False,blank=True,null=True)
+    
+}
+
+DeliveryTime }|..|| Address
+
+entity Cart{
+    id : pk
+    ** user : ForeignKey(User,null=True,blank=True,on_delete=models.CASCADE)
+    device_id : CharField(max_length=255,blank=True,null=True)
+    ** products : ManyToManyField(Products,blank=True)
+    subtotal : DecimalField(default=0.00,max_digits=100,decimal_places=2)
+    total : DecimalField(default=0.00,max_digits=100,decimal_places=2)
+    updates : DateTimeField(auto_now=True)
+    timestamp : DateTimeField(auto_now_add=True)
+
+    
+}
+
+User ||..|{ Cart
+
+
+entity CartQuantity{
+    **cart : ForeignKey(Cart,on_delete=models.CASCADE)
+    product_id : IntegerField(blank=True,null=True)
+    product : CharField(max_length=200)
+    quantity : IntegerField(null=True,blank=True,default=0)
+
+}
+
+Cart ||..|{ CartQuantity
+
+entity Order{
+    id: pk
+    order_id: CharField(max_length=120,blank=True)
+    ** billing_profile : ForeinKey(BillingProfile,on_delete=models.CASCADE,null=True,blank=True)
+    ** delivery_address : ForeignKey(Address,related_name="delivery_address",on_delete=models.CASCADE,null=True,blank=True)
+    ** delivery_time : ForeignKey(DeliveryTime,on_delete=models.CASCADE,null=True,blank=True)
+    ** cart : ForeignKey(Cart,on_delete=models.CASCADE)
+    status : CharField(max_length=120,default='created',choices=ORDER_STATUS_CHOICES)
+    shipping_total : DecimalField(default=00.00,max_digits=100,decimal_places=2)
+    total : DecimalField(default=0.00,max_digits=100,decimal_places=2)
+    active : BooleanField(default=True)
+    cash_at_hand : DecimalField(default=0.00,max_digits=100,decimal_places=2)
+    change_expected : DecimalField(default=0.00,max_digits=100,decimal_places=2)
+
+}
+BillingProfile ||..|{ Order
+Address ||..|{ Order
+cart ||..|{ Order
+DeliveryTime ||..|{ Order
+
+entity MpesaResquest{
+    id: pk
+    merchantRequestid : CharField(max_length=255)
+    chechoutrequestid : Charfield(max_digits=255)
+    responsecode : CharField(max_length=10)
+    responsedescription : TextField()
+    customerMessage : TextField()
+    status : CharField(max_length=255,blank=True,null=True)
+    request_id : CharField(max_length=255,blank=True,null=True)
+    callback_url : URLField(null=True,blank=True)
+    ** order : ForeignKey(Order,on_delete=models.CASCADE)
+
+}
+
+Order ||..|{ MpesaResquest
+
+entity MpesaPayment{
+    id :pk
+    amount : DecimalField(max_digits=30, decimal_places=2)
+    result_description : TextField()
+    merchant_id : CharField(max_length=150,blank=True,null=True)
+    checkout_request_id : CharField(max_length=150,blank=True,null=True)
+    mpesaReceiptNumber : CharField(max_length=150,blank=True,null=True)
+    name : CharField(max_length=150,blank=True,null=True)
+    transaction_date : DateTimeField(blank=True,null=True)
+    phone_number : CharField(max_length=150,blank=True,null=True)
+ 
+
+}
+
+entity MpesaQuery{
+    ** mpesa_request_id : ForeignKey(MpesaResquest,on_delete=models.CASCADE)
+    response_code : CharField(max_length=255)
+    response_description : TextField()
+    merchant_id : CharField(max_length=255)
+    checkout_request_id : CharField(max_length=255)
+    result_code : CharField(max_length=255)
+    result_description : TextField()
+    status : CharField(max_length=255)
+    request_id : TextField()
+
+}
+
+MpesaResquest ||..|{ MpesaQuery
+
+
+
+@enduml

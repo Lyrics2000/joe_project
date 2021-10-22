@@ -1,0 +1,31 @@
+@startuml twala  fish
+!define DARKBLUE
+!includeurl https://raw.githubusercontent.com/Drakemor/RedDress-PlantUML/master/style.puml
+
+
+class SplashScreen{
+    Handler : handler
+}
+note left : this contains handler method \n that is used to delay app before opening \n drawer activity
+
+
+SplashScreen ..> DrawerACtivity
+class DrawerACtivity{
+    LinearLayout : home
+    LinearLayout : all_category
+    LinearLayout : cart 
+    LinearLayout : lytfav 
+    ProductViewModel : productViewModel 
+    int : cartQuantity 
+    TextView : tvMobile_billing 
+    TextView : header_name_login 
+    AppBarConfiguration : mAppBarConfiguration 
+    ActivityDrawerBinding : binding 
+
+    # void onCreate()
+    void drawer_header()
+
+
+
+}
+@enduml

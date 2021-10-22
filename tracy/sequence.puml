@@ -1,0 +1,21 @@
+@startuml tracy_sequence 
+!define DARKBLUE
+!includeurl https://raw.githubusercontent.com/Drakemor/RedDress-PlantUML/master/style.puml
+
+
+participant Week1 as wk1
+actor       Week2 as wk2
+' boundary    Boundary    as Foo2
+' control     Control     as Foo3
+' entity      Entity      as Foo4
+database    Week3    as wk3
+' collections Collections as Foo6
+' queue       Queue       as Foo7
+wk1 -> wk2 : Authentification backend and frontend done \n\n\n status :paid(ksh 2000) \n\n balance (Ksh 6000)
+wk2 -> wk3 : develop and design of the database system done \n\n\n status : Not paid \n\n balnce (Ksh 6000)
+
+
+
+
+
+@enduml

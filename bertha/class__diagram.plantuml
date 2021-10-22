@@ -1,0 +1,144 @@
+@startuml bertha 
+!define DARKBLUE
+!includeurl https://raw.githubusercontent.com/Drakemor/RedDress-PlantUML/master/style.puml
+
+
+
+class SplashActivity{
+    Handler : handler
+
+}
+
+note left : this is the first page when app is open \n the app has handler method that delays the app for \n certain seconds before the next activity is \n opened
+
+SplashActivity ..> HomeActivity
+class HomeActivity{
+    Toolbar : toolbar
+    CardView : doctor
+    CardView : patient
+    CardView : hosptal
+}
+
+note right : this activity has various cardview which represent various buttons \n that can be pressed \n the doctor cardview moves activity to \n health worker activity ,\n the patient cardview moves activity to \n patient activity \n the hospital cardview moves to health facility activity
+
+
+HomeActivity ..> PatientLoginActivity
+
+class PatientLoginActivity{
+    EditText : username_input_patient
+    EditText : password_input_patient
+    Button : btn_login_patient
+    Button : txt_signup_patient
+
+    void login() 
+    void updateUI() 
+
+}
+
+note top : this uses firebase to login \n the user into the system
+
+PatientLoginActivity ..> PatientRegisterActivity
+class PatientRegisterActivity{
+    FirebaseAuth : mAuth
+    EditText : username_input_patient_signup
+    EditText : password_input_patient_signup
+    Button : btn_login_patient_signup 
+    Button : txt_signup_patient_signup 
+
+    void signup() 
+    void updateUI() 
+    
+}
+
+note right : this activity is used to register the user into \n the database 
+
+PatientLoginActivity ..> PatientDashboardActivity
+PatientRegisterActivity ..> PatientDashboardActivity
+
+class PatientDashboardActivity{
+
+}
+note left : this is the main home page of \n patient , the page will be \n seen after the patient \n logs in
+
+HomeActivity ..> HeathWorkerLoginActivity 
+
+class HeathWorkerLoginActivity{
+    FirebaseAuth : mAuth 
+    EditText : username_input_doctor 
+    EditText : password_input_doctor
+    Button : btn_login_doctor 
+    Button : txt_signup_doctor 
+
+    void login()
+    void updateUI()
+    void onStart()
+
+}
+note right : uses firebase email and password \n to login the user into the \n database
+
+
+HeathWorkerLoginActivity ..> HealthWorkerRegisterActivity
+class HealthWorkerRegisterActivity{
+    EditText : username_input_doctor_signup
+    EditText : password_input_doctor_signup
+    Button : btn_login_doctor_signup 
+    Button : txt_signup_doctor_signup 
+    FirebaseAuth : mAuth 
+
+    void signup() 
+    void updateUI()
+    void onStart()
+
+}
+
+note top : uses firebase email and password \n to register user into \n the database 
+
+HealthWorkerRegisterActivity ..> HealthWorkerDashboardActivity
+HeathWorkerLoginActivity ..> HealthWorkerDashboardActivity
+class HealthWorkerDashboardActivity{
+
+}
+note left : this is the mainpage of the health worker that \n will be shown after the healthworker \n logs in 
+
+
+HomeActivity ..> HealthFacilityLoginActivity
+
+class HealthFacilityLoginActivity{
+    EditText : username_input_patient 
+    EditText : password_input_patient 
+    Button : btn_login_patient 
+    Button : txt_signup_patient
+    FirebaseAuth : mAuth
+
+    void onCreate()
+    void login()
+    void updateUI()
+    void onStart()
+}
+note top : uses email and password to log \n in the into the database
+
+
+HealthFacilityLoginActivity ..> HealthFacilityRegistrationActivity
+class HealthFacilityRegistrationActivity{
+    FirebaseAuth : mAuth
+    EditText : username_input_patient_signup
+    EditText : password_input_patient_signup
+    Button : btn_login_patient_signup
+    Button : txt_signup_patient_signup
+
+    void onCreate()
+    void signup()
+    void updateUI()
+    void  onStart()
+}
+
+note top : this uses firebase email and password to register \n the user into the database 
+
+HealthFacilityLoginActivity ..> HealthFacilityDashboardActivity
+HealthFacilityRegistrationActivity ..> HealthFacilityDashboardActivity
+
+class HealthFacilityDashboardActivity{
+
+}
+
+@enduml

@@ -1,0 +1,133 @@
+@startuml database design 
+!define DARKBLUE
+!includeurl https://raw.githubusercontent.com/Drakemor/RedDress-PlantUML/master/style.puml
+
+entity Customer {
+    id : pk 
+    first_name : CharField 
+    last_name :  CharField
+    phone : CharField
+    email :  EmailField
+    type : ("customer","restaurant owner")
+    password :  CharField
+
+
+}
+
+entity RestaurantOwner{
+    id: pk
+    first_name :  CharField
+    last_name : CharField
+    phone :  CharField
+    email : EmailField
+    type : ("Customer","Restaurant owner")
+    password :  CharField
+}
+
+entity Restaurant{
+    id : pk 
+    name : CharField 
+    address : CharField 
+    city : CharField 
+    main_phone_number : CharField 
+    company_email_address : EmailField 
+    Comapany_website_address : UrlField 
+    menu_image  : ImageField
+    company_image :  ImageField 
+
+
+}
+
+entity BookingStatus{
+    id: pk 
+    booking_status : ("booked","not booked")
+    booking_status_description : TextField 
+    active : boolean 
+}
+
+
+
+entity TableRowBooked{
+    id : pk 
+    **Booking_id : ForeinKey(Bookings)
+    booked_coulmn_id : ForeignKey(TableColumnBooked)
+    booked_table_row_id : Integer
+    booking_table_rate : Price per hour ect 
+
+
+}
+
+entity TableColumnBooked{
+ id : pk 
+ **restaurant_id : ForeignKey(Restaurants)
+ booked_table_column_id : Integer 
+ booked_column_description : CharField
+ booekd_colunm_status : CharField("booked","not booked")
+
+
+
+    
+}
+
+entity TableColumnRate{
+    id:pk 
+    rate : Price for rate 
+    from date :  DateTime
+    to date :  DateTime 
+}
+
+entity PaymentType{
+    id: pk 
+    payment_type: CharField("mpesa","bank/visa")
+}
+
+entity PaymentStatus{
+    id: pk 
+    status : ("paid","not paid")
+    payment_description :  CharField 
+
+}
+
+entity Payments{
+    id: pk 
+    ** TableColimnBooked : ForeignKey(TableRowBooked)
+    date : DateTime
+    Payment : AMount 
+    **Payment_type : ForeignKey(PaymentType)
+    payment_status_id : ForeignKey(Payment_status)
+}
+
+TableColumnBooked ||..|{ TableRowBooked
+Restaurants ||..|{ TableColumnBooked
+TableColumnBooked ||..|{ TableColumnRate
+TableColumnRate ||..|{ Payments
+PaymentStatus ||..|{ Payments
+PaymentType ||..|{ Payments
+
+entity  Bookings{
+    id : pk 
+    **Restaurant_id : ForeinKey(Restaurants)
+    **customer_id :  ForeignKey(Customer)
+    ** restaurant_owner_id : ForeinKey(RestaurantOwner)
+    date_from : DateTime 
+    date_to :  DateTime
+    total_table_booked : Integer 
+    **bookingstatus_id : ForeinKey()
+
+
+
+}
+
+Bookings ||..|{ TableRowBooked
+
+Customer ||..|{ Bookings
+RestaurantOwner ||..|{ Bookings 
+Restaurants ||..|{ Bookings
+BookingStatus ||..|{ Bookings
+
+
+
+
+
+
+@enduml

@@ -1,0 +1,34 @@
+@startuml student_logic
+!define DARKBLUE
+!includeurl https://raw.githubusercontent.com/Drakemor/RedDress-PlantUML/master/style.puml
+
+
+interface "Auth" as  au
+au - [Auth]
+[Auth] ..> SignIN 
+[Auth] ..> Register 
+[Auth] ..> [HomePage]
+[HomePage] ..> Dasboard 
+
+[CourseDetailedPage] ..> CourseDetailedPagee
+[HomePage] ..> [CourseDetailedPage]
+
+[InteractionPage] ..> InteractionPagee
+[CourseDetailedPage] ..> [InteractionPage]
+
+
+
+note left of SignIN : the student signs in \n by providing username and password 
+note left of Register : the student registers \n by providing username \n firstname \n type \n email \n phone \n password 
+note left of Dasboard : here the students will view \n random courses and their classes \n the courses will be filtered based on classes as category \n exaple class 1 will have different \n courses compared to class 2 etc \n 
+note left of CourseDetailedPagee : when the user selects a course \n he/she will be taken to a detailed page \n here they will see full course info before \n enrolling to the course \n some of the expected information include : \n 1) course title \n 2) teacher/instructor name \n 3) course category \n 4) short_description \n 5) description \n 6) language \n 7) thumbnail \n 8) short video \n 9) Enroll now button \n 10) list of lessons offered 
+note left of InteractionPagee : when the user enrolls into a course , \n he or she will be able to access the interaction page which contains details about the course \n informations \n various  list of lessons for the course and links to play the video \n links to the assignments for download for eact course \n link to live session interaction with the teacher incase they plan to have \n a live session interaction 
+
+
+
+
+
+
+
+
+@enduml

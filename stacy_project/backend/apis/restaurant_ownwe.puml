@@ -1,0 +1,28 @@
+@startuml
+!define DARKBLUE
+!includeurl https://raw.githubusercontent.com/Drakemor/RedDress-PlantUML/master/style.puml
+
+
+interface "Auth" as  au
+au - [Apis]
+[Apis] ..> SignIN
+[Apis] ..> CreateAccount
+[Restaurants] ..> CreateUpdateDelete
+[Restaurants] ..>GetAllRestaurants
+[Booking] ..> GetAllBookings
+[Booking]..>UpdateAllBooking
+[Apis] ..> [Restaurants]
+[Restaurants] ..> [Booking]
+
+
+note left of SignIN : The customer logs \n in by providing username and \n password
+note left of CreateAccount : The user creates account by providing username \n email \n password \n etc
+note left of CreateUpdateDelete : creates update and \n deletes all restaurants
+note left of GetAllRestaurants : get all restaurants\n available in the database
+note left of GetAllBookings : gets all the bookings availabel
+note left of UpdateAllBooking : update, delete,create a table for \n booking
+
+
+
+
+@enduml

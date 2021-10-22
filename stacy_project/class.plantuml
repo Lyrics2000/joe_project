@@ -1,0 +1,182 @@
+@startuml Project_overview
+!define DARKBLUE
+!includeurl https://raw.githubusercontent.com/Drakemor/RedDress-PlantUML/master/style.puml
+
+
+class MainActivity{
+    Animation : topAnim
+    Animation : bottomAnim
+    ImageView : imageView
+    TextView : textview
+
+
+
+}
+note left : this is the first class \n when you open the app \n the app containes a  handler method \n that helps in delaying the activity \n a little before moving to the \n next activity
+
+
+ViewPagerActivity ..> MainActivity
+
+class ViewPagerActivity{
+    ViewPager  : ViewPager 
+    PageAdapter  : pageAdapter 
+
+
+}
+note  left : this activity conaines the scrolling \n images which are in viewpager
+
+
+ViewPagerActivity <.. CustomePageAdapter
+class CustomePageAdapter{
+    List : fragments 
+    
+    fagment getitem() 
+    int getCount()
+
+}
+
+note top : this holds list of fragments which moves while being scrolled \n getIntem() returns the item position \n getCount() returns the total fragments list
+
+PageFourFragment ..> ViewPagerActivity
+class PageFourFragment{
+    TextView : signup 
+    TextView : login 
+
+}
+note top : login signup move to respective activity
+
+
+PageThreeFragment ..> ViewPagerActivity
+
+class PageThreeFragment{
+    TextView : signup 
+    TextView : login 
+
+}
+note top : login signup move to respective activity
+
+PageTwoFragment ..> ViewPagerActivity
+class PageTwoFragment{
+    TextView : signup 
+    TextView : login 
+
+}
+note top : login signup move to respective activity
+
+PageOneFragment ..> ViewPagerActivity
+
+class PageOneFragment{
+    TextView : signup 
+    TextView : login 
+
+}
+note top : login signup move to respective activity
+
+
+Login ..> PageOneFragment
+Login ..> PageTwoFragment
+Login ..> PageThreeFragment
+Login ..> PageFourFragment
+
+class Login{
+
+    FirebaseAuth : mAuth 
+    EditText : email 
+    EditText : password 
+    Button : loginbtn 
+    progressBar : loginProgressbar 
+
+    void onLoginClicked()
+    void signIn()
+    void toastMessage() 
+    void redirect()
+
+
+
+
+}
+note top : uses firebase to login the user
+
+Register ....> PageOneFragment
+Register ....> PageTwoFragment
+Register ....> PageThreeFragment
+Register ....> PageFourFragment
+
+class Register{
+    FirebaseAuth : mAuth 
+    EditText : email 
+    EditText : password 
+    Button : circularRegistrationButton 
+    ImageView : imageView 
+    ProgressBar  : progressBar
+
+    void changeStatusBarColor()
+    void createAccount()
+    void toastMessage()
+    void redirect()
+
+
+}
+note left : uses firebase to register the user
+
+
+DashbordActivity ..> Register
+DashbordActivity ..>Login
+
+class DashbordActivity{
+    RecyclerView : NewsRecyclerview
+    NewsAdapter : newsAdapter
+    List : mData
+    FloatingActionButton : fabSwitcher
+    ConstraintLayout : rootLayout
+    boolean : isDark
+    EditText : searchInput
+    CharSequence : search
+
+    void saveThemeStatePref()
+    void getThemeStatePref()
+}
+
+note right : this displays all the list of restaurants
+
+
+NewsAdapter ..> DashbordActivity
+
+class NewsAdapter{
+    Context : context 
+    List : mData 
+    List : mDataFiltered
+    boolean : isDark 
+
+    NewsViewHolder onCreateViewHolder()
+    void onBindViewHolder()
+    int getItemCount() 
+    Filter getFilter()
+    void setDarkTheme()
+}
+
+note left : this filters adapter and gets images \n from drawable and changes \n the view 
+
+
+NewsItem ..> NewsAdapter
+class NewsItem{
+    String : Title
+    String : Content 
+    String : Date
+    int : userPhoto
+
+    void setTitle()
+    void setContent()
+    void setDate()
+    void setUserPhoto()
+    String getTitle()
+    String getContent()
+    String getDate()
+    int getUserPhoto()
+
+}
+
+note right : this holds all the content \n data for the NewsAdapter Class 
+
+@enduml
+
