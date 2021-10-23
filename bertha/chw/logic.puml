@@ -1,0 +1,35 @@
+@startuml chw_logic
+!define DARKBLUE
+!includeurl https://raw.githubusercontent.com/Drakemor/RedDress-PlantUML/master/style.puml
+
+
+interface "Auth" as  au
+au - [Auth]
+[Auth] ..> SignIN 
+[Auth] ..> Register 
+[Auth] ..> [HomePage]
+[HomePage] ..> AddSChedule
+[AllPatient] ..> Allp
+[HomePage] ..> [AllPatient]
+[PatientPage] ..> PatientPagee
+
+[AllPatient] ..> [PatientPage]
+[TRackedPATIENT] ..> TrackP
+[HomePage] ..> [TRackedPATIENT]
+
+
+
+
+note left of SignIN : the patient signs in \n by providing username and password 
+note left of Register : the patient registers \n by providing username \n firstname \n type \n email \n phone \n password 
+note left of AddSChedule : this page is shown so that the chw officer can enter all the destinations he plans to visit throughout the dat \n he will use google map to get the latitude and logitude of the place which he can later save to the database \n after filling in one place they will see an add button \n when add is pressed they will be able to add \n more destination \n when save is pressed they will be taken to a page\n to see the schedule for the day in a list view \n where they can either delete the schedule or edit it \n when they press edit they will presented same page as \n choosing destinantion and edit the stuff \n and save it to the database using the save btn
+note left of Allp :  shows all the patient when a particular destination \n is pressed..shows the patients in that destination 
+note left of PatientPagee :  this will show details abt a particular patient \n in Allpatent recyclerview \n the details include \n first name \n last name \n email \n phone \n the chw will be presented with a call btn where \n they can call the patient also they will \n be presented with a track button where they can track the patient \n when they are closed to the patient they \n will be able to receive a notification to show them that they are close 
+note left of TrackP : this will show a recyclerview of all patients being tracked 
+
+
+
+
+
+
+@enduml

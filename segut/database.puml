@@ -1,0 +1,114 @@
+@startuml segut_database
+!define DARKBLUE
+!includeurl https://raw.githubusercontent.com/Drakemor/RedDress-PlantUML/master/style.puml
+
+entity Admin{
+    id:pk
+    first_name :  CharField
+    last_name :  CharField
+    email :  EmailField
+    phone :  CharField
+    type : CharField("customer","driver","admin")
+    password :  CharField
+    re_password :  CharField
+}
+
+entity Driver{
+    id:pk
+    first_name :  CharField
+    last_name :  CharField
+    email :  EmailField
+    phone :  CharField
+    type : CharField("customer","driver","admin")
+    password :  CharField
+    re_password :  CharField
+
+}
+
+
+entity Customer{
+    id:pk
+    first_name :  CharField
+    last_name :  CharField
+    email :  EmailField
+    phone :  CharField
+    type : CharField("customer","driver","admin")
+    password :  CharField
+    re_password :  CharField
+}
+
+
+
+
+
+
+
+entity Bus{
+    id:pk 
+    bus_no : CharField
+    bus_no_plate : CharField
+    bus_type : CharField
+    capacity : IntegerField 
+    admin_id : ForeinKey(Admin)
+
+}
+
+Admin ||..|{ Bus
+
+note left of Bus : this is the table that will hold the information of the bus and \n following are the list of attributes or field columns \n id – this is the primary key of the table and \n serves as the unique value of the table and usually set to auto_increment.\n\n bus_number – the bus number is the number assigned by the  \n company for monitoring purposes. \n\n bus_plate_number – it refers to the vehicle registration number of the bus. \n\n bus_type – bus type field has few values; the van ,bus ,cargo van. \n\n capacity – this field represents the total number of persons/cargo the bus can accommodate including the driver. \n\n admin_id – this is the foreign key of the table that points out to the user who encoded the bus information. 
+
+
+entity TravelSChedule{
+    id:pk 
+    bus_id : ForeinKey(Bus)
+    driver_id :  ForeinKey(Driver)
+    starting_point: CharField
+    destination :  CharField
+    schedule_date :  DateTime 
+    departure_time :  DateTime
+    estimated_arrival_time :  DateTime
+    fare_amount :  DecimalField 
+    remarks :  CharField
+    user_id :  ForeinKey(Admin)
+}
+
+Bus ||..|{ TravelSChedule
+Driver ||..|{ TravelSChedule
+Admin ||..|{ TravelSChedule
+
+note left of  TravelSChedule : the administrator will encode the travel schedule every day and it will \n be stored and archived in this table. The travel schedule \n table has the following attributes:\n\n id – this is the primary key of the table and serves as the unique value of the table and usually set to auto_increment \n\n bus_id – foreign key that points out to the bus information.\n\n driver_id – foreign key that points out to the driver information.\n\n starting_point – this column represents the point of origin of the bus. \n\n destination – is the point where a bus route \n\n schedule_date – refers to the date of travel. \n\n departure_time – refers to the time of departure. \n\n estimated_arrival_time – the time the bus will arrive in its destination, estimate only. \n\n fare_amount – the fare amount to be paid by the commuter. \n\n remarks – important notes on the travel. \n\n user_id – this is the foreign key of the table that points out to the user who encoded the travel schedule information.
+
+entity Booking{
+    id:pk 
+    schedule_id : ForeinKey(TravelSChedule)
+    customer_id :  ForeinKey(Customer)
+    number_of_seats : IntegerField
+    fare_amount : DecimalField
+    total_amount : DecimalField
+    date_of_booking :  DateTime
+    booking_status :  Boolean
+    user_id : ForeinKey(Admin)
+}
+
+TravelSChedule ||..|{ Booking
+Customer ||..|{ Booking
+Admin ||..|{ Booking
+
+note left of Booking : booking table is the table that holds and \n stores the booking information of the customer. \n The booking table has 9 attributes and they are the following:\n id – this is the primary key of the table and serves as the unique value of the table and usually set to auto_increment.\n\n schedule_id – this is the foreign key that points out to the schedule selected by the customer. \n\n customer_id – this is the foreign key that points out to the customer information. \n\n number_of_seats – the number of seats the customer wants to reserve. \n\n fare_amount – the amount per seat. \n\n total_amount – total amount to be paid. \n\n date_of_booking – date of booking. \n\n booking_status – booking status refers to whether the booking was approved or cancelled. \n\n user_id – this is the foreign key of the table that points out to the user who processed the booking information.
+
+
+entity Payment {
+    id:pk 
+    booking_id :  ForeinKey(Booking)
+    amount_padi : DecimalField
+    payment_date :  DateTime
+    user_id : ForeinKey(Customer)
+
+}
+
+
+Customer ||..|{ Payment
+Booking||..|{ Payment
+
+note left of Payment : the payment table is the table that records the payment transaction of the customers.\n id – this is the primary key of the table and serves as the unique value of the table and usually set to auto_increment.\n\n booking_id – it is the foreign key that points out to the booking information. \n\n amount_paid – the amount paid by the customer. \n\n payment_date – refers to the date of payment. \n\n user_id – this is the foreign key that points out to the user who processed the payment. 
+@enduml

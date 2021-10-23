@@ -1,0 +1,542 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="1336px" preserveAspectRatio="none" style="width:2632px;height:1336px;background:#777777;" version="1.1" viewBox="0 0 2632 1336" width="2632px" zoomAndPan="magnify"><defs><filter height="300%" id="f2jb57lvhcce" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[db6d18d8099558415abc41d00477ab92]
+class Admin--><rect codeLine="4" fill="#2E2E2E" filter="url(#f2jb57lvhcce)" height="144.4375" id="Admin" style="stroke:#1B1B1B;stroke-width:1.5;" width="269" x="1953" y="7"/><ellipse cx="2066.5" cy="20" fill="#1A66C2" rx="8" ry="8" style="stroke:#1B1B1B;stroke-width:1.0;"/><path d="M2063.5156,15.9844 L2069.0938,15.9844 L2069.0938,17.5469 L2065.5781,17.5469 L2065.5781,19.0313 L2068.875,19.0313 L2068.875,20.5938 L2065.5781,20.5938 L2065.5781,22.4375 L2069.2031,22.4375 L2069.2031,24 L2063.5156,24 L2063.5156,15.9844 Z " fill="#000000"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="35" x="2082.5" y="23.8081">Admin</text><line style="stroke:#1B1B1B;stroke-width:1.5;" x1="1954" x2="2221" y1="33" y2="33"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="27" x="1959" y="47.2104">id:pk</text><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="130" x="1959" y="60.0151">first_name :  CharField</text><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="128" x="1959" y="72.8198">last_name :  CharField</text><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="104" x="1959" y="85.6245">email :  EmailField</text><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="104" x="1959" y="98.4292">phone :  CharField</text><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="125" x="1959" y="111.2339">password :  CharField</text><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="143" x="1959" y="124.0386">re_password :  CharField</text><line style="stroke:#1B1B1B;stroke-width:1.5;" x1="1954" x2="2221" y1="130.6328" y2="130.6328"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="257" x="1959" y="144.8433">type : CharField("customer","driver","admin")</text><!--MD5=[eee9d396a8aca12c6c152931e8dc1ab6]
+class Driver--><rect codeLine="15" fill="#2E2E2E" filter="url(#f2jb57lvhcce)" height="144.4375" id="Driver" style="stroke:#1B1B1B;stroke-width:1.5;" width="269" x="2349" y="240"/><ellipse cx="2463" cy="253" fill="#1A66C2" rx="8" ry="8" style="stroke:#1B1B1B;stroke-width:1.0;"/><path d="M2460.0156,248.9844 L2465.5938,248.9844 L2465.5938,250.5469 L2462.0781,250.5469 L2462.0781,252.0313 L2465.375,252.0313 L2465.375,253.5938 L2462.0781,253.5938 L2462.0781,255.4375 L2465.7031,255.4375 L2465.7031,257 L2460.0156,257 L2460.0156,248.9844 Z " fill="#000000"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="34" x="2479" y="256.8081">Driver</text><line style="stroke:#1B1B1B;stroke-width:1.5;" x1="2350" x2="2617" y1="266" y2="266"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="27" x="2355" y="280.2104">id:pk</text><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="130" x="2355" y="293.0151">first_name :  CharField</text><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="128" x="2355" y="305.8198">last_name :  CharField</text><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="104" x="2355" y="318.6245">email :  EmailField</text><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="104" x="2355" y="331.4292">phone :  CharField</text><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="125" x="2355" y="344.2339">password :  CharField</text><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="143" x="2355" y="357.0386">re_password :  CharField</text><line style="stroke:#1B1B1B;stroke-width:1.5;" x1="2350" x2="2617" y1="363.6328" y2="363.6328"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="257" x="2355" y="377.8433">type : CharField("customer","driver","admin")</text><!--MD5=[2ce0c9fb7f55b1e256ab28a8ea6b25ec]
+class Customer--><rect codeLine="28" fill="#2E2E2E" filter="url(#f2jb57lvhcce)" height="144.4375" id="Customer" style="stroke:#1B1B1B;stroke-width:1.5;" width="269" x="250" y="566"/><ellipse cx="353" cy="579" fill="#1A66C2" rx="8" ry="8" style="stroke:#1B1B1B;stroke-width:1.0;"/><path d="M350.0156,574.9844 L355.5938,574.9844 L355.5938,576.5469 L352.0781,576.5469 L352.0781,578.0313 L355.375,578.0313 L355.375,579.5938 L352.0781,579.5938 L352.0781,581.4375 L355.7031,581.4375 L355.7031,583 L350.0156,583 L350.0156,574.9844 Z " fill="#000000"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="56" x="369" y="582.8081">Customer</text><line style="stroke:#1B1B1B;stroke-width:1.5;" x1="251" x2="518" y1="592" y2="592"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="27" x="256" y="606.2104">id:pk</text><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="130" x="256" y="619.0151">first_name :  CharField</text><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="128" x="256" y="631.8198">last_name :  CharField</text><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="104" x="256" y="644.6245">email :  EmailField</text><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="104" x="256" y="657.4292">phone :  CharField</text><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="125" x="256" y="670.2339">password :  CharField</text><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="143" x="256" y="683.0386">re_password :  CharField</text><line style="stroke:#1B1B1B;stroke-width:1.5;" x1="251" x2="518" y1="689.6328" y2="689.6328"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="257" x="256" y="703.8433">type : CharField("customer","driver","admin")</text><!--MD5=[57ba5c3817724c4287498f1d01d81513]
+class Bus--><rect codeLine="45" fill="#2E2E2E" filter="url(#f2jb57lvhcce)" height="118.8281" id="Bus" style="stroke:#1B1B1B;stroke-width:1.5;" width="173" x="2141" y="252.5"/><ellipse cx="2213" cy="265.5" fill="#1A66C2" rx="8" ry="8" style="stroke:#1B1B1B;stroke-width:1.0;"/><path d="M2210.0156,261.4844 L2215.5938,261.4844 L2215.5938,263.0469 L2212.0781,263.0469 L2212.0781,264.5313 L2215.375,264.5313 L2215.375,266.0938 L2212.0781,266.0938 L2212.0781,267.9375 L2215.7031,267.9375 L2215.7031,269.5 L2210.0156,269.5 L2210.0156,261.4844 Z " fill="#000000"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="22" x="2229" y="269.3081">Bus</text><line style="stroke:#1B1B1B;stroke-width:1.5;" x1="2142" x2="2313" y1="278.5" y2="278.5"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="27" x="2147" y="292.7104">id:pk</text><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="106" x="2147" y="305.5151">bus_no : CharField</text><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="140" x="2147" y="318.3198">bus_no_plate : CharField</text><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="116" x="2147" y="331.1245">bus_type : CharField</text><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="124" x="2147" y="343.9292">capacity : IntegerField</text><line style="stroke:#1B1B1B;stroke-width:1.5;" x1="2142" x2="2313" y1="350.5234" y2="350.5234"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="161" x="2147" y="364.7339">admin_id : ForeinKey(Admin)</text><path d="M1358.5,211 L1358.5,413.0703 A0,0 0 0 0 1358.5,413.0703 L2034.5,413.0703 A0,0 0 0 0 2034.5,413.0703 L2034.5,316 L2140.84,312 L2034.5,308 L2034.5,221 L2024.5,211 L1358.5,211 A0,0 0 0 0 1358.5,211 " fill="#1A66C2" filter="url(#f2jb57lvhcce)" style="stroke:#002642;stroke-width:1.0;"/><path d="M2024.5,211 L2024.5,221 L2034.5,221 L2024.5,211 " fill="#1A66C2" style="stroke:#002642;stroke-width:1.0;"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="343" x="1364.5" y="226.2104">this is the table that will hold the information of the bus and</text><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="286" x="1368.5" y="239.0151">following are the list of attributes or field columns</text><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="244" x="1368.5" y="251.8198">id - this is the primary key of the table and</text><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="426" x="1368.5" y="264.6245">serves as the unique value of the table and usually set to auto_increment.</text><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="0" x="1368.5" y="277.4292"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="353" x="1368.5" y="290.2339">bus_number - the bus number is the number assigned by the</text><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="198" x="1368.5" y="303.0386">company for monitoring purposes.</text><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="0" x="1368.5" y="315.8433"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="427" x="1368.5" y="328.6479">bus_plate_number - it refers to the vehicle registration number of the bus.</text><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="0" x="1368.5" y="341.4526"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="377" x="1368.5" y="354.2573">bus_type - bus type field has few values; the van ,bus ,cargo van.</text><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="0" x="1368.5" y="367.062"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="647" x="1368.5" y="379.8667">capacity - this field represents the total number of persons/cargo the bus can accommodate including the driver.</text><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="0" x="1368.5" y="392.6714"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="609" x="1368.5" y="405.4761">admin_id - this is the foreign key of the table that points out to the user who encoded the bus information.</text><!--MD5=[1d2efc7429bfd56bd59133f1dec5dc56]
+class TravelSChedule--><rect codeLine="60" fill="#2E2E2E" filter="url(#f2jb57lvhcce)" height="182.8516" id="TravelSChedule" style="stroke:#1B1B1B;stroke-width:1.5;" width="212" x="1981.5" y="546.5"/><ellipse cx="2039.5" cy="559.5" fill="#1A66C2" rx="8" ry="8" style="stroke:#1B1B1B;stroke-width:1.0;"/><path d="M2036.5156,555.4844 L2042.0938,555.4844 L2042.0938,557.0469 L2038.5781,557.0469 L2038.5781,558.5313 L2041.875,558.5313 L2041.875,560.0938 L2038.5781,560.0938 L2038.5781,561.9375 L2042.2031,561.9375 L2042.2031,563.5 L2036.5156,563.5 L2036.5156,555.4844 Z " fill="#000000"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="89" x="2055.5" y="563.3081">TravelSChedule</text><line style="stroke:#1B1B1B;stroke-width:1.5;" x1="1982.5" x2="2192.5" y1="572.5" y2="572.5"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="27" x="1987.5" y="586.7104">id:pk</text><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="139" x="1987.5" y="599.5151">starting_point: CharField</text><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="132" x="1987.5" y="612.3198">destination :  CharField</text><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="152" x="1987.5" y="625.1245">schedule_date :  DateTime</text><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="157" x="1987.5" y="637.9292">departure_time :  DateTime</text><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="200" x="1987.5" y="650.7339">estimated_arrival_time :  DateTime</text><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="159" x="1987.5" y="663.5386">fare_amount :  DecimalField</text><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="117" x="1987.5" y="676.3433">remarks :  CharField</text><line style="stroke:#1B1B1B;stroke-width:1.5;" x1="1982.5" x2="2192.5" y1="682.9375" y2="682.9375"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="134" x="1987.5" y="697.1479">bus_id : ForeinKey(Bus)</text><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="162" x="1987.5" y="709.9526">driver_id :  ForeinKey(Driver)</text><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="156" x="1987.5" y="722.7573">user_id :  ForeinKey(Admin)</text><path d="M554,473 L554,803.1172 A0,0 0 0 0 554,803.1172 L1253,803.1172 A0,0 0 0 0 1253,803.1172 L1253,642 L1981.18,638 L1253,634 L1253,483 L1243,473 L554,473 A0,0 0 0 0 554,473 " fill="#1A66C2" filter="url(#f2jb57lvhcce)" style="stroke:#002642;stroke-width:1.0;"/><path d="M1243,473 L1243,483 L1253,483 L1243,473 " fill="#1A66C2" style="stroke:#002642;stroke-width:1.0;"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="396" x="560" y="488.2104">the administrator will encode the travel schedule every day and it will</text><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="323" x="564" y="501.0151">be stored and archived in this table. The travel schedule</text><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="192" x="564" y="513.8198">table has the following attributes:</text><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="0" x="564" y="526.6245"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="670" x="564" y="539.4292">id - this is the primary key of the table and serves as the unique value of the table and usually set to auto_increment</text><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="0" x="564" y="552.2339"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="334" x="564" y="565.0386">bus_id - foreign key that points out to the bus information.</text><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="0" x="564" y="577.8433"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="358" x="564" y="590.6479">driver_id - foreign key that points out to the driver information.</text><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="0" x="564" y="603.4526"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="394" x="564" y="616.2573">starting_point - this column represents the point of origin of the bus.</text><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="0" x="564" y="629.062"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="248" x="564" y="641.8667">destination - is the point where a bus route</text><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="0" x="564" y="654.6714"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="250" x="564" y="667.4761">schedule_date - refers to the date of travel.</text><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="0" x="564" y="680.2808"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="279" x="564" y="693.0854">departure_time - refers to the time of departure.</text><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="0" x="564" y="705.8901"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="483" x="564" y="718.6948">estimated_arrival_time - the time the bus will arrive in its destination, estimate only.</text><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="0" x="564" y="731.4995"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="342" x="564" y="744.3042">fare_amount - the fare amount to be paid by the commuter.</text><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="0" x="564" y="757.1089"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="231" x="564" y="769.9136">remarks - important notes on the travel.</text><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="0" x="564" y="782.7183"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="666" x="564" y="795.5229">user_id - this is the foreign key of the table that points out to the user who encoded the travel schedule information.</text><!--MD5=[c6c2aa411a70f0170997fbec83374a43]
+class Booking--><rect codeLine="80" fill="#2E2E2E" filter="url(#f2jb57lvhcce)" height="157.2422" id="Booking" style="stroke:#1B1B1B;stroke-width:1.5;" width="243" x="811" y="917.5"/><ellipse cx="906.5" cy="930.5" fill="#1A66C2" rx="8" ry="8" style="stroke:#1B1B1B;stroke-width:1.0;"/><path d="M903.5156,926.4844 L909.0938,926.4844 L909.0938,928.0469 L905.5781,928.0469 L905.5781,929.5313 L908.875,929.5313 L908.875,931.0938 L905.5781,931.0938 L905.5781,932.9375 L909.2031,932.9375 L909.2031,934.5 L903.5156,934.5 L903.5156,926.4844 Z " fill="#000000"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="45" x="922.5" y="934.3081">Booking</text><line style="stroke:#1B1B1B;stroke-width:1.5;" x1="812" x2="1053" y1="943.5" y2="943.5"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="27" x="817" y="957.7104">id:pk</text><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="177" x="817" y="970.5151">number_of_seats : IntegerField</text><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="155" x="817" y="983.3198">fare_amount : DecimalField</text><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="157" x="817" y="996.1245">total_amount : DecimalField</text><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="162" x="817" y="1008.9292">date_of_booking :  DateTime</text><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="148" x="817" y="1021.7339">booking_status :  Boolean</text><line style="stroke:#1B1B1B;stroke-width:1.5;" x1="812" x2="1053" y1="1028.3281" y2="1028.3281"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="231" x="817" y="1042.5386">schedule_id : ForeinKey(TravelSChedule)</text><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="205" x="817" y="1055.3433">customer_id :  ForeinKey(Customer)</text><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="152" x="817" y="1068.1479">user_id : ForeinKey(Admin)</text><path d="M6,863 L6,1129.0938 A0,0 0 0 0 6,1129.0938 L705,1129.0938 A0,0 0 0 0 705,1129.0938 L705,1000 L810.83,996 L705,992 L705,873 L695,863 L6,863 A0,0 0 0 0 6,863 " fill="#1A66C2" filter="url(#f2jb57lvhcce)" style="stroke:#002642;stroke-width:1.0;"/><path d="M695,863 L695,873 L705,873 L695,863 " fill="#1A66C2" style="stroke:#002642;stroke-width:1.0;"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="230" x="12" y="878.2104">booking table is the table that holds and</text><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="275" x="16" y="891.0151">stores the booking information of the customer.</text><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="352" x="16" y="903.8198">The booking table has 9 attributes and they are the following:</text><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="674" x="16" y="916.6245">id - this is the primary key of the table and serves as the unique value of the table and usually set to auto_increment.</text><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="0" x="16" y="929.4292"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="535" x="16" y="942.2339">schedule_id - this is the foreign key that points out to the schedule selected by the customer.</text><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="0" x="16" y="955.0386"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="461" x="16" y="967.8433">customer_id - this is the foreign key that points out to the customer information.</text><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="0" x="16" y="980.6479"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="413" x="16" y="993.4526">number_of_seats - the number of seats the customer wants to reserve.</text><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="0" x="16" y="1006.2573"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="205" x="16" y="1019.062">fare_amount - the amount per seat.</text><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="0" x="16" y="1031.8667"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="223" x="16" y="1044.6714">total_amount - total amount to be paid.</text><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="0" x="16" y="1057.4761"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="196" x="16" y="1070.2808">date_of_booking - date of booking.</text><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="0" x="16" y="1083.0854"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="517" x="16" y="1095.8901">booking_status - booking status refers to whether the booking was approved or cancelled.</text><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="0" x="16" y="1108.6948"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="635" x="16" y="1121.4995">user_id - this is the foreign key of the table that points out to the user who processed the booking information.</text><!--MD5=[764fca796ce7f635542948d8fc39db5e]
+class Payment--><rect codeLine="99" fill="#2E2E2E" filter="url(#f2jb57lvhcce)" height="106.0234" id="Payment" style="stroke:#1B1B1B;stroke-width:1.5;" width="196" x="747.5" y="1205"/><ellipse cx="817.5" cy="1218" fill="#1A66C2" rx="8" ry="8" style="stroke:#1B1B1B;stroke-width:1.0;"/><path d="M814.5156,1213.9844 L820.0938,1213.9844 L820.0938,1215.5469 L816.5781,1215.5469 L816.5781,1217.0313 L819.875,1217.0313 L819.875,1218.5938 L816.5781,1218.5938 L816.5781,1220.4375 L820.2031,1220.4375 L820.2031,1222 L814.5156,1222 L814.5156,1213.9844 Z " fill="#000000"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="49" x="833.5" y="1221.8081">Payment</text><line style="stroke:#1B1B1B;stroke-width:1.5;" x1="748.5" x2="942.5" y1="1231" y2="1231"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="27" x="753.5" y="1245.2104">id:pk</text><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="156" x="753.5" y="1258.0151">amount_padi : DecimalField</text><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="150" x="753.5" y="1270.8198">payment_date :  DateTime</text><line style="stroke:#1B1B1B;stroke-width:1.5;" x1="748.5" x2="942.5" y1="1277.4141" y2="1277.4141"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="184" x="753.5" y="1291.6245">booking_id :  ForeinKey(Booking)</text><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="173" x="753.5" y="1304.4292">user_id : ForeinKey(Customer)</text><path d="M14,1189 L14,1327.0469 A0,0 0 0 0 14,1327.0469 L713,1327.0469 A0,0 0 0 0 713,1327.0469 L713,1262 L747.33,1258 L713,1254 L713,1199 L703,1189 L14,1189 A0,0 0 0 0 14,1189 " fill="#1A66C2" filter="url(#f2jb57lvhcce)" style="stroke:#002642;stroke-width:1.0;"/><path d="M703,1189 L703,1199 L713,1199 L703,1189 " fill="#1A66C2" style="stroke:#002642;stroke-width:1.0;"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="494" x="20" y="1204.2104">the payment table is the table that records the payment transaction of the customers.</text><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="674" x="24" y="1217.0151">id - this is the primary key of the table and serves as the unique value of the table and usually set to auto_increment.</text><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="0" x="24" y="1229.8198"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="427" x="24" y="1242.6245">booking_id - it is the foreign key that points out to the booking information.</text><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="0" x="24" y="1255.4292"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="279" x="24" y="1268.2339">amount_paid - the amount paid by the customer.</text><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="0" x="24" y="1281.0386"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="265" x="24" y="1293.8433">payment_date - refers to the date of payment.</text><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="0" x="24" y="1306.6479"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="502" x="24" y="1319.4526">user_id - this is the foreign key that points out to the user who processed the payment.</text><!--MD5=[10da51311e82c7c2c7233f1155ed140a]
+link Admin to Bus--><path codeLine="55" d="M2134.85,158.12 C2152.01,186.45 2171.22,218.13 2187.67,245.28 " fill="none" id="Admin-Bus" style="stroke:#FFFFFF;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="2187.8563" x2="2197.1379" y1="245.6128" y2="249.3347"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="2187.8563" x2="2186.8821" y1="245.6128" y2="255.5653"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="2187.8563" x2="2192.01" y1="245.6128" y2="252.45"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="2190.2365" x2="2183.3993" y1="241.8267" y2="245.9804"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="2129.3083" x2="2136.1454" y1="156.6854" y2="152.5317"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="2130.8659" x2="2137.7031" y1="159.2494" y2="155.0957"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="2134.8037" x2="2130.65" y1="158.0272" y2="151.19"/><!--MD5=[66e023a002d5a11339da3cb30ebd0c72]
+link Bus to TravelSChedule--><path codeLine="74" d="M2198.87,379.25 C2179.03,425.18 2152.26,487.13 2129.94,538.79 " fill="none" id="Bus-TravelSChedule" style="stroke:#FFFFFF;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="2129.8641" x2="2132.1843" y1="538.9909" y2="548.718"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="2129.8641" x2="2121.1757" y1="538.9909" y2="543.942"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="2129.8641" x2="2126.68" y1="538.9909" y2="546.33"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="2134.3296" x2="2126.9906" y1="538.7482" y2="535.5641"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="2196.8919" x2="2204.2361" y1="373.7561" y2="376.9281"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="2195.7023" x2="2203.0466" y1="376.5102" y2="379.6822"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="2198.978" x2="2202.15" y1="379.0143" y2="371.67"/><!--MD5=[16df4eb80c656d97270c9d1b294ce016]
+link Driver to TravelSChedule--><path codeLine="75" d="M2390.22,389.32 C2333.32,435.88 2260.22,495.69 2200.1,544.87 " fill="none" id="Driver-TravelSChedule" style="stroke:#FFFFFF;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="2199.7836" x2="2197.3877" y1="545.1364" y2="554.8452"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="2199.7836" x2="2189.7923" y1="545.1364" y2="545.5548"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="2199.7836" x2="2193.59" y1="545.1364" y2="550.2"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="2203.8637" x2="2198.8002" y1="546.9673" y2="540.7738"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="2390.9713" x2="2396.0364" y1="383.5364" y2="389.7287"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="2388.6492" x2="2393.7143" y1="385.4358" y2="391.6281"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="2390.4077" x2="2396.6" y1="389.1651" y2="384.1"/><!--MD5=[108460c390fe6d1777463cef1556d43b]
+link Admin to TravelSChedule--><path codeLine="76" d="M2087.5,159.25 C2087.5,258.92 2087.5,430.06 2087.5,538.18 " fill="none" id="Admin-TravelSChedule" style="stroke:#FFFFFF;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="2087.5" x2="2093.5" y1="538.49" y2="546.49"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="2087.5" x2="2081.5" y1="538.49" y2="546.49"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="2087.5" x2="2087.5" y1="538.49" y2="546.49"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="2091.5" x2="2083.5" y1="536.49" y2="536.49"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="2083.5" x2="2091.5" y1="155.11" y2="155.11"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="2083.5" x2="2091.5" y1="158.11" y2="158.11"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="2087.5" x2="2087.5" y1="159.11" y2="151.11"/><!--MD5=[59460219331956e03de9d70e22bccee2]
+link TravelSChedule to Booking--><path codeLine="92" d="M1973.76,674.06 C1757.7,740.65 1289.2,885.06 1061.68,955.18 " fill="none" id="TravelSChedule-Booking" style="stroke:#FFFFFF;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1061.6647" x2="1055.7883" y1="955.1823" y2="963.2735"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1061.6647" x2="1052.2517" y1="955.1823" y2="951.8065"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1061.6647" x2="1054.02" y1="955.1823" y2="957.54"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1064.7547" x2="1062.397" y1="958.4152" y2="950.7705"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1976.4288" x2="1978.7865" y1="669.0465" y2="676.6912"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1973.562" x2="1975.9198" y1="669.9307" y2="677.5753"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1973.7853" x2="1981.43" y1="674.0477" y2="671.69"/><!--MD5=[4f3fa4b5142a6857d76fe3fbabbf0a8c]
+link Customer to Booking--><path codeLine="93" d="M440.05,716.56 C466.05,747.68 499.46,781.26 536.5,803 C633.92,860.19 683.38,810.67 783.5,863 C808.03,875.82 831.8,893.54 852.88,911.84 " fill="none" id="Customer-Booking" style="stroke:#FFFFFF;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="853.0442" x2="863.0122" y1="911.9737" y2="912.7732"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="853.0442" x2="855.0678" y1="911.9737" y2="921.7668"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="853.0442" x2="859.04" y1="911.9737" y2="917.27"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="854.1934" x2="848.8971" y1="907.6518" y2="913.6475"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="434.4069" x2="440.5807" y1="716.0007" y2="710.9131"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="436.3148" x2="442.4886" y1="718.3159" y2="713.2282"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="440.0377" x2="434.95" y1="716.5438" y2="710.37"/><!--MD5=[260d2c36908dce664a60b03667436987]
+link Admin to Booking--><path codeLine="94" d="M1944.57,85.4 C1751.45,95.86 1422,125.99 1341.5,211 C1159.29,403.41 1417.22,582.33 1270.5,803 C1221.82,876.21 1135.15,924.63 1061.77,954.53 " fill="none" id="Admin-Booking" style="stroke:#FFFFFF;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1061.6829" x2="1056.4976" y1="954.5666" y2="963.1172"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1061.6829" x2="1052.0224" y1="954.5666" y2="951.9828"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1061.6829" x2="1054.26" y1="954.5666" y2="957.55"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1065.0303" x2="1062.0469" y1="957.5322" y2="950.1093"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1948.5914" x2="1949.0201" y1="81.1801" y2="89.1686"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1945.5957" x2="1946.0244" y1="81.3409" y2="89.3294"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1944.8115" x2="1952.8" y1="85.3887" y2="84.96"/><!--MD5=[8745e19234af8457a61f5cf65f4fbbe2]
+link Customer to Payment--><path codeLine="109" d="M442.18,716.82 C468.11,747.28 500.9,780.3 536.5,803 C609.74,849.7 662.67,800.03 722.5,863 C806.78,951.71 754.62,1012.98 793.5,1129 C801.1,1151.68 810.67,1176.12 819.53,1197.5 " fill="none" id="Customer-Payment" style="stroke:#FFFFFF;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="819.536" x2="828.1562" y1="1197.5483" y2="1202.617"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="819.536" x2="817.0838" y1="1197.5483" y2="1207.243"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="819.536" x2="822.62" y1="1197.5483" y2="1204.93"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="822.4558" x2="815.0741" y1="1194.1609" y2="1197.2449"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="436.2572" x2="442.3853" y1="715.9953" y2="710.8528"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="438.1856" x2="444.3138" y1="718.2934" y2="713.1509"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="441.8925" x2="436.75" y1="716.4882" y2="710.36"/><!--MD5=[7eb263358dfcdb4ab4458aea9142465b]
+link Booking to Payment--><path codeLine="110" d="M903.93,1082.39 C891.41,1119.81 877.01,1162.84 865.63,1196.83 " fill="none" id="Booking-Payment" style="stroke:#FFFFFF;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="865.5027" x2="868.6489" y1="1197.2348" y2="1206.727"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="865.5027" x2="857.2711" y1="1197.2348" y2="1202.913"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="865.5027" x2="862.96" y1="1197.2348" y2="1204.82"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="869.9309" x2="862.3458" y1="1196.6099" y2="1194.0672"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="901.4461" x2="909.0312" y1="1077.1812" y2="1079.7239"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="900.4926" x2="908.0777" y1="1080.0257" y2="1082.5684"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="903.9673" x2="906.51" y1="1082.2452" y2="1074.66"/><!--MD5=[aa8803cc1d3f0c507e07e307bbc15956]
+@startuml segut_database
+!define DARKBLUE
+!includeurl https://raw.githubusercontent.com/Drakemor/RedDress-PlantUML/master/style.puml
+
+entity Admin{
+    id:pk
+    first_name :  CharField
+    last_name :  CharField
+    email :  EmailField
+    phone :  CharField
+    type : CharField("customer","driver","admin")
+    password :  CharField
+    re_password :  CharField
+}
+
+entity Driver{
+    id:pk
+    first_name :  CharField
+    last_name :  CharField
+    email :  EmailField
+    phone :  CharField
+    type : CharField("customer","driver","admin")
+    password :  CharField
+    re_password :  CharField
+
+}
+
+
+entity Customer{
+    id:pk
+    first_name :  CharField
+    last_name :  CharField
+    email :  EmailField
+    phone :  CharField
+    type : CharField("customer","driver","admin")
+    password :  CharField
+    re_password :  CharField
+}
+
+
+
+
+
+
+
+entity Bus{
+    id:pk 
+    bus_no : CharField
+    bus_no_plate : CharField
+    bus_type : CharField
+    capacity : IntegerField 
+    admin_id : ForeinKey(Admin)
+
+}
+
+Admin ||..|{ Bus
+
+note left of Bus : this is the table that will hold the information of the bus and \n following are the list of attributes or field columns \n id - this is the primary key of the table and \n serves as the unique value of the table and usually set to auto_increment.\n\n bus_number - the bus number is the number assigned by the  \n company for monitoring purposes. \n\n bus_plate_number - it refers to the vehicle registration number of the bus. \n\n bus_type - bus type field has few values; the van ,bus ,cargo van. \n\n capacity - this field represents the total number of persons/cargo the bus can accommodate including the driver. \n\n admin_id - this is the foreign key of the table that points out to the user who encoded the bus information. 
+
+
+entity TravelSChedule{
+    id:pk 
+    bus_id : ForeinKey(Bus)
+    driver_id :  ForeinKey(Driver)
+    starting_point: CharField
+    destination :  CharField
+    schedule_date :  DateTime 
+    departure_time :  DateTime
+    estimated_arrival_time :  DateTime
+    fare_amount :  DecimalField 
+    remarks :  CharField
+    user_id :  ForeinKey(Admin)
+}
+
+Bus ||..|{ TravelSChedule
+Driver ||..|{ TravelSChedule
+Admin ||..|{ TravelSChedule
+
+note left of  TravelSChedule : the administrator will encode the travel schedule every day and it will \n be stored and archived in this table. The travel schedule \n table has the following attributes:\n\n id - this is the primary key of the table and serves as the unique value of the table and usually set to auto_increment \n\n bus_id - foreign key that points out to the bus information.\n\n driver_id - foreign key that points out to the driver information.\n\n starting_point - this column represents the point of origin of the bus. \n\n destination - is the point where a bus route \n\n schedule_date - refers to the date of travel. \n\n departure_time - refers to the time of departure. \n\n estimated_arrival_time - the time the bus will arrive in its destination, estimate only. \n\n fare_amount - the fare amount to be paid by the commuter. \n\n remarks - important notes on the travel. \n\n user_id - this is the foreign key of the table that points out to the user who encoded the travel schedule information.
+
+entity Booking{
+    id:pk 
+    schedule_id : ForeinKey(TravelSChedule)
+    customer_id :  ForeinKey(Customer)
+    number_of_seats : IntegerField
+    fare_amount : DecimalField
+    total_amount : DecimalField
+    date_of_booking :  DateTime
+    booking_status :  Boolean
+    user_id : ForeinKey(Admin)
+}
+
+TravelSChedule ||..|{ Booking
+Customer ||..|{ Booking
+Admin ||..|{ Booking
+
+note left of Booking : booking table is the table that holds and \n stores the booking information of the customer. \n The booking table has 9 attributes and they are the following:\n id - this is the primary key of the table and serves as the unique value of the table and usually set to auto_increment.\n\n schedule_id - this is the foreign key that points out to the schedule selected by the customer. \n\n customer_id - this is the foreign key that points out to the customer information. \n\n number_of_seats - the number of seats the customer wants to reserve. \n\n fare_amount - the amount per seat. \n\n total_amount - total amount to be paid. \n\n date_of_booking - date of booking. \n\n booking_status - booking status refers to whether the booking was approved or cancelled. \n\n user_id - this is the foreign key of the table that points out to the user who processed the booking information.
+
+
+entity Payment {
+    id:pk 
+    booking_id :  ForeinKey(Booking)
+    amount_padi : DecimalField
+    payment_date :  DateTime
+    user_id : ForeinKey(Customer)
+
+}
+
+
+Customer ||..|{ Payment
+Booking||..|{ Payment
+
+note left of Payment : the payment table is the table that records the payment transaction of the customers.\n id - this is the primary key of the table and serves as the unique value of the table and usually set to auto_increment.\n\n booking_id - it is the foreign key that points out to the booking information. \n\n amount_paid - the amount paid by the customer. \n\n payment_date - refers to the date of payment. \n\n user_id - this is the foreign key that points out to the user who processed the payment. 
+@enduml
+
+@startuml segut_database
+
+
+
+skinparam backgroundColor 777
+skinparam stereotypeCBackgroundColor 1a66c2
+
+
+
+
+
+
+
+
+
+skinparam backgroundColor 777
+
+
+
+
+
+
+
+skinparam circledCharacter {
+  radius 8
+  fontSize 11
+  fontName Verdana
+}
+
+skinparam class {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+    arrowColor fff
+  arrowFontName Verdana
+  arrowFontColor bbb
+  arrowFontSize 11
+
+  attributeFontColor aaa
+  attributeFontSize 11
+  attributeIconSize 11
+}
+
+
+skinparam actor {
+    backgroundColor 1a66c2
+  borderColor 002642
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam participant {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam collections {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam SequenceBox{
+    backgroundColor 575757
+  borderColor 767676
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+
+skinparam interface {
+    backgroundColor 1a66c2
+  borderColor 002642
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam component {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam node {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam database {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam queue {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+
+skinparam usecase {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+    arrowColor fff
+  arrowFontName Verdana
+  arrowFontColor bbb
+  arrowFontSize 11
+}
+
+skinparam activity {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+    arrowColor fff
+  arrowFontName Verdana
+  arrowFontColor bbb
+  arrowFontSize 11
+}
+
+skinparam sequence {
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+    arrowColor fff
+  arrowFontName Verdana
+  arrowFontColor bbb
+  arrowFontSize 11
+
+  lifeLineBorderColor 1a66c2
+  lifeLineBackgroundColor 575757
+}
+
+skinparam boundary {
+    backgroundColor 1a66c2
+  borderColor 002642
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam control {
+    backgroundColor 1a66c2
+  borderColor 002642
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam entity {
+    backgroundColor 1a66c2
+  borderColor 002642
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+
+skinparam state {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+    arrowColor fff
+  arrowFontName Verdana
+  arrowFontColor bbb
+  arrowFontSize 11
+  startColor 1a66c2
+  endColor 002642
+}
+
+
+skinparam object {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+    arrowColor fff
+  arrowFontName Verdana
+  arrowFontColor bbb
+  arrowFontSize 11
+}
+
+
+skinparam note {
+    backgroundColor 1a66c2
+  borderColor 002642
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam cloud {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+    arrowColor fff
+  arrowFontName Verdana
+  arrowFontColor bbb
+  arrowFontSize 11
+}
+
+skinparam rectangle {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam storage {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+
+entity Admin{
+    id:pk
+    first_name :  CharField
+    last_name :  CharField
+    email :  EmailField
+    phone :  CharField
+    type : CharField("customer","driver","admin")
+    password :  CharField
+    re_password :  CharField
+}
+
+entity Driver{
+    id:pk
+    first_name :  CharField
+    last_name :  CharField
+    email :  EmailField
+    phone :  CharField
+    type : CharField("customer","driver","admin")
+    password :  CharField
+    re_password :  CharField
+
+}
+
+
+entity Customer{
+    id:pk
+    first_name :  CharField
+    last_name :  CharField
+    email :  EmailField
+    phone :  CharField
+    type : CharField("customer","driver","admin")
+    password :  CharField
+    re_password :  CharField
+}
+
+
+
+
+
+
+
+entity Bus{
+    id:pk 
+    bus_no : CharField
+    bus_no_plate : CharField
+    bus_type : CharField
+    capacity : IntegerField 
+    admin_id : ForeinKey(Admin)
+
+}
+
+Admin ||..|{ Bus
+
+note left of Bus : this is the table that will hold the information of the bus and \n following are the list of attributes or field columns \n id - this is the primary key of the table and \n serves as the unique value of the table and usually set to auto_increment.\n\n bus_number - the bus number is the number assigned by the  \n company for monitoring purposes. \n\n bus_plate_number - it refers to the vehicle registration number of the bus. \n\n bus_type - bus type field has few values; the van ,bus ,cargo van. \n\n capacity - this field represents the total number of persons/cargo the bus can accommodate including the driver. \n\n admin_id - this is the foreign key of the table that points out to the user who encoded the bus information. 
+
+
+entity TravelSChedule{
+    id:pk 
+    bus_id : ForeinKey(Bus)
+    driver_id :  ForeinKey(Driver)
+    starting_point: CharField
+    destination :  CharField
+    schedule_date :  DateTime 
+    departure_time :  DateTime
+    estimated_arrival_time :  DateTime
+    fare_amount :  DecimalField 
+    remarks :  CharField
+    user_id :  ForeinKey(Admin)
+}
+
+Bus ||..|{ TravelSChedule
+Driver ||..|{ TravelSChedule
+Admin ||..|{ TravelSChedule
+
+note left of  TravelSChedule : the administrator will encode the travel schedule every day and it will \n be stored and archived in this table. The travel schedule \n table has the following attributes:\n\n id - this is the primary key of the table and serves as the unique value of the table and usually set to auto_increment \n\n bus_id - foreign key that points out to the bus information.\n\n driver_id - foreign key that points out to the driver information.\n\n starting_point - this column represents the point of origin of the bus. \n\n destination - is the point where a bus route \n\n schedule_date - refers to the date of travel. \n\n departure_time - refers to the time of departure. \n\n estimated_arrival_time - the time the bus will arrive in its destination, estimate only. \n\n fare_amount - the fare amount to be paid by the commuter. \n\n remarks - important notes on the travel. \n\n user_id - this is the foreign key of the table that points out to the user who encoded the travel schedule information.
+
+entity Booking{
+    id:pk 
+    schedule_id : ForeinKey(TravelSChedule)
+    customer_id :  ForeinKey(Customer)
+    number_of_seats : IntegerField
+    fare_amount : DecimalField
+    total_amount : DecimalField
+    date_of_booking :  DateTime
+    booking_status :  Boolean
+    user_id : ForeinKey(Admin)
+}
+
+TravelSChedule ||..|{ Booking
+Customer ||..|{ Booking
+Admin ||..|{ Booking
+
+note left of Booking : booking table is the table that holds and \n stores the booking information of the customer. \n The booking table has 9 attributes and they are the following:\n id - this is the primary key of the table and serves as the unique value of the table and usually set to auto_increment.\n\n schedule_id - this is the foreign key that points out to the schedule selected by the customer. \n\n customer_id - this is the foreign key that points out to the customer information. \n\n number_of_seats - the number of seats the customer wants to reserve. \n\n fare_amount - the amount per seat. \n\n total_amount - total amount to be paid. \n\n date_of_booking - date of booking. \n\n booking_status - booking status refers to whether the booking was approved or cancelled. \n\n user_id - this is the foreign key of the table that points out to the user who processed the booking information.
+
+
+entity Payment {
+    id:pk 
+    booking_id :  ForeinKey(Booking)
+    amount_padi : DecimalField
+    payment_date :  DateTime
+    user_id : ForeinKey(Customer)
+
+}
+
+
+Customer ||..|{ Payment
+Booking||..|{ Payment
+
+note left of Payment : the payment table is the table that records the payment transaction of the customers.\n id - this is the primary key of the table and serves as the unique value of the table and usually set to auto_increment.\n\n booking_id - it is the foreign key that points out to the booking information. \n\n amount_paid - the amount paid by the customer. \n\n payment_date - refers to the date of payment. \n\n user_id - this is the foreign key that points out to the user who processed the payment. 
+@enduml
+
+PlantUML version 1.2021.7(Sun May 23 15:40:07 EAT 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

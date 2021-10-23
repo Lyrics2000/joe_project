@@ -2,6 +2,8 @@
 !define DARKBLUE
 !includeurl https://raw.githubusercontent.com/Drakemor/RedDress-PlantUML/master/style.puml
 
+
+
 entity Customer {
     id : pk 
     first_name : CharField 

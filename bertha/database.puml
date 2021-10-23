@@ -1,0 +1,79 @@
+@startuml bertha_database
+!define DARKBLUE
+!includeurl https://raw.githubusercontent.com/Drakemor/RedDress-PlantUML/master/style.puml
+
+
+entity  User {
+    id:pk 
+    first_name : Charfield
+    last_name : Charfield 
+    username : Charfield
+    email :  EmailField
+    password : Charfield
+    re_password :  Charfield
+
+}
+
+entity  CHW{
+    id:pk 
+    first_name : Charfield
+    last_name : Charfield 
+    username : Charfield
+    email :  EmailField
+    password : Charfield
+    re_password :  Charfield
+
+
+}
+
+' shows what doctors is going to treat
+entity Specialization{
+    id:pk 
+    chw_id : Foreikey(CHW)
+    specialization_name :  Charfield
+}
+
+CHW ||..|{ Specialization
+
+
+entity LiveLocation{
+    id:pk 
+    chw_id :  Foreikey(CHW)
+    latitude : Charfield
+    logitude : Charfield
+    location_name : Charfield
+}
+
+CHW ||..|{ LiveLocation
+
+entity Destination{
+    id:pk
+    chw_id : Foreikey(CHW)
+    destination_name :  Charfield
+    destination_time :  DateTimeField 
+
+
+}
+
+CHW ||..|{ Destination
+
+entity UserLocation{
+    id:pk
+    location_name :  Charfield
+
+}
+
+User ||..|{ UserLocation
+
+entity Track {
+    id:pk
+    chw_id : Foreikey(CHW)
+    user_id :  Foreikey(User)
+    active : Boolean
+}
+
+User ||..|{ Track
+CHW ||..|{ Track  
+
+
+@enduml

@@ -1,0 +1,31 @@
+@startuml patient_logic
+!define DARKBLUE
+!includeurl https://raw.githubusercontent.com/Drakemor/RedDress-PlantUML/master/style.puml
+
+
+interface "Auth" as  au
+au - [Auth]
+[Auth] ..> SignIN 
+[Auth] ..> Register 
+[Auth] ..> [HomePage]
+[HomePage] ..> Dasboard 
+[DetailedPage] ..>DetailecView
+[HomePage] ..> [DetailedPage]
+
+
+
+
+note left of SignIN : the patient signs in \n by providing username and password 
+note left of Register : the patient registers \n by providing username \n firstname \n type \n email \n phone \n password 
+note left of Dasboard : here the patient checks the the destination \n of various chw officers \n from a map, the \n patient can filter the data \n with location to see the chw officers \n who will come to the area where he/she \n is from so that he can begin the tracking
+note left of DetailecView : after the user has selected the marker on the map \n the user is taken to a detailed page \n where he sees information of the doctor and where he/she \n is currently at the moments \n the details include his/her specialization \n i.e whats he/she is treating \n name \n phone \n email \n then the they will see a button to \n to track the chw officer \n  when the track is turned on \n the user will see view all track button \n where they will be able to see all the people \n they are currently tracking .\n the user will get a notification if the chw is almost near them and they will see option \n of calling them in the recyclerview \n so that they can call the chw officer \n to get more info from them .
+
+
+
+
+
+
+
+
+
+@enduml
