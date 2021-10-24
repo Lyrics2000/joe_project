@@ -1,0 +1,34 @@
+@startuml customer_logic
+!define DARKBLUE
+!includeurl https://raw.githubusercontent.com/Drakemor/RedDress-PlantUML/master/style.puml
+
+
+interface "Auth" as  au
+au - [HomePage]
+[Auth] ..> SignIN 
+[Auth] ..> Register 
+[HomePage]..>HomeP
+[HomePage]..>[Auth]
+[DetailedPage] ..> DetailedP 
+[HomePage] ..> [DetailedPage]
+[BookNoe] ..>BookNowp 
+[DetailedPage] ..> BookNowp
+[SearchResult] ..>SearchP
+[UserDashboard] ..> UserD
+[HomePage] ..> [SearchResult]
+[HomePage] ..>  [UserDashboard]
+
+
+
+note left of SignIN : the student signs in \n by providing username and password 
+note left of Register : the student registers \n by providing username \n firstname \n type \n email \n phone \n password 
+note left of HomeP : when customer opens app \n he will see list of all busses \n and their capacity \n routs they will take \n expected departure time and \n arrival time \n he cal be able to filter the data \n in the all list area
+note left of DetailedP : here the customer will see the details \n of a bus \n the details will include the driver \n the rout \n no of seats remaining \n departure time \n expected arival time etc\n also it will contain a book now button where \n the user can book the mololine shattle \n
+note left of BookNowp : when users press this button \n if the user is not signed in he will \n be required to either sign in or register \n if the user is registered \n he will see a form in which he needs to fill \n the form will contain details such as number of seats booked /n which when she adds and save \n they will be taken to the another form which will contain the payment button where they will pay for the service and it will be updated \ n to the database then they will see a bar code \n which they can download and take for scanning
+note left of SearchP :  The search button will be present in the homepage \n the user willl be taken to the search page result page \n the user searches based on location \n the search page will contain a listview of various cards \n which contain info for various busses of that route searched by the user
+note left of UserD : this will show show the various info for the user \n that is his/her personal information \n also will show the rides booked and schedule calender for those rides\n as well as the amount paid and if the rides are in full capacity \n or they are still waiting for more people to fill \n the empty slots 
+
+
+
+
+@enduml
