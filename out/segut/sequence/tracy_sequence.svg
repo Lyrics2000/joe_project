@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="277px" preserveAspectRatio="none" style="width:627px;height:277px;background:#FFFFFF;" version="1.1" viewBox="0 0 627 277" width="627px" zoomAndPan="magnify"><defs><filter height="300%" id="f1nkymje1cd6y5" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><line style="stroke:#2A86E2;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="32" x2="32" y1="84.8047" y2="196.8281"/><line style="stroke:#2A86E2;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="291" x2="291" y1="84.8047" y2="196.8281"/><line style="stroke:#2A86E2;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="602" x2="602" y1="84.8047" y2="196.8281"/><rect fill="#CCCCCC" filter="url(#f1nkymje1cd6y5)" height="26.8047" style="stroke:#AAAAAA;stroke-width:1.5;" width="50" x="5" y="53"/><text fill="#000000" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="36" x="12" y="70.2104">Week1</text><rect fill="#CCCCCC" filter="url(#f1nkymje1cd6y5)" height="26.8047" style="stroke:#AAAAAA;stroke-width:1.5;" width="50" x="5" y="195.8281"/><text fill="#000000" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="36" x="12" y="213.0386">Week1</text><text fill="#000000" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="36" x="270" y="82.2104">Week2</text><ellipse cx="291" cy="15" fill="#2A86E2" filter="url(#f1nkymje1cd6y5)" rx="8" ry="8" style="stroke:#1A66C2;stroke-width:2.0;"/><path d="M291,23 L291,50 M278,31 L304,31 M291,50 L278,65 M291,50 L304,65 " fill="none" filter="url(#f1nkymje1cd6y5)" style="stroke:#1A66C2;stroke-width:2.0;"/><text fill="#000000" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="36" x="270" y="206.0386">Week2</text><ellipse cx="291" cy="218.6328" fill="#2A86E2" filter="url(#f1nkymje1cd6y5)" rx="8" ry="8" style="stroke:#1A66C2;stroke-width:2.0;"/><path d="M291,226.6328 L291,253.6328 M278,234.6328 L304,234.6328 M291,253.6328 L278,268.6328 M291,253.6328 L304,268.6328 " fill="none" filter="url(#f1nkymje1cd6y5)" style="stroke:#1A66C2;stroke-width:2.0;"/><text fill="#000000" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="36" x="581" y="82.2104">Week3</text><path d="M584,36 C584,26 602,26 602,26 C602,26 620,26 620,36 L620,62 C620,72 602,72 602,72 C602,72 584,72 584,62 L584,36 " fill="#CCCCCC" filter="url(#f1nkymje1cd6y5)" style="stroke:#AAAAAA;stroke-width:1.5;"/><path d="M584,36 C584,46 602,46 602,46 C602,46 620,46 620,36 " fill="none" style="stroke:#AAAAAA;stroke-width:1.5;"/><text fill="#000000" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="36" x="581" y="206.0386">Week3</text><path d="M584,218.6328 C584,208.6328 602,208.6328 602,208.6328 C602,208.6328 620,208.6328 620,218.6328 L620,244.6328 C620,254.6328 602,254.6328 602,254.6328 C602,254.6328 584,254.6328 584,244.6328 L584,218.6328 " fill="#CCCCCC" filter="url(#f1nkymje1cd6y5)" style="stroke:#AAAAAA;stroke-width:1.5;"/><path d="M584,218.6328 C584,228.6328 602,228.6328 602,228.6328 C602,228.6328 620,228.6328 620,218.6328 " fill="none" style="stroke:#AAAAAA;stroke-width:1.5;"/><polygon fill="#000000" points="279,109.6094,289,113.6094,279,117.6094,283,113.6094" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:1.0;" x1="32" x2="285" y1="113.6094" y2="113.6094"/><text fill="#333333" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="235" x="39" y="109.0151">Authentification backend :paid (Ksh 1500)</text><polygon fill="#000000" points="590,174.8281,600,178.8281,590,182.8281,594,178.8281" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:1.0;" x1="291" x2="596" y1="178.8281" y2="178.8281"/><text fill="#333333" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="283" x="298" y="135.8198">develop and design of the database system done</text><text fill="#333333" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="0" x="302" y="148.6245"/><text fill="#333333" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="0" x="302" y="161.4292"/><text fill="#333333" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="159" x="302" y="174.2339">status : not paid (Ksh 5500)</text><!--MD5=[f8f549632d4dc238fd3ceb7c953e7b12]
+@startuml tracy_sequence 
+!define LIGHTBLUE
+!includeurl https://raw.githubusercontent.com/Drakemor/RedDress-PlantUML/master/style.puml
+
+
+participant Week1 as wk1
+actor       Week2 as wk2
+' boundary    Boundary    as Foo2
+' control     Control     as Foo3
+' entity      Entity      as Foo4
+database    Week3    as wk3
+' collections Collections as Foo6
+' queue       Queue       as Foo7
+wk1 -> wk2 : Authentification backend :paid (Ksh 1500)
+wk2 -> wk3 : develop and design of the database system done \n\n\n status : not paid (Ksh 5500)
+
+
+
+
+
+@enduml
+
+@startuml tracy_sequence 
+
+
+
+
+skinparam stereotypeCBackgroundColor 1a66c2
+
+
+
+
+
+
+
+skinparam backgroundColor fff
+
+
+
+
+
+
+
+
+skinparam circledCharacter {
+  radius 8
+  fontSize 11
+  fontName Verdana
+}
+
+skinparam class {
+    backgroundColor ccc
+  borderColor aaa
+    fontColor 000
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor 333
+  stereotypeFontSize 11
+    arrowColor 000
+  arrowFontName Verdana
+  arrowFontColor 333
+  arrowFontSize 11
+
+  attributeFontColor 333
+  attributeFontSize 11
+  attributeIconSize 11
+}
+
+
+skinparam actor {
+    backgroundColor 2a86e2
+  borderColor 1a66c2
+    fontColor 000
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor 333
+  stereotypeFontSize 11
+}
+
+skinparam participant {
+    backgroundColor ccc
+  borderColor aaa
+    fontColor 000
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor 333
+  stereotypeFontSize 11
+}
+
+skinparam collections {
+    backgroundColor ccc
+  borderColor aaa
+    fontColor 000
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor 333
+  stereotypeFontSize 11
+}
+
+skinparam SequenceBox{
+    backgroundColor e0e0e0
+  borderColor cccccc
+    fontColor 000
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor 333
+  stereotypeFontSize 11
+}
+
+
+skinparam interface {
+    backgroundColor 2a86e2
+  borderColor 1a66c2
+    fontColor 000
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor 333
+  stereotypeFontSize 11
+}
+
+skinparam component {
+    backgroundColor ccc
+  borderColor aaa
+    fontColor 000
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor 333
+  stereotypeFontSize 11
+}
+
+skinparam node {
+    backgroundColor ccc
+  borderColor aaa
+    fontColor 000
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor 333
+  stereotypeFontSize 11
+}
+
+skinparam database {
+    backgroundColor ccc
+  borderColor aaa
+    fontColor 000
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor 333
+  stereotypeFontSize 11
+}
+
+skinparam queue {
+    backgroundColor ccc
+  borderColor aaa
+    fontColor 000
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor 333
+  stereotypeFontSize 11
+}
+
+
+skinparam usecase {
+    backgroundColor ccc
+  borderColor aaa
+    fontColor 000
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor 333
+  stereotypeFontSize 11
+    arrowColor 000
+  arrowFontName Verdana
+  arrowFontColor 333
+  arrowFontSize 11
+}
+
+skinparam activity {
+    backgroundColor ccc
+  borderColor aaa
+    fontColor 000
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor 333
+  stereotypeFontSize 11
+    arrowColor 000
+  arrowFontName Verdana
+  arrowFontColor 333
+  arrowFontSize 11
+}
+
+skinparam sequence {
+    fontColor 000
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor 333
+  stereotypeFontSize 11
+    arrowColor 000
+  arrowFontName Verdana
+  arrowFontColor 333
+  arrowFontSize 11
+
+  lifeLineBorderColor 2a86e2
+  lifeLineBackgroundColor e0e0e0
+}
+
+skinparam boundary {
+    backgroundColor 2a86e2
+  borderColor 1a66c2
+    fontColor 000
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor 333
+  stereotypeFontSize 11
+}
+
+skinparam control {
+    backgroundColor 2a86e2
+  borderColor 1a66c2
+    fontColor 000
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor 333
+  stereotypeFontSize 11
+}
+
+skinparam entity {
+    backgroundColor 2a86e2
+  borderColor 1a66c2
+    fontColor 000
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor 333
+  stereotypeFontSize 11
+}
+
+
+skinparam state {
+    backgroundColor ccc
+  borderColor aaa
+    fontColor 000
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor 333
+  stereotypeFontSize 11
+    arrowColor 000
+  arrowFontName Verdana
+  arrowFontColor 333
+  arrowFontSize 11
+  startColor 2a86e2
+  endColor 1a66c2
+}
+
+
+skinparam object {
+    backgroundColor ccc
+  borderColor aaa
+    fontColor 000
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor 333
+  stereotypeFontSize 11
+    arrowColor 000
+  arrowFontName Verdana
+  arrowFontColor 333
+  arrowFontSize 11
+}
+
+
+skinparam note {
+    backgroundColor 2a86e2
+  borderColor 1a66c2
+    fontColor 000
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor 333
+  stereotypeFontSize 11
+}
+
+skinparam cloud {
+    backgroundColor ccc
+  borderColor aaa
+    fontColor 000
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor 333
+  stereotypeFontSize 11
+    arrowColor 000
+  arrowFontName Verdana
+  arrowFontColor 333
+  arrowFontSize 11
+}
+
+skinparam rectangle {
+    backgroundColor ccc
+  borderColor aaa
+    fontColor 000
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor 333
+  stereotypeFontSize 11
+}
+
+skinparam storage {
+    backgroundColor ccc
+  borderColor aaa
+    fontColor 000
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor 333
+  stereotypeFontSize 11
+}
+
+
+
+participant Week1 as wk1
+actor       Week2 as wk2
+database    Week3    as wk3
+wk1 -> wk2 : Authentification backend :paid (Ksh 1500)
+wk2 -> wk3 : develop and design of the database system done \n\n\n status : not paid (Ksh 5500)
+
+
+
+
+
+@enduml
+
+PlantUML version 1.2021.7(Sun May 23 15:40:07 EAT 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

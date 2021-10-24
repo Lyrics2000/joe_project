@@ -49,11 +49,21 @@ entity Bus{
     bus_no_plate : CharField
     bus_type : CharField
     capacity : IntegerField 
+    bus_image : ImageField
     admin_id : ForeinKey(Admin)
 
 }
 
 Admin ||..|{ Bus
+
+entity BusOtherImage{
+    id:pk 
+    image : ImageField
+    bus_id : ForeinKey(Bus)
+}
+
+Bus ||..|{ BusOtherImage
+
 
 note left of Bus : this is the table that will hold the information of the bus and \n following are the list of attributes or field columns \n id – this is the primary key of the table and \n serves as the unique value of the table and usually set to auto_increment.\n\n bus_number – the bus number is the number assigned by the  \n company for monitoring purposes. \n\n bus_plate_number – it refers to the vehicle registration number of the bus. \n\n bus_type – bus type field has few values; the van ,bus ,cargo van. \n\n capacity – this field represents the total number of persons/cargo the bus can accommodate including the driver. \n\n admin_id – this is the foreign key of the table that points out to the user who encoded the bus information. 
 
