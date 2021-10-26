@@ -1,0 +1,19 @@
+@startuml guest_logic
+!define DARKBLUE
+!includeurl https://raw.githubusercontent.com/Drakemor/RedDress-PlantUML/master/style.puml
+
+
+interface "Auth" as  au
+au - [MainDashbord]
+ 
+[MainDashbord] ..> Dashboad
+
+
+
+note left of Dashboad : here the user will see information \n about the app and a button to make donation \n which will present either and option to make donation via\n mpesa or bank card \n when mpesa is clicked the user will enter donation amount \n and then be taken to a mpesa menu where he makes payment \n when bank card is clicked also we shall use strip to take the user to the donation menu \n where she will click and add bank details to make a donation
+
+
+
+
+
+@enduml

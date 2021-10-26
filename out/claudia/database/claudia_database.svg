@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="309px" preserveAspectRatio="none" style="width:1599px;height:309px;background:#777777;" version="1.1" viewBox="0 0 1599 309" width="1599px" zoomAndPan="magnify"><defs><filter height="300%" id="f14p60rz7891xf" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[3fd616f346a44cd59a91eb10b19e157c]
+class User--><rect codeLine="5" fill="#2E2E2E" filter="url(#f14p60rz7891xf)" height="118.8281" id="User" style="stroke:#1B1B1B;stroke-width:1.5;" width="140" x="1080" y="7"/><ellipse cx="1133" cy="20" fill="#1A66C2" rx="8" ry="8" style="stroke:#1B1B1B;stroke-width:1.0;"/><path d="M1130.0156,15.9844 L1135.5938,15.9844 L1135.5938,17.5469 L1132.0781,17.5469 L1132.0781,19.0313 L1135.375,19.0313 L1135.375,20.5938 L1132.0781,20.5938 L1132.0781,22.4375 L1135.7031,22.4375 L1135.7031,24 L1130.0156,24 L1130.0156,15.9844 Z " fill="#000000"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="27" x="1149" y="23.8081">User</text><line style="stroke:#1B1B1B;stroke-width:1.5;" x1="1081" x2="1219" y1="33" y2="33"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="27" x="1086" y="47.2104">id:pk</text><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="121" x="1086" y="60.0151">fist_name : CharField</text><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="128" x="1086" y="72.8198">last_name :  CharField</text><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="127" x="1086" y="85.6245">username :  CharField</text><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="104" x="1086" y="98.4292">email :  EmailField</text><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="125" x="1086" y="111.2339">password :  CharField</text><line style="stroke:#1B1B1B;stroke-width:1.5;" x1="1081" x2="1219" y1="117.8281" y2="117.8281"/><!--MD5=[a90b7b75c46e461017aad3a84fad4a40]
+class PersonalDetails--><rect codeLine="15" fill="#2E2E2E" filter="url(#f14p60rz7891xf)" height="93.2188" id="PersonalDetails" style="stroke:#1B1B1B;stroke-width:1.5;" width="156" x="1072" y="195.5"/><ellipse cx="1102.45" cy="208.5" fill="#1A66C2" rx="8" ry="8" style="stroke:#1B1B1B;stroke-width:1.0;"/><path d="M1099.4656,204.4844 L1105.0438,204.4844 L1105.0438,206.0469 L1101.5281,206.0469 L1101.5281,207.5313 L1104.825,207.5313 L1104.825,209.0938 L1101.5281,209.0938 L1101.5281,210.9375 L1105.1531,210.9375 L1105.1531,212.5 L1099.4656,212.5 L1099.4656,204.4844 Z " fill="#000000"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="89" x="1117.55" y="212.3081">PersonalDetails</text><line style="stroke:#1B1B1B;stroke-width:1.5;" x1="1073" x2="1227" y1="221.5" y2="221.5"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="27" x="1078" y="235.7104">id:pk</text><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="91" x="1078" y="248.5151">age:IntegerField</text><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="45" x="1078" y="261.3198">weight :</text><line style="stroke:#1B1B1B;stroke-width:1.5;" x1="1073" x2="1227" y1="267.9141" y2="267.9141"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="144" x="1078" y="282.1245">user_id : ForeinKey(User)</text><!--MD5=[3f85f7bd31babc51ea0b062937aa9427]
+class MenestraulDate--><rect codeLine="24" fill="#2E2E2E" filter="url(#f14p60rz7891xf)" height="106.0234" id="MenestraulDate" style="stroke:#1B1B1B;stroke-width:1.5;" width="240" x="735" y="189"/><ellipse cx="807" cy="202" fill="#1A66C2" rx="8" ry="8" style="stroke:#1B1B1B;stroke-width:1.0;"/><path d="M804.0156,197.9844 L809.5938,197.9844 L809.5938,199.5469 L806.0781,199.5469 L806.0781,201.0313 L809.375,201.0313 L809.375,202.5938 L806.0781,202.5938 L806.0781,204.4375 L809.7031,204.4375 L809.7031,206 L804.0156,206 L804.0156,197.9844 Z " fill="#000000"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="89" x="823" y="205.8081">MenestraulDate</text><line style="stroke:#1B1B1B;stroke-width:1.5;" x1="736" x2="974" y1="215" y2="215"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="27" x="741" y="229.2104">id:pk</text><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="195" x="741" y="242.0151">menestraul_start_date : DateTime</text><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="189" x="741" y="254.8198">menestraul_end_date : DateTime</text><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="228" x="741" y="267.6245">average_menestraul_days : IntegerField</text><line style="stroke:#1B1B1B;stroke-width:1.5;" x1="736" x2="974" y1="274.2188" y2="274.2188"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="148" x="741" y="288.4292">user_id :  ForeinKey(User)</text><path d="M6,186 L6,298.4375 A0,0 0 0 0 6,298.4375 L700,298.4375 A0,0 0 0 0 700,298.4375 L700,246 L734.88,242 L700,238 L700,196 L690,186 L6,186 A0,0 0 0 0 6,186 " fill="#1A66C2" filter="url(#f14p60rz7891xf)" style="stroke:#002642;stroke-width:1.0;"/><path d="M690,186 L690,196 L700,196 L690,186 " fill="#1A66C2" style="stroke:#002642;stroke-width:1.0;"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="152" x="12" y="201.2104">the id :  is the primary Key</text><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="224" x="16" y="214.0151">user_id : links menetraulDate and User</text><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="421" x="16" y="226.8198">menestraul_end_date - this will be taken from the time the user has filled</text><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="317" x="16" y="239.6245">the form and submitted the menestraul duration period</text><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="518" x="16" y="252.4292">once the period is submitted the system will calculate no of days from the start to the end</text><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="273" x="16" y="265.2339">when it gets the date it will fill it tp the end date</text><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="665" x="16" y="278.0386">when person logs into the app the system to know days remaining it will take the end date minus the now date time</text><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="0" x="16" y="290.8433"/><path d="M541.5,23 L541.5,109.8281 A0,0 0 0 0 541.5,109.8281 L804.33,109.8281 L836.31,188.7 L812.33,109.8281 L1044.5,109.8281 A0,0 0 0 0 1044.5,109.8281 L1044.5,33 L1034.5,23 L541.5,23 A0,0 0 0 0 541.5,23 " fill="#1A66C2" filter="url(#f14p60rz7891xf)" style="stroke:#002642;stroke-width:1.0;"/><path d="M1034.5,23 L1034.5,33 L1044.5,33 L1034.5,23 " fill="#1A66C2" style="stroke:#002642;stroke-width:1.0;"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="214" x="547.5" y="38.2104">when the user fills the not remember</text><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="329" x="551.5" y="51.0151">we assumes that the user start menestraul date id today</text><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="269" x="551.5" y="63.8198">so we give average menestraul date to 28days</text><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="474" x="551.5" y="76.6245">then calculate from todat till 28days the day after 28days we place in the database</text><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="397" x="551.5" y="89.4292">now when the user opens the appp we call api that calculated dates..</text><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="384" x="551.5" y="102.2339">it will take today minus last day then give the user a day remaining</text><!--MD5=[ee449b4bf9bff4f8402d11d16180febc]
+class MenestraulTrack--><rect codeLine="36" fill="#2E2E2E" filter="url(#f14p60rz7891xf)" height="67.6094" id="MenestraulTrack" style="stroke:#1B1B1B;stroke-width:1.5;" width="156" x="1255" y="32.5"/><ellipse cx="1283.2" cy="45.5" fill="#1A66C2" rx="8" ry="8" style="stroke:#1B1B1B;stroke-width:1.0;"/><path d="M1280.2156,41.4844 L1285.7938,41.4844 L1285.7938,43.0469 L1282.2781,43.0469 L1282.2781,44.5313 L1285.575,44.5313 L1285.575,46.0938 L1282.2781,46.0938 L1282.2781,47.9375 L1285.9031,47.9375 L1285.9031,49.5 L1280.2156,49.5 L1280.2156,41.4844 Z " fill="#000000"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="94" x="1297.8" y="49.3081">MenestraulTrack</text><line style="stroke:#1B1B1B;stroke-width:1.5;" x1="1256" x2="1410" y1="58.5" y2="58.5"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="27" x="1261" y="72.7104">id:pk</text><line style="stroke:#1B1B1B;stroke-width:1.5;" x1="1256" x2="1410" y1="79.3047" y2="79.3047"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="144" x="1261" y="93.5151">user_id : ForeinKey(User)</text><!--MD5=[5a3ea954445cd47e641866babaad6192]
+class GuestUser--><rect codeLine="43" fill="#2E2E2E" filter="url(#f14p60rz7891xf)" height="67.6094" id="GuestUser" style="stroke:#1B1B1B;stroke-width:1.5;" width="87" x="1446.5" y="32.5"/><ellipse cx="1458.5" cy="45.5" fill="#1A66C2" rx="8" ry="8" style="stroke:#1B1B1B;stroke-width:1.0;"/><path d="M1455.5156,41.4844 L1461.0938,41.4844 L1461.0938,43.0469 L1457.5781,43.0469 L1457.5781,44.5313 L1460.875,44.5313 L1460.875,46.0938 L1457.5781,46.0938 L1457.5781,47.9375 L1461.2031,47.9375 L1461.2031,49.5 L1455.5156,49.5 L1455.5156,41.4844 Z " fill="#000000"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="61" x="1469.5" y="49.3081">GuestUser</text><line style="stroke:#1B1B1B;stroke-width:1.5;" x1="1447.5" x2="1532.5" y1="58.5" y2="58.5"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="27" x="1452.5" y="72.7104">id:pk</text><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="74" x="1452.5" y="85.5151">email : email</text><line style="stroke:#1B1B1B;stroke-width:1.5;" x1="1447.5" x2="1532.5" y1="92.1094" y2="92.1094"/><!--MD5=[764fca796ce7f635542948d8fc39db5e]
+class Payment--><rect codeLine="48" fill="#2E2E2E" filter="url(#f14p60rz7891xf)" height="106.0234" id="Payment" style="stroke:#1B1B1B;stroke-width:1.5;" width="190" x="1395" y="189"/><ellipse cx="1462" cy="202" fill="#1A66C2" rx="8" ry="8" style="stroke:#1B1B1B;stroke-width:1.0;"/><path d="M1459.0156,197.9844 L1464.5938,197.9844 L1464.5938,199.5469 L1461.0781,199.5469 L1461.0781,201.0313 L1464.375,201.0313 L1464.375,202.5938 L1461.0781,202.5938 L1461.0781,204.4375 L1464.7031,204.4375 L1464.7031,206 L1459.0156,206 L1459.0156,197.9844 Z " fill="#000000"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="49" x="1478" y="205.8081">Payment</text><line style="stroke:#1B1B1B;stroke-width:1.5;" x1="1396" x2="1584" y1="215" y2="215"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="27" x="1401" y="229.2104">id:pk</text><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="178" x="1401" y="242.0151">donated_amount : DecimalField</text><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="143" x="1401" y="254.8198">donated_date : DateTime</text><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="172" x="1401" y="267.6245">donated_status : BooleanField</text><line style="stroke:#1B1B1B;stroke-width:1.5;" x1="1396" x2="1584" y1="274.2188" y2="274.2188"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="178" x="1401" y="288.4292">user_id : ForeinKey(GuestUser)</text><!--MD5=[b9c9712272b414420f5fcb23b24f6bc5]
+link User to PersonalDetails--><path codeLine="22" d="M1150,134.29 C1150,151.88 1150,170.62 1150,187.41 " fill="none" id="User-PersonalDetails" style="stroke:#FFFFFF;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1150" x2="1156" y1="187.49" y2="195.49"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1150" x2="1144" y1="187.49" y2="195.49"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1150" x2="1150" y1="187.49" y2="195.49"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1154" x2="1146" y1="185.49" y2="185.49"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1146" x2="1154" y1="130.24" y2="130.24"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1146" x2="1154" y1="133.24" y2="133.24"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1150" x2="1150" y1="134.24" y2="126.24"/><!--MD5=[9284c1b7f644c4a6a1e1fd6845007d8a]
+link User to MenestraulDate--><path codeLine="33" d="M1072.74,119.35 C1069.13,121.62 1065.53,123.85 1062,126 C1029.27,145.93 992.94,166.59 959.96,184.8 " fill="none" id="User-MenestraulDate" style="stroke:#FFFFFF;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="959.5407" x2="955.4438" y1="185.0182" y2="194.1405"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="959.5407" x2="949.6362" y1="185.0182" y2="183.6395"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="959.5407" x2="952.54" y1="185.0182" y2="188.89"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="963.2267" x2="959.3549" y1="187.5506" y2="180.5499"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1074.1916" x2="1078.4662" y1="113.6962" y2="120.4584"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1071.6557" x2="1075.9304" y1="115.2992" y2="122.0614"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1072.9478" x2="1079.71" y1="119.2146" y2="114.94"/><!--MD5=[064f825ddb818fad45ba73e27e31fe9a]
+link GuestUser to Payment--><path codeLine="57" d="M1490,108.75 C1490,130.25 1490,156.94 1490,180.7 " fill="none" id="GuestUser-Payment" style="stroke:#FFFFFF;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1490" x2="1496" y1="180.97" y2="188.97"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1490" x2="1484" y1="180.97" y2="188.97"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1490" x2="1490" y1="180.97" y2="188.97"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1494" x2="1486" y1="178.97" y2="178.97"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1486" x2="1494" y1="104.54" y2="104.54"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1486" x2="1494" y1="107.54" y2="107.54"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1490" x2="1490" y1="108.54" y2="100.54"/><!--MD5=[ccbd46b5a45ef99738c1669e1f13ed8c]
+@startuml claudia_database
+!define DARKBLUE
+!includeurl https://raw.githubusercontent.com/Drakemor/RedDress-PlantUML/master/style.puml
+
+
+entity User{
+    id:pk 
+    fist_name : CharField
+    last_name :  CharField
+    username :  CharField
+    email :  EmailField
+    password :  CharField
+        
+}
+
+entity PersonalDetails{
+    id:pk
+    user_id : ForeinKey(User)
+    age:IntegerField
+    weight : 
+}
+
+User ||..|{ PersonalDetails
+
+entity MenestraulDate{
+    id:pk
+    user_id :  ForeinKey(User)
+    menestraul_start_date : DateTime
+    menestraul_end_date : DateTime
+    average_menestraul_days : IntegerField
+
+}
+
+User ||..|{ MenestraulDate
+note left of MenestraulDate : the id :  is the primary Key \n user_id : links menetraulDate and User \n menestraul_end_date - this will be taken from the time the user has filled \n the form and submitted the menestraul duration period \n once the period is submitted the system will calculate no of days from the start to the end \n when it gets the date it will fill it tp the end date \n when person logs into the app the system to know days remaining it will take the end date minus the now date time \n
+note top of MenestraulDate :  when the user fills the not remember \n we assumes that the user start menestraul date id today \n so we give average menestraul date to 28days \n then calculate from todat till 28days the day after 28days we place in the database \n now when the user opens the appp we call api that calculated dates..\n it will take today minus last day then give the user a day remaining
+entity MenestraulTrack{
+    id:pk 
+    user_id : ForeinKey(User)
+
+}
+
+
+entity GuestUser {
+    id:pk 
+    email : email
+}
+
+entity Payment{
+    id:pk 
+    donated_amount : DecimalField
+    donated_date : DateTime
+    donated_status : BooleanField
+    user_id : ForeinKey(GuestUser)
+
+}
+
+GuestUser ||..|{ Payment
+
+
+@enduml
+
+@startuml claudia_database
+
+
+
+skinparam backgroundColor 777
+skinparam stereotypeCBackgroundColor 1a66c2
+
+
+
+
+
+
+
+
+
+skinparam backgroundColor 777
+
+
+
+
+
+
+
+skinparam circledCharacter {
+  radius 8
+  fontSize 11
+  fontName Verdana
+}
+
+skinparam class {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+    arrowColor fff
+  arrowFontName Verdana
+  arrowFontColor bbb
+  arrowFontSize 11
+
+  attributeFontColor aaa
+  attributeFontSize 11
+  attributeIconSize 11
+}
+
+
+skinparam actor {
+    backgroundColor 1a66c2
+  borderColor 002642
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam participant {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam collections {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam SequenceBox{
+    backgroundColor 575757
+  borderColor 767676
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+
+skinparam interface {
+    backgroundColor 1a66c2
+  borderColor 002642
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam component {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam node {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam database {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam queue {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+
+skinparam usecase {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+    arrowColor fff
+  arrowFontName Verdana
+  arrowFontColor bbb
+  arrowFontSize 11
+}
+
+skinparam activity {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+    arrowColor fff
+  arrowFontName Verdana
+  arrowFontColor bbb
+  arrowFontSize 11
+}
+
+skinparam sequence {
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+    arrowColor fff
+  arrowFontName Verdana
+  arrowFontColor bbb
+  arrowFontSize 11
+
+  lifeLineBorderColor 1a66c2
+  lifeLineBackgroundColor 575757
+}
+
+skinparam boundary {
+    backgroundColor 1a66c2
+  borderColor 002642
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam control {
+    backgroundColor 1a66c2
+  borderColor 002642
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam entity {
+    backgroundColor 1a66c2
+  borderColor 002642
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+
+skinparam state {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+    arrowColor fff
+  arrowFontName Verdana
+  arrowFontColor bbb
+  arrowFontSize 11
+  startColor 1a66c2
+  endColor 002642
+}
+
+
+skinparam object {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+    arrowColor fff
+  arrowFontName Verdana
+  arrowFontColor bbb
+  arrowFontSize 11
+}
+
+
+skinparam note {
+    backgroundColor 1a66c2
+  borderColor 002642
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam cloud {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+    arrowColor fff
+  arrowFontName Verdana
+  arrowFontColor bbb
+  arrowFontSize 11
+}
+
+skinparam rectangle {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam storage {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+
+
+entity User{
+    id:pk 
+    fist_name : CharField
+    last_name :  CharField
+    username :  CharField
+    email :  EmailField
+    password :  CharField
+        
+}
+
+entity PersonalDetails{
+    id:pk
+    user_id : ForeinKey(User)
+    age:IntegerField
+    weight : 
+}
+
+User ||..|{ PersonalDetails
+
+entity MenestraulDate{
+    id:pk
+    user_id :  ForeinKey(User)
+    menestraul_start_date : DateTime
+    menestraul_end_date : DateTime
+    average_menestraul_days : IntegerField
+
+}
+
+User ||..|{ MenestraulDate
+note left of MenestraulDate : the id :  is the primary Key \n user_id : links menetraulDate and User \n menestraul_end_date - this will be taken from the time the user has filled \n the form and submitted the menestraul duration period \n once the period is submitted the system will calculate no of days from the start to the end \n when it gets the date it will fill it tp the end date \n when person logs into the app the system to know days remaining it will take the end date minus the now date time \n
+note top of MenestraulDate :  when the user fills the not remember \n we assumes that the user start menestraul date id today \n so we give average menestraul date to 28days \n then calculate from todat till 28days the day after 28days we place in the database \n now when the user opens the appp we call api that calculated dates..\n it will take today minus last day then give the user a day remaining
+entity MenestraulTrack{
+    id:pk 
+    user_id : ForeinKey(User)
+
+}
+
+
+entity GuestUser {
+    id:pk 
+    email : email
+}
+
+entity Payment{
+    id:pk 
+    donated_amount : DecimalField
+    donated_date : DateTime
+    donated_status : BooleanField
+    user_id : ForeinKey(GuestUser)
+
+}
+
+GuestUser ||..|{ Payment
+
+
+@enduml
+
+PlantUML version 1.2021.7(Sun May 23 15:40:07 EAT 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

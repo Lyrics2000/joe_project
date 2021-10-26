@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="726px" preserveAspectRatio="none" style="width:1525px;height:726px;background:#FFFFFF;" version="1.1" viewBox="0 0 1525 726" width="1525px" zoomAndPan="magnify"><defs><filter height="300%" id="f2fvrjtm8wgrv" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[3fd616f346a44cd59a91eb10b19e157c]
+class User--><rect codeLine="2" fill="#FEFECE" filter="url(#f2fvrjtm8wgrv)" height="112.0234" id="User" style="stroke:#A80036;stroke-width:1.5;" width="142" x="433.5" y="185.5"/><ellipse cx="485.75" cy="201.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M489.8594,207.5 L482.1406,207.5 L482.1406,195.1094 L489.8594,195.1094 L489.8594,197.2656 L484.5938,197.2656 L484.5938,199.9375 L489.3594,199.9375 L489.3594,202.0938 L484.5938,202.0938 L484.5938,205.3438 L489.8594,205.3438 L489.8594,207.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="29" x="506.25" y="205.6543">User</text><line style="stroke:#A80036;stroke-width:1.5;" x1="434.5" x2="574.5" y1="217.5" y2="217.5"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="27" x="439.5" y="231.7104">id:pk</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="104" x="439.5" y="244.5151">email :  EmailField</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="130" x="439.5" y="257.3198">first_name :  CharField</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="128" x="439.5" y="270.1245">last_name :  CharField</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="123" x="439.5" y="282.9292">password :  Charfield</text><line style="stroke:#A80036;stroke-width:1.5;" x1="434.5" x2="574.5" y1="289.5234" y2="289.5234"/><!--MD5=[db6d18d8099558415abc41d00477ab92]
+class Admin--><rect codeLine="13" fill="#FEFECE" filter="url(#f2fvrjtm8wgrv)" height="112.0234" id="Admin" style="stroke:#A80036;stroke-width:1.5;" width="142" x="1323.5" y="7"/><ellipse cx="1371.25" cy="23" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M1375.3594,29 L1367.6406,29 L1367.6406,16.6094 L1375.3594,16.6094 L1375.3594,18.7656 L1370.0938,18.7656 L1370.0938,21.4375 L1374.8594,21.4375 L1374.8594,23.5938 L1370.0938,23.5938 L1370.0938,26.8438 L1375.3594,26.8438 L1375.3594,29 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="38" x="1391.75" y="27.1543">Admin</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1324.5" x2="1464.5" y1="39" y2="39"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="27" x="1329.5" y="53.2104">id:pk</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="104" x="1329.5" y="66.0151">email :  EmailField</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="130" x="1329.5" y="78.8198">first_name :  CharField</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="128" x="1329.5" y="91.6245">last_name :  CharField</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="123" x="1329.5" y="104.4292">password :  Charfield</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1324.5" x2="1464.5" y1="111.0234" y2="111.0234"/><!--MD5=[c35061a8a7a83155db9d179f156b8965]
+class Counties--><rect codeLine="23" fill="#FEFECE" filter="url(#f2fvrjtm8wgrv)" height="86.4141" id="Counties" style="stroke:#A80036;stroke-width:1.5;" width="184" x="1302.5" y="198.5"/><ellipse cx="1362.75" cy="214.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M1366.8594,220.5 L1359.1406,220.5 L1359.1406,208.1094 L1366.8594,208.1094 L1366.8594,210.2656 L1361.5938,210.2656 L1361.5938,212.9375 L1366.3594,212.9375 L1366.3594,215.0938 L1361.5938,215.0938 L1361.5938,218.3438 L1366.8594,218.3438 L1366.8594,220.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="55" x="1383.25" y="218.6543">Counties</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1303.5" x2="1485.5" y1="230.5" y2="230.5"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="27" x="1308.5" y="244.7104">id:pk</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="140" x="1308.5" y="257.5151">county_name : CharField</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1303.5" x2="1485.5" y1="264.1094" y2="264.1094"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="172" x="1308.5" y="278.3198">admin_id :  ForeignKey(Admin)</text><!--MD5=[684d3e5ecd00f973e0b2b0903fcdafd9]
+class mashroom--><rect codeLine="32" fill="#FEFECE" filter="url(#f2fvrjtm8wgrv)" height="112.0234" id="mashroom" style="stroke:#A80036;stroke-width:1.5;" width="208" x="1290.5" y="377"/><ellipse cx="1357.25" cy="393" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M1361.3594,399 L1353.6406,399 L1353.6406,386.6094 L1361.3594,386.6094 L1361.3594,388.7656 L1356.0938,388.7656 L1356.0938,391.4375 L1360.8594,391.4375 L1360.8594,393.5938 L1356.0938,393.5938 L1356.0938,396.8438 L1361.3594,396.8438 L1361.3594,399 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="66" x="1377.75" y="397.1543">mashroom</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1291.5" x2="1497.5" y1="409" y2="409"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="27" x="1296.5" y="423.2104">id:pk</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="180" x="1296.5" y="436.0151">mashroom_image :  ImageField</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="167" x="1296.5" y="448.8198">Mashroom_name :  CharField</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="196" x="1296.5" y="461.6245">mashroon_description :  CharField</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1291.5" x2="1497.5" y1="468.2188" y2="468.2188"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="181" x="1296.5" y="482.4292">county_id: ForeignKey(Counties)</text><!--MD5=[3f38c1af978a55cb6ec20da3797ef759]
+class MashroomCondition--><rect codeLine="43" fill="#FEFECE" filter="url(#f2fvrjtm8wgrv)" height="86.4141" id="MashroomCondition" style="stroke:#A80036;stroke-width:1.5;" width="233" x="1278" y="594"/><ellipse cx="1328.25" cy="610" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M1332.3594,616 L1324.6406,616 L1324.6406,603.6094 L1332.3594,603.6094 L1332.3594,605.7656 L1327.0938,605.7656 L1327.0938,608.4375 L1331.8594,608.4375 L1331.8594,610.5938 L1327.0938,610.5938 L1327.0938,613.8438 L1332.3594,613.8438 L1332.3594,616 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="124" x="1348.75" y="614.1543">MashroomCondition</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1279" x2="1510" y1="626" y2="626"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="27" x="1284" y="640.2104">id:pk</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="116" x="1284" y="653.0151">condition : CharField</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1279" x2="1510" y1="659.6094" y2="659.6094"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="221" x="1284" y="673.8198">mashoom_id :  ForeignKey(mashroom)</text><!--MD5=[2a96d0840b6e8373d6fcdd0998c14c1d]
+class Investor--><rect codeLine="55" fill="#FEFECE" filter="url(#f2fvrjtm8wgrv)" height="112.0234" id="Investor" style="stroke:#A80036;stroke-width:1.5;" width="142" x="1018.5" y="7"/><ellipse cx="1060.5" cy="23" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M1064.6094,29 L1056.8906,29 L1056.8906,16.6094 L1064.6094,16.6094 L1064.6094,18.7656 L1059.3438,18.7656 L1059.3438,21.4375 L1064.1094,21.4375 L1064.1094,23.5938 L1059.3438,23.5938 L1059.3438,26.8438 L1064.6094,26.8438 L1064.6094,29 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="50" x="1080.5" y="27.1543">Investor</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1019.5" x2="1159.5" y1="39" y2="39"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="27" x="1024.5" y="53.2104">id:pk</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="104" x="1024.5" y="66.0151">email :  EmailField</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="130" x="1024.5" y="78.8198">first_name :  CharField</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="128" x="1024.5" y="91.6245">last_name :  CharField</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="123" x="1024.5" y="104.4292">password :  Charfield</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1019.5" x2="1159.5" y1="111.0234" y2="111.0234"/><!--MD5=[065cdd2a2be7d18f952544b026c5d70f]
+class BorrowerExtraInfo--><rect codeLine="66" fill="#FEFECE" filter="url(#f2fvrjtm8wgrv)" height="124.8281" id="BorrowerExtraInfo" style="stroke:#A80036;stroke-width:1.5;" width="233" x="7" y="370.5"/><ellipse cx="63.75" cy="386.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M67.8594,392.5 L60.1406,392.5 L60.1406,380.1094 L67.8594,380.1094 L67.8594,382.2656 L62.5938,382.2656 L62.5938,384.9375 L67.3594,384.9375 L67.3594,387.0938 L62.5938,387.0938 L62.5938,390.3438 L67.8594,390.3438 L67.8594,392.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="111" x="84.25" y="390.6543">BorrowerExtraInfo</text><line style="stroke:#A80036;stroke-width:1.5;" x1="8" x2="239" y1="402.5" y2="402.5"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="27" x="13" y="416.7104">id:pk</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="159" x="13" y="429.5151">current_address : CharField</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="184" x="13" y="442.3198">permanent_address :  CharField</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="143" x="13" y="455.1245">date_of_birth :  CharField</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="221" x="13" y="467.9292">highest_level_of_education :  CharField</text><line style="stroke:#A80036;stroke-width:1.5;" x1="8" x2="239" y1="474.5234" y2="474.5234"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="151" x="13" y="488.7339">user_id : ForeignKey(User)</text><!--MD5=[c46f5dedf5c692cbb2ce92dd41ef3489]
+class BorrowerAssets--><rect codeLine="80" fill="#FEFECE" filter="url(#f2fvrjtm8wgrv)" height="124.8281" id="BorrowerAssets" style="stroke:#A80036;stroke-width:1.5;" width="210" x="275.5" y="370.5"/><ellipse cx="327.25" cy="386.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M331.3594,392.5 L323.6406,392.5 L323.6406,380.1094 L331.3594,380.1094 L331.3594,382.2656 L326.0938,382.2656 L326.0938,384.9375 L330.8594,384.9375 L330.8594,387.0938 L326.0938,387.0938 L326.0938,390.3438 L331.3594,390.3438 L331.3594,392.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="98" x="347.75" y="390.6543">BorrowerAssets</text><line style="stroke:#A80036;stroke-width:1.5;" x1="276.5" x2="484.5" y1="402.5" y2="402.5"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="27" x="281.5" y="416.7104">id:pk</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="131" x="281.5" y="429.5151">asset_type :  CharField</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="137" x="281.5" y="442.3198">asset_value :  CharField</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="198" x="281.5" y="455.1245">ownership_percentage :  CharField</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="198" x="281.5" y="467.9292">possession_since :  DateTimeField</text><line style="stroke:#A80036;stroke-width:1.5;" x1="276.5" x2="484.5" y1="474.5234" y2="474.5234"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="173" x="281.5" y="488.7339">borrower_id: ForeignKey(User)</text><!--MD5=[b310a467ce6d74b80539457a9f414d60]
+class EmploymentDetails--><rect codeLine="91" fill="#FEFECE" filter="url(#f2fvrjtm8wgrv)" height="137.6328" id="EmploymentDetails" style="stroke:#A80036;stroke-width:1.5;" width="216" x="520.5" y="364"/><ellipse cx="564.75" cy="380" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M568.8594,386 L561.1406,386 L561.1406,373.6094 L568.8594,373.6094 L568.8594,375.7656 L563.5938,375.7656 L563.5938,378.4375 L568.3594,378.4375 L568.3594,380.5938 L563.5938,380.5938 L563.5938,383.8438 L568.8594,383.8438 L568.8594,386 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="119" x="585.25" y="384.1543">EmploymentDetails</text><line style="stroke:#A80036;stroke-width:1.5;" x1="521.5" x2="735.5" y1="396" y2="396"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="27" x="526.5" y="410.2104">id:pk</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="165" x="526.5" y="423.0151">posting_date : DateTimeField</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="165" x="526.5" y="435.8198">employment_type : CharField</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="160" x="526.5" y="448.6245">profession_type :  CharField</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="204" x="526.5" y="461.4292">employment_description : CharField</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="139" x="526.5" y="474.2339">salary_range : CharField</text><line style="stroke:#A80036;stroke-width:1.5;" x1="521.5" x2="735.5" y1="480.8281" y2="480.8281"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="181" x="526.5" y="495.0386">borrower_id :  ForeignKey(User)</text><!--MD5=[0f939e35229e923fd3ab8c884b0d9961]
+class LoanProposal--><rect codeLine="105" fill="#FEFECE" filter="url(#f2fvrjtm8wgrv)" height="124.8281" id="LoanProposal" style="stroke:#A80036;stroke-width:1.5;" width="206" x="908.5" y="179"/><ellipse cx="964.75" cy="195" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M968.8594,201 L961.1406,201 L961.1406,188.6094 L968.8594,188.6094 L968.8594,190.7656 L963.5938,190.7656 L963.5938,193.4375 L968.3594,193.4375 L968.3594,195.5938 L963.5938,195.5938 L963.5938,198.8438 L968.8594,198.8438 L968.8594,201 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="85" x="985.25" y="199.1543">LoanProposal</text><line style="stroke:#A80036;stroke-width:1.5;" x1="909.5" x2="1113.5" y1="211" y2="211"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="27" x="914.5" y="225.2104">id:pk</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="186" x="914.5" y="238.0151">proposal_amount :  DecimalField</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="177" x="914.5" y="250.8198">proposal_date :  DateTimeField</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="163" x="914.5" y="263.6245">cancel_date :  DateTimeField</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="193" x="914.5" y="276.4292">last_update_date :  DateTimeField</text><line style="stroke:#A80036;stroke-width:1.5;" x1="909.5" x2="1113.5" y1="283.0234" y2="283.0234"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="194" x="914.5" y="297.2339">investor_id :  ForeignKey(Investor)</text><!--MD5=[cfd1f8324050422f06cda8f7ca20a43a]
+class LoanTicket--><rect codeLine="118" fill="#FEFECE" filter="url(#f2fvrjtm8wgrv)" height="137.6328" id="LoanTicket" style="stroke:#A80036;stroke-width:1.5;" width="271" x="772" y="364"/><ellipse cx="869.75" cy="380" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M873.8594,386 L866.1406,386 L866.1406,373.6094 L873.8594,373.6094 L873.8594,375.7656 L868.5938,375.7656 L868.5938,378.4375 L873.3594,378.4375 L873.3594,380.5938 L868.5938,380.5938 L868.5938,383.8438 L873.8594,383.8438 L873.8594,386 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="67" x="890.25" y="384.1543">LoanTicket</text><line style="stroke:#A80036;stroke-width:1.5;" x1="773" x2="1042" y1="396" y2="396"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="27" x="778" y="410.2104">id:pk</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="160" x="778" y="423.0151">loan_amount :  DecimalField</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="214" x="778" y="435.8198">loan_tenure_in_months :  IntegerField</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="156" x="778" y="448.6245">interest_rate : DecimalField</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="161" x="778" y="461.4292">reason_for_loan :  CharField</text><line style="stroke:#A80036;stroke-width:1.5;" x1="773" x2="1042" y1="468.0234" y2="468.0234"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="181" x="778" y="482.2339">borrower_id :  ForeignKey(User)</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="259" x="778" y="495.0386">loan_proposal_id :  ForeignKey(LoanProposal)</text><!--MD5=[d5b0d137637f362fd19da04124b8e48a]
+class InvestorFullFilmentProposal--><rect codeLine="134" fill="#FEFECE" filter="url(#f2fvrjtm8wgrv)" height="150.4375" id="InvestorFullFilmentProposal" style="stroke:#A80036;stroke-width:1.5;" width="293" x="950" y="562"/><ellipse cx="1006.75" cy="578" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M1010.8594,584 L1003.1406,584 L1003.1406,571.6094 L1010.8594,571.6094 L1010.8594,573.7656 L1005.5938,573.7656 L1005.5938,576.4375 L1010.3594,576.4375 L1010.3594,578.5938 L1005.5938,578.5938 L1005.5938,581.8438 L1010.8594,581.8438 L1010.8594,584 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="171" x="1027.25" y="582.1543">InvestorFullFilmentProposal</text><line style="stroke:#A80036;stroke-width:1.5;" x1="951" x2="1242" y1="594" y2="594"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="27" x="956" y="608.2104">id:pk</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="255" x="956" y="621.0151">release_date_from_investor :  DateTimeField</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="241" x="956" y="633.8198">disburd_date_to_borrower : DateTimeField</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="0" x="960" y="646.6245"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="181" x="956" y="659.4292">accepted_declied : BooleanField</text><line style="stroke:#A80036;stroke-width:1.5;" x1="951" x2="1242" y1="666.0234" y2="666.0234"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="223" x="956" y="680.2339">loan_ticket_id = ForeignKey(LoanTicket)</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="195" x="956" y="693.0386">investor_id = ForeignKey(Investor)</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="281" x="956" y="705.8433">investor_proposal_id :  ForeignKey(LoanProposal)</text><!--MD5=[7922e5cf9564e925366702b52a9b3bcb]
+link Admin to Counties--><path codeLine="29" d="M1394.5,127.55 C1394.5,148.11 1394.5,170.61 1394.5,190.08 " fill="none" id="Admin-Counties" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1394.5" x2="1400.5" y1="190.22" y2="198.22"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1394.5" x2="1388.5" y1="190.22" y2="198.22"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1394.5" x2="1394.5" y1="190.22" y2="198.22"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1398.5" x2="1390.5" y1="188.22" y2="188.22"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1390.5" x2="1398.5" y1="123.36" y2="123.36"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1390.5" x2="1398.5" y1="126.36" y2="126.36"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1394.5" x2="1394.5" y1="127.36" y2="119.36"/><!--MD5=[f3a1c1b45a21e5ae9d2eabbfe50f2e00]
+link Counties to mashroom--><path codeLine="41" d="M1394.5,292.74 C1394.5,315.98 1394.5,343.84 1394.5,368.51 " fill="none" id="Counties-mashroom" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1394.5" x2="1400.5" y1="368.75" y2="376.75"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1394.5" x2="1388.5" y1="368.75" y2="376.75"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1394.5" x2="1394.5" y1="368.75" y2="376.75"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1398.5" x2="1390.5" y1="366.75" y2="366.75"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1390.5" x2="1398.5" y1="288.56" y2="288.56"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1390.5" x2="1398.5" y1="291.56" y2="291.56"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1394.5" x2="1394.5" y1="292.56" y2="284.56"/><!--MD5=[bfaa7fac1931defa7e255c3e6955e3e1]
+link mashroom to MashroomCondition--><path codeLine="49" d="M1394.5,497.46 C1394.5,525.88 1394.5,558.93 1394.5,585.62 " fill="none" id="mashroom-MashroomCondition" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1394.5" x2="1400.5" y1="585.68" y2="593.68"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1394.5" x2="1388.5" y1="585.68" y2="593.68"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1394.5" x2="1394.5" y1="585.68" y2="593.68"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1398.5" x2="1390.5" y1="583.68" y2="583.68"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1390.5" x2="1398.5" y1="493.2" y2="493.2"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1390.5" x2="1398.5" y1="496.2" y2="496.2"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1394.5" x2="1394.5" y1="497.2" y2="489.2"/><!--MD5=[6ec2268ef2e793f5ffec2e703c25e2b0]
+link User to BorrowerExtraInfo--><path codeLine="78" d="M425.95,280.83 C377.35,304.62 313.72,335.91 257.5,364 C254.11,365.7 250.66,367.42 247.19,369.16 " fill="none" id="User-BorrowerExtraInfo" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="247.1797" x2="242.7219" y1="369.1709" y2="378.1223"/><line style="stroke:#A80036;stroke-width:1.0;" x1="247.1797" x2="237.3381" y1="369.1709" y2="367.3977"/><line style="stroke:#A80036;stroke-width:1.0;" x1="247.1797" x2="240.03" y1="369.1709" y2="372.76"/><line style="stroke:#A80036;stroke-width:1.0;" x1="250.7617" x2="247.1725" y1="371.8484" y2="364.6987"/><line style="stroke:#A80036;stroke-width:1.0;" x1="427.9594" x2="431.4741" y1="275.3941" y2="282.5806"/><line style="stroke:#A80036;stroke-width:1.0;" x1="425.2644" x2="428.7791" y1="276.7121" y2="283.8987"/><line style="stroke:#A80036;stroke-width:1.0;" x1="426.1234" x2="433.31" y1="280.7447" y2="277.23"/><!--MD5=[cb7d8accfc1c514bf9291c394eb2d1d3]
+link User to BorrowerAssets--><path codeLine="89" d="M464.02,304.36 C451.61,323.33 437.88,344.32 425.2,363.69 " fill="none" id="User-BorrowerAssets" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="425.148" x2="425.7769" y1="363.7908" y2="373.771"/><line style="stroke:#A80036;stroke-width:1.0;" x1="425.148" x2="415.7431" y1="363.7908" y2="367.189"/><line style="stroke:#A80036;stroke-width:1.0;" x1="425.148" x2="420.76" y1="363.7908" y2="370.48"/><line style="stroke:#A80036;stroke-width:1.0;" x1="429.5896" x2="422.9004" y1="364.3125" y2="359.9245"/><line style="stroke:#A80036;stroke-width:1.0;" x1="462.9343" x2="469.6343" y1="298.7343" y2="303.1057"/><line style="stroke:#A80036;stroke-width:1.0;" x1="461.295" x2="467.995" y1="301.2468" y2="305.6183"/><line style="stroke:#A80036;stroke-width:1.0;" x1="464.0986" x2="468.47" y1="304.27" y2="297.57"/><!--MD5=[bf16b5a44ec18a6d8a9ab54765c1cfec]
+link User to EmploymentDetails--><path codeLine="101" d="M545.03,304.45 C555.98,321.17 567.93,339.44 579.29,356.8 " fill="none" id="User-EmploymentDetails" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="579.392" x2="588.7969" y1="356.9708" y2="360.369"/><line style="stroke:#A80036;stroke-width:1.0;" x1="579.392" x2="578.7631" y1="356.9708" y2="366.951"/><line style="stroke:#A80036;stroke-width:1.0;" x1="579.392" x2="583.78" y1="356.9708" y2="363.66"/><line style="stroke:#A80036;stroke-width:1.0;" x1="581.6396" x2="574.9504" y1="353.1045" y2="357.4925"/><line style="stroke:#A80036;stroke-width:1.0;" x1="539.3657" x2="546.0657" y1="303.1057" y2="298.7343"/><line style="stroke:#A80036;stroke-width:1.0;" x1="541.005" x2="547.705" y1="305.6183" y2="301.2468"/><line style="stroke:#A80036;stroke-width:1.0;" x1="544.9014" x2="540.53" y1="304.27" y2="297.57"/><!--MD5=[e52f96d4aeff318818fdb408a0be4937]
+link Investor to LoanProposal--><path codeLine="116" d="M1061.65,127.01 C1055.31,141.37 1048.53,156.72 1042.07,171.32 " fill="none" id="Investor-LoanProposal" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1041.9605" x2="1044.219" y1="171.5713" y2="181.3129"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1041.9605" x2="1033.241" y1="171.5713" y2="176.4671"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1041.9605" x2="1038.73" y1="171.5713" y2="178.89"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1046.4275" x2="1039.1088" y1="171.3569" y2="168.1263"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1059.7554" x2="1067.0741" y1="121.4041" y2="124.6346"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1058.5439" x2="1065.8626" y1="124.1486" y2="127.3791"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1061.7995" x2="1065.03" y1="126.6787" y2="119.36"/><!--MD5=[56111722901a53479f30516bc9d24ca2]
+link User to LoanTicket--><path codeLine="131" d="M583.06,279.44 C634.59,303.67 703.49,336.07 764.54,364.78 " fill="none" id="User-LoanTicket" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="764.6982" x2="774.4896" y1="364.8605" y2="362.8287"/><line style="stroke:#A80036;stroke-width:1.0;" x1="764.6982" x2="769.3904" y1="364.8605" y2="373.6913"/><line style="stroke:#A80036;stroke-width:1.0;" x1="764.6982" x2="771.94" y1="364.8605" y2="368.26"/><line style="stroke:#A80036;stroke-width:1.0;" x1="764.5875" x2="761.188" y1="360.3897" y2="367.6315"/><line style="stroke:#A80036;stroke-width:1.0;" x1="577.5411" x2="580.9406" y1="281.2606" y2="274.0189"/><line style="stroke:#A80036;stroke-width:1.0;" x1="580.2568" x2="583.6563" y1="282.5355" y2="275.2937"/><line style="stroke:#A80036;stroke-width:1.0;" x1="582.8618" x2="575.62" y1="279.3395" y2="275.94"/><!--MD5=[c7100bd95e2e5211e565d4d0ee7260eb]
+link LoanProposal to LoanTicket--><path codeLine="132" d="M973.75,311.29 C965.66,326.02 957.08,341.65 948.87,356.62 " fill="none" id="LoanProposal-LoanTicket" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="948.7138" x2="950.132" y1="356.8839" y2="366.7829"/><line style="stroke:#A80036;stroke-width:1.0;" x1="948.7138" x2="939.608" y1="356.8839" y2="361.0171"/><line style="stroke:#A80036;stroke-width:1.0;" x1="948.7138" x2="944.87" y1="356.8839" y2="363.9"/><line style="stroke:#A80036;stroke-width:1.0;" x1="953.1828" x2="946.1668" y1="357.0518" y2="353.208"/><line style="stroke:#A80036;stroke-width:1.0;" x1="972.2976" x2="979.3076" y1="305.6076" y2="309.4624"/><line style="stroke:#A80036;stroke-width:1.0;" x1="970.852" x2="977.8621" y1="308.2364" y2="312.0912"/><line style="stroke:#A80036;stroke-width:1.0;" x1="973.8752" x2="977.73" y1="311.04" y2="304.03"/><!--MD5=[b9189574aeaac454ffc51a518284175f]
+link Investor to InvestorFullFilmentProposal--><path codeLine="148" d="M1117.5,126.57 C1123.69,143.27 1129.34,161.54 1132.5,179 C1155.96,308.75 1133.98,461.96 1115.55,553.92 " fill="none" id="Investor-InvestorFullFilmentProposal" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1115.5354" x2="1119.831" y1="553.9687" y2="562.9991"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1115.5354" x2="1108.069" y1="553.9687" y2="560.6209"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1115.5354" x2="1113.95" y1="553.9687" y2="561.81"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1119.8524" x2="1112.0111" y1="552.801" y2="551.2156"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1112.314" x2="1119.791" y1="124.181" y2="121.336"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1113.3808" x2="1120.8579" y1="126.9849" y2="124.1399"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1117.475" x2="1114.63" y1="126.497" y2="119.02"/><!--MD5=[b1f92b587b740df17c7d3fa287205f56]
+link LoanTicket to InvestorFullFilmentProposal--><path codeLine="149" d="M976.76,508.02 C991.28,523.54 1006.66,539.99 1021.39,555.73 " fill="none" id="LoanTicket-InvestorFullFilmentProposal" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1021.7594" x2="1031.6049" y1="556.1035" y2="557.8546"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1021.7594" x2="1022.8351" y1="556.1035" y2="566.0454"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1021.7594" x2="1027.22" y1="556.1035" y2="561.95"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1023.3175" x2="1017.471" y1="551.9115" y2="557.3721"/><line style="stroke:#A80036;stroke-width:1.0;" x1="971.027" x2="976.8736" y1="507.7636" y2="502.303"/><line style="stroke:#A80036;stroke-width:1.0;" x1="973.0747" x2="978.9213" y1="509.956" y2="504.4954"/><line style="stroke:#A80036;stroke-width:1.0;" x1="976.6806" x2="971.22" y1="507.9565" y2="502.11"/><!--MD5=[24e15e32b2842b656191db6ccb762de3]
+link LoanProposal to InvestorFullFilmentProposal--><path codeLine="151" d="M1042.95,311.84 C1049.59,328.64 1055.95,346.74 1060.5,364 C1076.94,426.44 1086.06,499.01 1091.01,553.48 " fill="none" id="LoanProposal-InvestorFullFilmentProposal" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1091.026" x2="1097.7161" y1="553.7519" y2="561.1845"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1091.026" x2="1085.7639" y1="553.7519" y2="562.2555"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1091.026" x2="1091.74" y1="553.7519" y2="561.72"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1094.8316" x2="1086.8635" y1="551.4029" y2="552.1169"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1037.6703" x2="1045.0932" y1="309.4332" y2="306.4497"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1038.7891" x2="1046.2119" y1="312.2167" y2="309.2333"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1042.8734" x2="1039.89" y1="311.6529" y2="304.23"/><!--MD5=[340d4dbf847bf359c4e25d08ce152e6b]
+@startuml harriet_database
+
+entity  User{
+    id:pk 
+    email :  EmailField
+    first_name :  CharField
+    last_name :  CharField
+    password :  Charfield
+
+
+}
+
+
+entity  Admin{
+    id:pk 
+    email :  EmailField
+    first_name :  CharField
+    last_name :  CharField
+    password :  Charfield
+
+
+}
+
+entity Counties{
+    id:pk
+    admin_id :  ForeignKey(Admin)
+    county_name : CharField
+}
+
+Admin||..|{ Counties
+
+
+entity mashroom{
+    id:pk
+    county_id: ForeignKey(Counties)
+    mashroom_image :  ImageField
+    Mashroom_name :  CharField
+    mashroon_description :  CharField
+
+}
+
+Counties||..|{mashroom
+
+entity MashroomCondition{
+    id:pk
+    mashoom_id :  ForeignKey(mashroom)
+    condition : CharField
+}
+
+mashroom||..|{ MashroomCondition
+
+
+
+' loan database
+
+entity Investor{
+    id:pk 
+    email :  EmailField
+    first_name :  CharField
+    last_name :  CharField
+    password :  Charfield
+
+    
+    
+}
+
+entity BorrowerExtraInfo{
+    id:pk
+    user_id : ForeignKey(User)
+    current_address : CharField
+    permanent_address :  CharField
+    date_of_birth :  CharField
+    highest_level_of_education :  CharField
+
+    
+
+}
+
+User||..|{ BorrowerExtraInfo
+
+entity BorrowerAssets{
+    id:pk
+    borrower_id: ForeignKey(User)
+    asset_type :  CharField
+    asset_value :  CharField
+    ownership_percentage :  CharField
+    possession_since :  DateTimeField
+}
+
+User||..|{ BorrowerAssets
+
+entity EmploymentDetails{
+    id:pk 
+    borrower_id :  ForeignKey(User)
+    posting_date : DateTimeField
+    employment_type : CharField
+    profession_type :  CharField
+    employment_description : CharField
+    salary_range : CharField
+}
+
+User||..|{ EmploymentDetails
+
+
+
+entity LoanProposal{
+    id:pk
+    investor_id :  ForeignKey(Investor)
+    proposal_amount :  DecimalField
+    proposal_date :  DateTimeField
+    cancel_date :  DateTimeField
+    last_update_date :  DateTimeField
+
+
+}
+
+Investor ||..|{ LoanProposal
+
+entity LoanTicket{
+    id:pk
+    borrower_id :  ForeignKey(User)
+    loan_proposal_id :  ForeignKey(LoanProposal)
+    loan_amount :  DecimalField
+    loan_tenure_in_months :  IntegerField
+    interest_rate : DecimalField
+    reason_for_loan :  CharField
+    
+
+
+}
+
+User||..|{ LoanTicket
+LoanProposal||..|{ LoanTicket
+
+entity InvestorFullFilmentProposal{
+    id:pk 
+    loan_ticket_id = ForeignKey(LoanTicket)
+    investor_id = ForeignKey(Investor)
+    investor_proposal_id :  ForeignKey(LoanProposal)
+    release_date_from_investor :  DateTimeField
+    disburd_date_to_borrower : DateTimeField
+    
+    accepted_declied : BooleanField
+
+
+
+}
+
+Investor||..|{ InvestorFullFilmentProposal
+LoanTicket||..|{ InvestorFullFilmentProposal
+
+LoanProposal||..|{ InvestorFullFilmentProposal
+
+
+
+@enduml
+
+@startuml harriet_database
+
+entity  User{
+    id:pk 
+    email :  EmailField
+    first_name :  CharField
+    last_name :  CharField
+    password :  Charfield
+
+
+}
+
+
+entity  Admin{
+    id:pk 
+    email :  EmailField
+    first_name :  CharField
+    last_name :  CharField
+    password :  Charfield
+
+
+}
+
+entity Counties{
+    id:pk
+    admin_id :  ForeignKey(Admin)
+    county_name : CharField
+}
+
+Admin||..|{ Counties
+
+
+entity mashroom{
+    id:pk
+    county_id: ForeignKey(Counties)
+    mashroom_image :  ImageField
+    Mashroom_name :  CharField
+    mashroon_description :  CharField
+
+}
+
+Counties||..|{mashroom
+
+entity MashroomCondition{
+    id:pk
+    mashoom_id :  ForeignKey(mashroom)
+    condition : CharField
+}
+
+mashroom||..|{ MashroomCondition
+
+
+
+
+entity Investor{
+    id:pk 
+    email :  EmailField
+    first_name :  CharField
+    last_name :  CharField
+    password :  Charfield
+
+    
+    
+}
+
+entity BorrowerExtraInfo{
+    id:pk
+    user_id : ForeignKey(User)
+    current_address : CharField
+    permanent_address :  CharField
+    date_of_birth :  CharField
+    highest_level_of_education :  CharField
+
+    
+
+}
+
+User||..|{ BorrowerExtraInfo
+
+entity BorrowerAssets{
+    id:pk
+    borrower_id: ForeignKey(User)
+    asset_type :  CharField
+    asset_value :  CharField
+    ownership_percentage :  CharField
+    possession_since :  DateTimeField
+}
+
+User||..|{ BorrowerAssets
+
+entity EmploymentDetails{
+    id:pk 
+    borrower_id :  ForeignKey(User)
+    posting_date : DateTimeField
+    employment_type : CharField
+    profession_type :  CharField
+    employment_description : CharField
+    salary_range : CharField
+}
+
+User||..|{ EmploymentDetails
+
+
+
+entity LoanProposal{
+    id:pk
+    investor_id :  ForeignKey(Investor)
+    proposal_amount :  DecimalField
+    proposal_date :  DateTimeField
+    cancel_date :  DateTimeField
+    last_update_date :  DateTimeField
+
+
+}
+
+Investor ||..|{ LoanProposal
+
+entity LoanTicket{
+    id:pk
+    borrower_id :  ForeignKey(User)
+    loan_proposal_id :  ForeignKey(LoanProposal)
+    loan_amount :  DecimalField
+    loan_tenure_in_months :  IntegerField
+    interest_rate : DecimalField
+    reason_for_loan :  CharField
+    
+
+
+}
+
+User||..|{ LoanTicket
+LoanProposal||..|{ LoanTicket
+
+entity InvestorFullFilmentProposal{
+    id:pk 
+    loan_ticket_id = ForeignKey(LoanTicket)
+    investor_id = ForeignKey(Investor)
+    investor_proposal_id :  ForeignKey(LoanProposal)
+    release_date_from_investor :  DateTimeField
+    disburd_date_to_borrower : DateTimeField
+    
+    accepted_declied : BooleanField
+
+
+
+}
+
+Investor||..|{ InvestorFullFilmentProposal
+LoanTicket||..|{ InvestorFullFilmentProposal
+
+LoanProposal||..|{ InvestorFullFilmentProposal
+
+
+
+@enduml
+
+PlantUML version 1.2021.7(Sun May 23 15:40:07 EAT 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

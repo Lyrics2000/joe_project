@@ -1,0 +1,156 @@
+@startuml harriet_database
+
+entity  User{
+    id:pk 
+    email :  EmailField
+    first_name :  CharField
+    last_name :  CharField
+    password :  Charfield
+
+
+}
+
+
+entity  Admin{
+    id:pk 
+    email :  EmailField
+    first_name :  CharField
+    last_name :  CharField
+    password :  Charfield
+
+
+}
+
+entity Counties{
+    id:pk
+    admin_id :  ForeignKey(Admin)
+    county_name : CharField
+}
+
+Admin||..|{ Counties
+
+
+entity mashroom{
+    id:pk
+    county_id: ForeignKey(Counties)
+    mashroom_image :  ImageField
+    Mashroom_name :  CharField
+    mashroon_description :  CharField
+
+}
+
+Counties||..|{mashroom
+
+entity MashroomCondition{
+    id:pk
+    mashoom_id :  ForeignKey(mashroom)
+    condition : CharField
+}
+
+mashroom||..|{ MashroomCondition
+
+
+
+' loan database
+
+entity Investor{
+    id:pk 
+    email :  EmailField
+    first_name :  CharField
+    last_name :  CharField
+    password :  Charfield
+
+    
+    
+}
+
+entity BorrowerExtraInfo{
+    id:pk
+    user_id : ForeignKey(User)
+    current_address : CharField
+    permanent_address :  CharField
+    date_of_birth :  CharField
+    highest_level_of_education :  CharField
+
+    
+
+}
+
+User||..|{ BorrowerExtraInfo
+
+entity BorrowerAssets{
+    id:pk
+    borrower_id: ForeignKey(User)
+    asset_type :  CharField
+    asset_value :  CharField
+    ownership_percentage :  CharField
+    possession_since :  DateTimeField
+}
+
+User||..|{ BorrowerAssets
+
+entity EmploymentDetails{
+    id:pk 
+    borrower_id :  ForeignKey(User)
+    posting_date : DateTimeField
+    employment_type : CharField
+    profession_type :  CharField
+    employment_description : CharField
+    salary_range : CharField
+}
+
+User||..|{ EmploymentDetails
+
+
+
+entity LoanProposal{
+    id:pk
+    investor_id :  ForeignKey(Investor)
+    proposal_amount :  DecimalField
+    proposal_date :  DateTimeField
+    cancel_date :  DateTimeField
+    last_update_date :  DateTimeField
+
+
+}
+
+Investor ||..|{ LoanProposal
+
+entity LoanTicket{
+    id:pk
+    borrower_id :  ForeignKey(User)
+    loan_proposal_id :  ForeignKey(LoanProposal)
+    loan_amount :  DecimalField
+    loan_tenure_in_months :  IntegerField
+    interest_rate : DecimalField
+    reason_for_loan :  CharField
+    
+
+
+}
+
+User||..|{ LoanTicket
+LoanProposal||..|{ LoanTicket
+
+entity InvestorFullFilmentProposal{
+    id:pk 
+    loan_ticket_id = ForeignKey(LoanTicket)
+    investor_id = ForeignKey(Investor)
+    investor_proposal_id :  ForeignKey(LoanProposal)
+    release_date_from_investor :  DateTimeField
+    disburd_date_to_borrower : DateTimeField
+    
+    accepted_declied : BooleanField
+
+
+
+}
+
+Investor||..|{ InvestorFullFilmentProposal
+LoanTicket||..|{ InvestorFullFilmentProposal
+
+LoanProposal||..|{ InvestorFullFilmentProposal
+
+
+
+@enduml

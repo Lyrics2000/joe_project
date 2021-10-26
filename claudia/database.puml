@@ -1,0 +1,61 @@
+@startuml claudia_database
+!define DARKBLUE
+!includeurl https://raw.githubusercontent.com/Drakemor/RedDress-PlantUML/master/style.puml
+
+
+entity User{
+    id:pk 
+    fist_name : CharField
+    last_name :  CharField
+    username :  CharField
+    email :  EmailField
+    password :  CharField
+        
+}
+
+entity PersonalDetails{
+    id:pk
+    user_id : ForeinKey(User)
+    age:IntegerField
+    weight : 
+}
+
+User ||..|{ PersonalDetails
+
+entity MenestraulDate{
+    id:pk
+    user_id :  ForeinKey(User)
+    menestraul_start_date : DateTime
+    menestraul_end_date : DateTime
+    average_menestraul_days : IntegerField
+
+}
+
+User ||..|{ MenestraulDate
+note left of MenestraulDate : the id :  is the primary Key \n user_id : links menetraulDate and User \n menestraul_end_date - this will be taken from the time the user has filled \n the form and submitted the menestraul duration period \n once the period is submitted the system will calculate no of days from the start to the end \n when it gets the date it will fill it tp the end date \n when person logs into the app the system to know days remaining it will take the end date minus the now date time \n
+note top of MenestraulDate :  when the user fills the not remember \n we assumes that the user start menestraul date id today \n so we give average menestraul date to 28days \n then calculate from todat till 28days the day after 28days we place in the database \n now when the user opens the appp we call api that calculated dates..\n it will take today minus last day then give the user a day remaining
+entity MenestraulTrack{
+    id:pk 
+    user_id : ForeinKey(User)
+
+}
+
+
+entity GuestUser {
+    id:pk 
+    email : email
+}
+
+entity Payment{
+    id:pk 
+    donated_amount : DecimalField
+    donated_date : DateTime
+    donated_status : BooleanField
+    user_id : ForeinKey(GuestUser)
+
+}
+
+GuestUser ||..|{ Payment
+
+
+@enduml

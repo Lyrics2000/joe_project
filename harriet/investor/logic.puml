@@ -1,0 +1,24 @@
+@startuml investor_logic
+!define DARKBLUE
+!includeurl https://raw.githubusercontent.com/Drakemor/RedDress-PlantUML/master/style.puml
+
+
+interface "Auth" as  au
+au - [Auth]
+[Auth] ..> SignIN 
+[Auth] ..> Register 
+[MainDashbord] ..> Dashboad
+[Auth] ..> [MainDashbord]
+
+note left of SignIN : the student signs in \n by providing username and password 
+note left of Register : the student registers \n by providing username \n firstname \n type \n email \n phone \n password 
+note left of Dashboad : here the investor will see a pic of image of mushroom\n and be able to filter based on countie \n to see various climatic conditions needed for the mashroom \n also they will be able to giv loan offers to farmers \n or they can grant loan offers posted by farmers 
+
+
+
+
+
+
+
+
+@enduml

@@ -44,6 +44,7 @@ skinparam stereotypeCBackgroundColor $ACCENT
 !define DARKSTYLE
 !endif
 
+
 !ifdef LIGHTGREEN
 !$ACCENT = "55BB33"
 !$ACCENTDARK = "338822"

@@ -1,0 +1,23 @@
+@startuml user_logic
+!define DARKBLUE
+!includeurl https://raw.githubusercontent.com/Drakemor/RedDress-PlantUML/master/style.puml
+
+
+interface "Auth" as  au
+au - [Auth]
+[Auth] ..> SignIN 
+[Auth] ..> Register 
+[MainDashbord] ..> Dashboad
+[Auth] ..> [MainDashbord]
+
+note left of SignIN : the student signs in \n by providing username and password 
+note left of Register : the student registers \n by providing username \n firstname \n type \n email \n phone \n password 
+note left of Dashboad : here the user will see a page for\n remaining days till menestraul period \n and my cycle which will show previous menestraul periods \n and a calender to show when she is expecting period stuff
+
+
+
+
+
+
+
+@enduml

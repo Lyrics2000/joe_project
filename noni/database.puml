@@ -1,0 +1,35 @@
+@startuml noni_database
+
+entity User{
+    id:pk 
+    email :  EmailField
+    username :  CharField 
+    first_name :  CharField
+    last_name :  CharField
+    password :  CharField
+    re_password :  CharField
+}
+
+entity Routes{
+    id:pk 
+    starting_point : CharField
+    ending_point :  CharField
+    user_id : ForeignKey(User)
+}
+
+User ||..|{ Routes
+
+entity CurrentLocation{
+    id:pk 
+    user_id :  ForeignKey(User)
+    latitude :  CharField
+    longitude : CharField
+
+}
+
+User||..|{ CurrentLocation
+
+
+
+
+@enduml

@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="365px" preserveAspectRatio="none" style="width:1083px;height:365px;background:#777777;" version="1.1" viewBox="0 0 1083 365" width="1083px" zoomAndPan="magnify"><defs><filter height="300%" id="foovtyzo4lpzc" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[e1532afab819f384a6963ac657a68e1b]
+entity au--><ellipse cx="728" cy="28.5" fill="#1A66C2" filter="url(#foovtyzo4lpzc)" rx="8" ry="8" style="stroke:#002642;stroke-width:1.5;"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="25" x="715.5" y="55.7104">Auth</text><!--MD5=[39222abbbfd087a4fdab60e627dc976f]
+entity Auth--><rect fill="#2E2E2E" filter="url(#foovtyzo4lpzc)" height="42.8047" style="stroke:#1B1B1B;stroke-width:1.5;" width="65" x="772.5" y="7"/><rect fill="#2E2E2E" height="10" style="stroke:#1B1B1B;stroke-width:1.5;" width="15" x="817.5" y="12"/><rect fill="#2E2E2E" height="2" style="stroke:#1B1B1B;stroke-width:1.5;" width="4" x="815.5" y="14"/><rect fill="#2E2E2E" height="2" style="stroke:#1B1B1B;stroke-width:1.5;" width="4" x="815.5" y="18"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="25" x="787.5" y="37.2104">Auth</text><!--MD5=[7d20628726b32ce27ff16711d07874fa]
+entity SignIN--><ellipse cx="805" cy="160" fill="#1A66C2" filter="url(#foovtyzo4lpzc)" rx="8" ry="8" style="stroke:#002642;stroke-width:1.5;"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="36" x="787" y="187.2104">SignIN</text><!--MD5=[9ec6572d736dc4c745b46819be55ba85]
+entity Register--><ellipse cx="1053" cy="160" fill="#1A66C2" filter="url(#foovtyzo4lpzc)" rx="8" ry="8" style="stroke:#002642;stroke-width:1.5;"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="47" x="1029.5" y="187.2104">Register</text><!--MD5=[613022ced8024681625e673f1fd28bcd]
+entity MainDashbord--><rect fill="#2E2E2E" filter="url(#foovtyzo4lpzc)" height="42.8047" style="stroke:#1B1B1B;stroke-width:1.5;" width="121" x="363.5" y="138.5"/><rect fill="#2E2E2E" height="10" style="stroke:#1B1B1B;stroke-width:1.5;" width="15" x="464.5" y="143.5"/><rect fill="#2E2E2E" height="2" style="stroke:#1B1B1B;stroke-width:1.5;" width="4" x="462.5" y="145.5"/><rect fill="#2E2E2E" height="2" style="stroke:#1B1B1B;stroke-width:1.5;" width="4" x="462.5" y="149.5"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="81" x="378.5" y="168.7104">MainDashbord</text><!--MD5=[edfa1aced84fe77f89b16a7592f919f5]
+entity Dashboad--><ellipse cx="424" cy="313.5" fill="#1A66C2" filter="url(#foovtyzo4lpzc)" rx="8" ry="8" style="stroke:#002642;stroke-width:1.5;"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="57" x="395.5" y="340.7104">Dashboad</text><path d="M519.5,142 L519.5,177.6094 A0,0 0 0 0 519.5,177.6094 L760.5,177.6094 A0,0 0 0 0 760.5,177.6094 L760.5,164 L795.97,160 L760.5,156 L760.5,152 L750.5,142 L519.5,142 A0,0 0 0 0 519.5,142 " fill="#1A66C2" filter="url(#foovtyzo4lpzc)" style="stroke:#002642;stroke-width:1.0;"/><path d="M750.5,142 L750.5,152 L760.5,152 L750.5,142 " fill="#1A66C2" style="stroke:#002642;stroke-width:1.0;"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="114" x="525.5" y="157.2104">the student signs in</text><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="216" x="529.5" y="170.0151">by providing username and password</text><path d="M849,110 L849,209.6328 A0,0 0 0 0 849,209.6328 L1009,209.6328 A0,0 0 0 0 1009,209.6328 L1009,164 L1043.8,160 L1009,156 L1009,120 L999,110 L849,110 A0,0 0 0 0 849,110 " fill="#1A66C2" filter="url(#foovtyzo4lpzc)" style="stroke:#002642;stroke-width:1.0;"/><path d="M999,110 L999,120 L1009,120 L999,110 " fill="#1A66C2" style="stroke:#002642;stroke-width:1.0;"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="121" x="855" y="125.2104">the student registers</text><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="131" x="859" y="138.0151">by providing username</text><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="55" x="859" y="150.8198">firstname</text><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="24" x="859" y="163.6245">type</text><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="31" x="859" y="176.4292">email</text><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="35" x="859" y="189.2339">phone</text><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="56" x="859" y="202.0386">password</text><path d="M6,270 L6,356.8281 A0,0 0 0 0 6,356.8281 L380,356.8281 A0,0 0 0 0 380,356.8281 L380,317.5 L414.77,313.5 L380,309.5 L380,280 L370,270 L6,270 A0,0 0 0 0 6,270 " fill="#1A66C2" filter="url(#foovtyzo4lpzc)" style="stroke:#002642;stroke-width:1.0;"/><path d="M370,270 L370,280 L380,280 L370,270 " fill="#1A66C2" style="stroke:#002642;stroke-width:1.0;"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="304" x="12" y="285.2104">here the farmer will see a pic of image of mushroom</text><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="214" x="16" y="298.0151">and be able to filter based on countie</text><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="345" x="16" y="310.8198">to see various climatic conditions needed for the mashroom</text><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="224" x="16" y="323.6245">also they will be able to apply for loans</text><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="269" x="16" y="336.4292">or post different loans they need from investor</text><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="287" x="16" y="349.2339">which investors can see and grant them the loans</text><!--MD5=[10aba799212dae60f4bb522c34e3d557]
+link au to Auth--><path d="M737.02,28.5 C748.8,28.5 760.57,28.5 772.34,28.5 " fill="none" id="au-Auth" style="stroke:#FFFFFF;stroke-width:1.0;"/><!--MD5=[a7fc1496ddfd0de3f99ca57e2bd07078]
+link Auth to SignIN--><path d="M805,50.02 C805,76.84 805,123.07 805,145.72 " fill="none" id="Auth-to-SignIN" style="stroke:#FFFFFF;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#FFFFFF" points="805,150.94,809,141.94,805,145.94,801,141.94,805,150.94" style="stroke:#FFFFFF;stroke-width:1.0;"/><!--MD5=[9fd26f0117ebdcb8066735da0ed41387]
+link Auth to Register--><path d="M837.74,33.84 C884.66,41.57 971.45,61.73 1027,110 C1037.99,119.55 1045.07,134.92 1049.03,145.9 " fill="none" id="Auth-to-Register" style="stroke:#FFFFFF;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#FFFFFF" points="1050.72,150.89,1051.6333,141.0836,1049.1217,146.1523,1044.053,143.6408,1050.72,150.89" style="stroke:#FFFFFF;stroke-width:1.0;"/><!--MD5=[93bb631c1a73341c2962b4ffaa5f4251]
+link MainDashbord to Dashboad--><path d="M424,181.75 C424,213.37 424,272.75 424,299.2 " fill="none" id="MainDashbord-to-Dashboad" style="stroke:#FFFFFF;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#FFFFFF" points="424,304.32,428,295.32,424,299.32,420,295.32,424,304.32" style="stroke:#FFFFFF;stroke-width:1.0;"/><!--MD5=[b59709795cb9c42584b5d16170926ff4]
+link Auth to MainDashbord--><path d="M772.46,43.7 C766.7,45.96 760.72,48.16 755,50 C644.98,85.36 608.58,65.33 502,110 C485.96,116.72 469.47,126.58 455.81,135.69 " fill="none" id="Auth-to-MainDashbord" style="stroke:#FFFFFF;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#FFFFFF" points="451.67,138.49,461.3665,136.7644,455.8126,135.6902,456.8868,130.1363,451.67,138.49" style="stroke:#FFFFFF;stroke-width:1.0;"/><!--MD5=[28569a81dda0d623e28e16bfef48e0ef]
+@startuml user_logic
+!define DARKBLUE
+!includeurl https://raw.githubusercontent.com/Drakemor/RedDress-PlantUML/master/style.puml
+
+
+interface "Auth" as  au
+au - [Auth]
+[Auth] ..> SignIN 
+[Auth] ..> Register 
+[MainDashbord] ..> Dashboad
+[Auth] ..> [MainDashbord]
+
+note left of SignIN : the student signs in \n by providing username and password 
+note left of Register : the student registers \n by providing username \n firstname \n type \n email \n phone \n password 
+note left of Dashboad : here the farmer will see a pic of image of mushroom\n and be able to filter based on countie \n to see various climatic conditions needed for the mashroom \n also they will be able to apply for loans \n or post different loans they need from investor \n which investors can see and grant them the loans
+
+
+
+
+
+
+
+
+@enduml
+
+@startuml user_logic
+
+
+
+skinparam backgroundColor 777
+skinparam stereotypeCBackgroundColor 1a66c2
+
+
+
+
+
+
+
+
+
+skinparam backgroundColor 777
+
+
+
+
+
+
+
+skinparam circledCharacter {
+  radius 8
+  fontSize 11
+  fontName Verdana
+}
+
+skinparam class {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+    arrowColor fff
+  arrowFontName Verdana
+  arrowFontColor bbb
+  arrowFontSize 11
+
+  attributeFontColor aaa
+  attributeFontSize 11
+  attributeIconSize 11
+}
+
+
+skinparam actor {
+    backgroundColor 1a66c2
+  borderColor 002642
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam participant {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam collections {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam SequenceBox{
+    backgroundColor 575757
+  borderColor 767676
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+
+skinparam interface {
+    backgroundColor 1a66c2
+  borderColor 002642
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam component {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam node {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam database {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam queue {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+
+skinparam usecase {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+    arrowColor fff
+  arrowFontName Verdana
+  arrowFontColor bbb
+  arrowFontSize 11
+}
+
+skinparam activity {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+    arrowColor fff
+  arrowFontName Verdana
+  arrowFontColor bbb
+  arrowFontSize 11
+}
+
+skinparam sequence {
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+    arrowColor fff
+  arrowFontName Verdana
+  arrowFontColor bbb
+  arrowFontSize 11
+
+  lifeLineBorderColor 1a66c2
+  lifeLineBackgroundColor 575757
+}
+
+skinparam boundary {
+    backgroundColor 1a66c2
+  borderColor 002642
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam control {
+    backgroundColor 1a66c2
+  borderColor 002642
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam entity {
+    backgroundColor 1a66c2
+  borderColor 002642
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+
+skinparam state {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+    arrowColor fff
+  arrowFontName Verdana
+  arrowFontColor bbb
+  arrowFontSize 11
+  startColor 1a66c2
+  endColor 002642
+}
+
+
+skinparam object {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+    arrowColor fff
+  arrowFontName Verdana
+  arrowFontColor bbb
+  arrowFontSize 11
+}
+
+
+skinparam note {
+    backgroundColor 1a66c2
+  borderColor 002642
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam cloud {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+    arrowColor fff
+  arrowFontName Verdana
+  arrowFontColor bbb
+  arrowFontSize 11
+}
+
+skinparam rectangle {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam storage {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+
+
+interface "Auth" as  au
+au - [Auth]
+[Auth] ..> SignIN 
+[Auth] ..> Register 
+[MainDashbord] ..> Dashboad
+[Auth] ..> [MainDashbord]
+
+note left of SignIN : the student signs in \n by providing username and password 
+note left of Register : the student registers \n by providing username \n firstname \n type \n email \n phone \n password 
+note left of Dashboad : here the farmer will see a pic of image of mushroom\n and be able to filter based on countie \n to see various climatic conditions needed for the mashroom \n also they will be able to apply for loans \n or post different loans they need from investor \n which investors can see and grant them the loans
+
+
+
+
+
+
+
+
+@enduml
+
+PlantUML version 1.2021.7(Sun May 23 15:40:07 EAT 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>
