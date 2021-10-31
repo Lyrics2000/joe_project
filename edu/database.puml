@@ -1,0 +1,132 @@
+@startuml edu_database
+!define DARKBLUE
+!includeurl https://raw.githubusercontent.com/Drakemor/RedDress-PlantUML/master/style.puml
+
+
+entity STUDENT{
+    id:pk 
+    username :  CharField
+    first_name :  CharField
+    last_name :  CharField
+    email :  EmailField
+    phone :  CharField
+    password :  CharField
+
+}
+
+entity ExtraInfo{
+    id:pk
+    student_id :  ForeignKey(STUDENT)
+    permanent_address :  CharField
+    current_address :  CharField
+    country  :  CharField
+    date_of_birth :  DateField 
+
+}
+note left of ExtraInfo :  used for recommendation \n of scholarship (AI)
+
+
+STUDENT ||..|{ ExtraInfo
+
+entity EmployerDetails{
+    id:pk 
+    employer_name :  CharField
+    employer_address :  CharField
+    employer_designation :  CharField
+    employer_phone :  CharField
+    student_id :  ForeignKey(STUDENT)
+}
+STUDENT ||..|{ EmployerDetails
+
+note left of EmployerDetails : if applicable
+
+entity SchoolAttended{
+    id:pk 
+    school_name :  CharField
+    school_type :  CharField("primary,secondary,etc")
+    final_performance :  CharField
+}
+
+
+
+entity Commitee{
+    id:pk
+    commitee_name :  CharField
+    chair_email :  EmailField
+}
+
+entity CommiteeMember{
+    id:pk 
+    first_name :  CharField
+    last_name :  CharField
+    phone_no :  CharField
+    department_name :  CharField
+    password :  CharField
+    commitee_id :  ForeignKey(Commitee)
+}
+
+Commitee ||..|{ CommiteeMember
+
+entity Scholarship{
+    id:pk 
+    scholarship_name :  CharField
+    school_name :  CharField
+    deadline_apply :  DateTimeField
+    deadline_review :  DateTimeField
+    scholarship_details :  TextField 
+    web_link :  CharField
+    scholarship_budget : CharField
+    scholarship_type : ("full","part")
+    scholarship_country :  CharField
+    commitee_id :  ForeignKey(Commitee)
+
+
+}
+
+Commitee ||..|{ Scholarship
+
+entity Application{
+    id:pk
+    scholarship_id :  ForeignKey(Scholarship)
+    student_id :  ForeignKey(CharField)
+    school_id :  ForeignKey(SchoolAttended)
+    resume_letter :  FileField
+    extra_notes_resume : CharField
+    recommendation_letter :  FileField
+    etra_notes_rec_letter :  CharField
+
+    
+
+}
+
+STUDENT||..|{ Application
+SchoolAttended||..|{ Application
+Scholarship ||..|{ Application
+
+entity Feedback{
+    id:pk
+    commitee_id : ForeignKey(Commitee)
+    application_id :  ForeignKey(Application)
+    application_status :  Boolean("accepted","rejected")
+    application_etra_notes :  CharField
+
+    
+
+}
+
+Application||..|{ Feedback
+Commitee||..|{ Feedback
+
+entity Response{
+    id:pk
+    feedback_id : ForeignKey(Feedback)
+    response_text :  CharField
+
+}
+
+Feedback||..|{ Response
+
+
+
+
+@enduml

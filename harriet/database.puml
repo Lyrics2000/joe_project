@@ -1,4 +1,7 @@
 @startuml harriet_database
+!define DARKBLUE
+!includeurl https://raw.githubusercontent.com/Drakemor/RedDress-PlantUML/master/style.puml
+
 
 entity  User{
     id:pk 
@@ -9,7 +12,6 @@ entity  User{
 
 
 }
-
 
 entity  Admin{
     id:pk 

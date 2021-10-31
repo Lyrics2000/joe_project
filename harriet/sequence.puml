@@ -14,4 +14,6 @@ database    Week3    as wk3
 wk1 -> wk2 : Documentation and chapter 3 completion:paid (ksh 2000)
 wk2 -> wk3 : develop and design of the database system  and authentification system done \n\n\n status : not paid (6000)
 
+
 @enduml
+

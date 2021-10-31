@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="1082px" preserveAspectRatio="none" style="width:395px;height:1082px;background:#777777;" version="1.1" viewBox="0 0 395 1082" width="395px" zoomAndPan="magnify"><defs><filter height="300%" id="fxhho087xrk9r" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[e8e9b11ceb681b59a8cb54b341dfa30f]
+cluster Authentification--><rect fill="#2E2E2E" filter="url(#fxhho087xrk9r)" height="215" style="stroke:#1B1B1B;stroke-width:1.5;" width="172" x="88" y="7"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="103" x="122.5" y="19.2104">Authentification</text><!--MD5=[2d7ecadcf5e02139ffe9bd76bd07b29e]
+cluster Commitee--><rect fill="#2E2E2E" filter="url(#fxhho087xrk9r)" height="209" style="stroke:#1B1B1B;stroke-width:1.5;" width="165" x="91.5" y="246"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="64" x="142" y="258.2104">Commitee</text><!--MD5=[7912b232defff062308892bdcb7e5dc3]
+cluster CommiteeMember--><rect fill="#2E2E2E" filter="url(#fxhho087xrk9r)" height="207" style="stroke:#1B1B1B;stroke-width:1.5;" width="158" x="95" y="479"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="115" x="116.5" y="491.2104">CommiteeMember</text><!--MD5=[c7351b856e7b452f562ee4a4650717e6]
+cluster Scholarship--><rect fill="#2E2E2E" filter="url(#fxhho087xrk9r)" height="360" style="stroke:#1B1B1B;stroke-width:1.5;" width="192" x="78" y="710"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="75" x="136.5" y="722.2104">Scholarship</text><ellipse cx="174.206" cy="54.1412" fill="#2E2E2E" filter="url(#fxhho087xrk9r)" rx="66.206" ry="15.6412" style="stroke:#1B1B1B;stroke-width:1.5;"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="97" x="125.706" y="55.9493">Login and Logout</text><ellipse cx="173.8103" cy="121.1621" fill="#2E2E2E" filter="url(#fxhho087xrk9r)" rx="68.8103" ry="16.1621" style="stroke:#1B1B1B;stroke-width:1.5;"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="103" x="122.3103" y="122.9702">Change Password</text><ellipse cx="174.1249" cy="188.925" fill="#2E2E2E" filter="url(#fxhho087xrk9r)" rx="70.1249" ry="16.425" style="stroke:#1B1B1B;stroke-width:1.5;"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="106" x="121.1249" y="190.7331">Register New User</text><ellipse cx="174.112" cy="292.1224" fill="#2E2E2E" filter="url(#fxhho087xrk9r)" rx="61.112" ry="14.6224" style="stroke:#1B1B1B;stroke-width:1.5;"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="85" x="131.612" y="293.9305">edit committee</text><ellipse cx="173.8458" cy="356.9692" fill="#2E2E2E" filter="url(#fxhho087xrk9r)" rx="65.3458" ry="15.4692" style="stroke:#1B1B1B;stroke-width:1.5;"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="95" x="126.3458" y="358.7773">delete commitee</text><ellipse cx="174.1376" cy="423.2275" fill="#2E2E2E" filter="url(#fxhho087xrk9r)" rx="66.6376" ry="15.7275" style="stroke:#1B1B1B;stroke-width:1.5;"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="98" x="125.1376" y="425.0356">modify commitee</text><ellipse cx="173.8696" cy="524.8739" fill="#2E2E2E" filter="url(#fxhho087xrk9r)" rx="62.3696" ry="14.8739" style="stroke:#1B1B1B;stroke-width:1.5;"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="88" x="129.8696" y="526.682">create member</text><ellipse cx="174.2142" cy="590.0428" fill="#2E2E2E" filter="url(#fxhho087xrk9r)" rx="63.2142" ry="15.0428" style="stroke:#1B1B1B;stroke-width:1.5;"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="90" x="129.2142" y="591.8509">modify member</text><ellipse cx="173.9491" cy="654.7898" fill="#2E2E2E" filter="url(#fxhho087xrk9r)" rx="61.9491" ry="14.7898" style="stroke:#1B1B1B;stroke-width:1.5;"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="87" x="130.4491" y="656.5979">delete member</text><ellipse cx="173.7546" cy="758.8509" fill="#2E2E2E" filter="url(#fxhho087xrk9r)" rx="77.2546" ry="17.8509" style="stroke:#1B1B1B;stroke-width:1.5;"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="122" x="112.7546" y="760.659">establish scholarship</text><ellipse cx="174.0055" cy="829.1011" fill="#2E2E2E" filter="url(#fxhho087xrk9r)" rx="71.0055" ry="16.6011" style="stroke:#1B1B1B;stroke-width:1.5;"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="108" x="120.0055" y="830.9092">modify scholarship</text><ellipse cx="174.0648" cy="897.013" fill="#2E2E2E" filter="url(#fxhho087xrk9r)" rx="70.5648" ry="16.513" style="stroke:#1B1B1B;stroke-width:1.5;"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="107" x="120.5648" y="898.8211">Delete Scholarship</text><ellipse cx="173.9724" cy="966.8945" fill="#2E2E2E" filter="url(#fxhho087xrk9r)" rx="79.9724" ry="18.3945" style="stroke:#1B1B1B;stroke-width:1.5;"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="128" x="109.9724" y="968.7026">Designate Scholarship</text><ellipse cx="174.1858" cy="1036.8372" fill="#2E2E2E" filter="url(#fxhho087xrk9r)" rx="69.6858" ry="16.3372" style="stroke:#1B1B1B;stroke-width:1.5;"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="105" x="121.6858" y="1038.6453">award scholarship</text><!--MD5=[db756db308cf6ff8cfeeb51570136b75]
+entity fc--><ellipse cx="19.5" cy="528.5" fill="#1A66C2" filter="url(#fxhho087xrk9r)" rx="8" ry="8" style="stroke:#002642;stroke-width:1.5;"/><path d="M19.5,536.5 L19.5,563.5 M6.5,544.5 L32.5,544.5 M19.5,563.5 L6.5,578.5 M19.5,563.5 L32.5,578.5 " fill="none" filter="url(#fxhho087xrk9r)" style="stroke:#002642;stroke-width:1.5;"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="27" x="6" y="594.2104">User</text><!--MD5=[f9ba5bf973e7832d2ce5ed59077b93f7]
+entity DB--><path d="M314,547 C314,537 351,537 351,537 C351,537 388,537 388,547 L388,568.8047 C388,578.8047 351,578.8047 351,578.8047 C351,578.8047 314,578.8047 314,568.8047 L314,547 " fill="#2E2E2E" filter="url(#fxhho087xrk9r)" style="stroke:#1B1B1B;stroke-width:1.5;"/><path d="M314,547 C314,557 351,557 351,557 C351,557 388,557 388,547 " fill="none" style="stroke:#1B1B1B;stroke-width:1.5;"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="54" x="324" y="571.2104">Database</text><!--MD5=[e9923d9fd4075a960db40f09654be8d8]
+link fc to UC1--><path d="M22.19,518.81 C27.13,411.77 42.96,120.25 70,87 C79.9,74.83 94.31,67.09 109.23,62.18 " fill="none" id="fc-to-UC1" style="stroke:#FFFFFF;stroke-width:1.0;"/><polygon fill="#FFFFFF" points="114.3,60.62,104.5209,59.4498,109.522,62.0934,106.8784,67.0946,114.3,60.62" style="stroke:#FFFFFF;stroke-width:1.0;"/><!--MD5=[4af9e8427d276ef4a9c3c7d33d3ba91c]
+link fc to UC2--><path d="M20.15,518.78 C20.14,428.59 24.9,209.97 70,155 C79.77,143.1 93.8,135.33 108.38,130.27 " fill="none" id="fc-to-UC2" style="stroke:#FFFFFF;stroke-width:1.0;"/><polygon fill="#FFFFFF" points="113.34,128.66,103.5422,127.6582,108.5881,130.2154,106.0309,135.2613,113.34,128.66" style="stroke:#FFFFFF;stroke-width:1.0;"/><!--MD5=[71fba4d683dd6a260b46bc412e62a629]
+link fc to UC3--><path d="M23.28,518.72 C28.88,448.14 43.32,303.27 70,261 C85.5,236.44 112.73,217.95 135.3,205.86 " fill="none" id="fc-to-UC3" style="stroke:#FFFFFF;stroke-width:1.0;"/><polygon fill="#FFFFFF" points="139.75,203.53,129.9225,204.1781,135.3245,205.857,133.6456,211.259,139.75,203.53" style="stroke:#FFFFFF;stroke-width:1.0;"/><!--MD5=[97a67b7ea2b886edfb868848c004615f]
+link UC1 to DB--><path d="M233.31,60.94 C249.98,65.73 266.67,73.71 278,87 C335.9,154.88 347.34,442.76 349.51,531.71 " fill="none" id="UC1-to-DB" style="stroke:#FFFFFF;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#FFFFFF" points="349.63,536.78,353.3967,527.6799,349.5011,531.7817,345.3993,527.8861,349.63,536.78" style="stroke:#FFFFFF;stroke-width:1.0;"/><!--MD5=[43a32e4bc68aa4607e626889fb1302ed]
+link UC2 to DB--><path d="M233.95,128.95 C250.33,133.93 266.71,141.98 278,155 C327.44,212.01 344.4,451.7 348.75,531.81 " fill="none" id="UC2-to-DB" style="stroke:#FFFFFF;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#FFFFFF" points="349.01,536.85,352.5163,527.6464,348.739,531.8574,344.528,528.0801,349.01,536.85" style="stroke:#FFFFFF;stroke-width:1.0;"/><!--MD5=[6c4ccef58805d0da3aaaa2cc0d8ed6aa]
+link UC3 to DB--><path d="M207.2,203.64 C230.33,215.79 260.4,235.24 278,261 C337,347.37 347.83,476.84 349.69,531.82 " fill="none" id="UC3-to-DB" style="stroke:#FFFFFF;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#FFFFFF" points="349.84,536.9,353.5813,527.7894,349.6972,531.902,345.5846,528.0179,349.84,536.9" style="stroke:#FFFFFF;stroke-width:1.0;"/><!--MD5=[664883dfbdbdca4d0f168eb1b1ee8916]
+link fc to CS--><path d="M24.04,518.62 C30.11,459.59 44.41,352.08 70,324 C81.26,311.65 97.19,304.02 113.16,299.32 " fill="none" id="fc-to-CS" style="stroke:#FFFFFF;stroke-width:1.0;"/><polygon fill="#FFFFFF" points="118.12,297.95,108.3813,296.4809,113.2992,299.2764,110.5036,304.1943,118.12,297.95" style="stroke:#FFFFFF;stroke-width:1.0;"/><!--MD5=[d68b6a1f1c9c2d96c164ad8afa373df6]
+link fc to ED--><path d="M21.88,518.82 C25.3,481.02 36.22,424.59 70,390 C81.2,378.53 96.38,371.05 111.64,366.16 " fill="none" id="fc-to-ED" style="stroke:#FFFFFF;stroke-width:1.0;"/><polygon fill="#FFFFFF" points="116.82,364.6,107.0485,363.3682,112.0328,366.0433,109.3577,371.0277,116.82,364.6" style="stroke:#FFFFFF;stroke-width:1.0;"/><!--MD5=[1c3cf58fbb8b0c46a73d2e1d9c212b9b]
+link fc to MP--><path d="M34.2,537.06 C43.41,523.87 56.33,506.94 70,494 C92.38,472.81 121.6,453.3 143.2,440.11 " fill="none" id="fc-to-MP" style="stroke:#FFFFFF;stroke-width:1.0;"/><polygon fill="#FFFFFF" points="147.68,437.4,137.9094,438.6389,143.4027,439.9893,142.0522,445.4826,147.68,437.4" style="stroke:#FFFFFF;stroke-width:1.0;"/><!--MD5=[665c5c29001ac0752f63cb630c7c6611]
+link CS to DB--><path d="M228.67,298.46 C246.35,303.04 264.84,310.81 278,324 C335.48,381.64 347.26,484.01 349.54,531.91 " fill="none" id="CS-to-DB" style="stroke:#FFFFFF;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#FFFFFF" points="349.75,536.93,353.361,527.767,349.5359,531.9346,345.3683,528.1095,349.75,536.93" style="stroke:#FFFFFF;stroke-width:1.0;"/><!--MD5=[6e62f6da8c3b94ad7341eb35212d39fa]
+link ED to DB--><path d="M229.52,365.27 C246.66,370.12 264.59,377.81 278,390 C319.96,428.15 338.42,494.91 345.75,531.74 " fill="none" id="ED-to-DB" style="stroke:#FFFFFF;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#FFFFFF" points="346.75,536.95,348.9774,527.3563,345.8052,532.0401,341.1215,528.8679,346.75,536.95" style="stroke:#FFFFFF;stroke-width:1.0;"/><!--MD5=[3ebe6add66570dcf368c2a3368026d82]
+link MP to DB--><path d="M198.08,437.73 C219.34,451.58 251.51,473.23 278,494 C293.76,506.36 310.53,521.16 323.91,533.41 " fill="none" id="MP-to-DB" style="stroke:#FFFFFF;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#FFFFFF" points="327.6,536.8,323.678,527.7657,323.9178,533.4175,318.266,533.6573,327.6,536.8" style="stroke:#FFFFFF;stroke-width:1.0;"/><!--MD5=[bc1595cbee5b5d2a51a68e865cf7798f]
+link fc to CM--><path d="M34.03,555.07 C53.62,550.83 90.9,542.77 121.93,536.05 " fill="none" id="fc-to-CM" style="stroke:#FFFFFF;stroke-width:1.0;"/><polygon fill="#FFFFFF" points="126.85,534.99,117.2076,532.9838,121.9631,536.0474,118.8995,540.8029,126.85,534.99" style="stroke:#FFFFFF;stroke-width:1.0;"/><!--MD5=[ee0770f1bd6496d7b839571ca4694bf4]
+link fc to MM--><path d="M34.03,560.84 C53.48,564.92 90.38,572.66 121.27,579.14 " fill="none" id="fc-to-MM" style="stroke:#FFFFFF;stroke-width:1.0;"/><polygon fill="#FFFFFF" points="126.17,580.17,118.1837,574.4064,121.2766,579.1428,116.5402,582.2358,126.17,580.17" style="stroke:#FFFFFF;stroke-width:1.0;"/><!--MD5=[2a03270d016a665780d50ec3c5d2dba3]
+link fc to DM--><path d="M34,581.95 C42.71,595.43 55.16,611.6 70,622 C84.63,632.25 102.62,639.44 119.44,644.43 " fill="none" id="fc-to-DM" style="stroke:#FFFFFF;stroke-width:1.0;"/><polygon fill="#FFFFFF" points="124.62,645.91,117.0652,639.5914,119.8124,644.5364,114.8674,647.2836,124.62,645.91" style="stroke:#FFFFFF;stroke-width:1.0;"/><!--MD5=[774ff6afee3c1c124e91e51e3ae151cc]
+link CM to DB--><path d="M223.75,534.19 C250.48,539.23 283.27,545.42 308.73,550.22 " fill="none" id="CM-to-DB" style="stroke:#FFFFFF;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#FFFFFF" points="313.72,551.16,305.6035,545.5813,308.8043,550.2455,304.1402,553.4463,313.72,551.16" style="stroke:#FFFFFF;stroke-width:1.0;"/><!--MD5=[06c4c5ab6cf117f6b9b1627737c6ab6e]
+link MM to DB--><path d="M224.68,580.92 C251.3,576.05 283.7,570.12 308.89,565.52 " fill="none" id="MM-to-DB" style="stroke:#FFFFFF;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#FFFFFF" points="313.83,564.61,304.2567,562.2967,308.9118,565.5107,305.6978,570.1659,313.83,564.61" style="stroke:#FFFFFF;stroke-width:1.0;"/><!--MD5=[d281ead1937c2fdd349122e029adb0c0]
+link DM to DB--><path d="M220.3,644.88 C238.91,639.63 260.22,632.14 278,622 C296.19,611.62 313.81,596.08 327.07,582.92 " fill="none" id="DM-to-DB" style="stroke:#FFFFFF;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#FFFFFF" points="330.69,579.27,321.512,582.8427,327.1688,582.8198,327.1917,588.4766,330.69,579.27" style="stroke:#FFFFFF;stroke-width:1.0;"/><!--MD5=[191d437238b8fd93cd0509efab9ec9a9]
+link fc to ES--><path d="M29.24,597.11 C36.72,624.12 49.58,659.78 70,686 C87.6,708.6 114.08,727.15 135.78,739.9 " fill="none" id="fc-to-ES" style="stroke:#FFFFFF;stroke-width:1.0;"/><polygon fill="#FFFFFF" points="140.33,742.53,134.537,734.565,136.0003,740.0293,130.5359,741.4926,140.33,742.53" style="stroke:#FFFFFF;stroke-width:1.0;"/><!--MD5=[848a247d88d6c913e6eb0fbd3a42e55a]
+link fc to MS--><path d="M24.03,597.15 C30.14,656.46 44.53,765.25 70,794 C80.24,805.56 94.44,813.3 109.04,818.49 " fill="none" id="fc-to-MS" style="stroke:#FFFFFF;stroke-width:1.0;"/><polygon fill="#FFFFFF" points="114,820.16,106.7388,813.5061,109.2595,818.5703,104.1952,821.0909,114,820.16" style="stroke:#FFFFFF;stroke-width:1.0;"/><!--MD5=[e63648ffd4154e8164369c979bd241eb]
+link fc to DS--><path d="M21.91,597.17 C25.33,670.26 36.4,823.62 70,863 C79.77,874.45 93.49,882.07 107.73,887.13 " fill="none" id="fc-to-DS" style="stroke:#FFFFFF;stroke-width:1.0;"/><polygon fill="#FFFFFF" points="112.58,888.75,105.3128,882.1026,107.838,887.1646,102.7761,889.6898,112.58,888.75" style="stroke:#FFFFFF;stroke-width:1.0;"/><!--MD5=[736ed630c47f6079eaa35b4eac3e3d2e]
+link fc to DES--><path d="M20.66,597.1 C21.78,682.17 28.86,880.47 70,931 C78.68,941.66 90.72,949.17 103.51,954.46 " fill="none" id="fc-to-DES" style="stroke:#FFFFFF;stroke-width:1.0;"/><polygon fill="#FFFFFF" points="108.26,956.31,101.3186,949.323,103.5992,954.4998,98.4224,956.7804,108.26,956.31" style="stroke:#FFFFFF;stroke-width:1.0;"/><!--MD5=[811b34b4517ab8972dcb187267533389]
+link fc to WS--><path d="M22.46,597.23 C27.94,700.09 44.66,971.76 70,1003 C79.54,1014.76 93.25,1022.49 107.56,1027.56 " fill="none" id="fc-to-WS" style="stroke:#FFFFFF;stroke-width:1.0;"/><polygon fill="#FFFFFF" points="112.44,1029.17,105.1548,1022.5424,107.6937,1027.5974,102.6387,1030.1364,112.44,1029.17" style="stroke:#FFFFFF;stroke-width:1.0;"/><!--MD5=[90014805ffd0e38bf9d5a3c23abd4624]
+link WS to DB--><path d="M234.89,1028.92 C251.01,1023.93 267,1015.89 278,1003 C332.47,939.14 346.21,669.86 349.23,584.25 " fill="none" id="WS-to-DB" style="stroke:#FFFFFF;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#FFFFFF" points="349.41,579.11,345.104,587.9677,349.2387,584.1071,353.0993,588.2418,349.41,579.11" style="stroke:#FFFFFF;stroke-width:1.0;"/><!--MD5=[d93812cef7274083afc5bb6bddbaf4a8]
+link ES to DB--><path d="M205.23,742.5 C227.34,729.34 257.02,709.29 278,686 C305.91,655.02 327.54,611.39 339.53,583.91 " fill="none" id="ES-to-DB" style="stroke:#FFFFFF;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#FFFFFF" points="341.51,579.31,334.2806,585.9985,339.5352,583.9035,341.6302,589.1581,341.51,579.31" style="stroke:#FFFFFF;stroke-width:1.0;"/><!--MD5=[264af2552bf9c4c8cfd940a85edeaac1]
+link MS to DB--><path d="M232.77,819.67 C249.21,814.51 265.91,806.48 278,794 C335.09,735.08 347.06,632.23 349.46,584.16 " fill="none" id="MS-to-DB" style="stroke:#FFFFFF;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#FFFFFF" points="349.69,579.13,345.282,587.9374,349.461,584.1248,353.2736,588.3037,349.69,579.13" style="stroke:#FFFFFF;stroke-width:1.0;"/><!--MD5=[5cb5fb8a2ecdbbadfdd9201e699b85d2]
+link DES to DB--><path d="M238.72,956.1 C253.45,950.77 267.78,942.82 278,931 C323.37,878.49 342.8,660.24 348.28,584.24 " fill="none" id="DES-to-DB" style="stroke:#FFFFFF;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#FFFFFF" points="348.65,579.02,344.0172,587.7112,348.2927,584.0072,351.9967,588.2828,348.65,579.02" style="stroke:#FFFFFF;stroke-width:1.0;"/><!--MD5=[b2a9c073d02194269c3386a5ee08852e]
+link DS to DB--><path d="M234.31,888.41 C250.42,883.41 266.55,875.49 278,863 C315.72,821.84 339.24,650.65 347.08,584.37 " fill="none" id="DS-to-DB" style="stroke:#FFFFFF;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#FFFFFF" points="347.7,579.04,342.6744,587.5102,347.115,584.0057,350.6195,588.4462,347.7,579.04" style="stroke:#FFFFFF;stroke-width:1.0;"/><!--MD5=[b37cd9673ea058e16c799a3eca2d0166]
+@startuml usecade_user
+!define DARKBLUE
+!includeurl https://raw.githubusercontent.com/Drakemor/RedDress-PlantUML/master/style.puml
+
+left to right direction
+actor "User" as fc
+database "Database" as DB
+
+rectangle Authentification {
+  usecase "Login and Logout" as UC1
+  usecase "Change Password" as UC2
+  usecase "Register New User" as UC3
+}
+fc - -> UC1
+fc - -> UC2
+fc - -> UC3
+
+UC1 ..> DB
+UC2 ..> DB 
+UC3 ..> DB
+
+rectangle Commitee{
+    usecase "edit committee" as CS 
+    usecase "delete commitee" as ED 
+    usecase "modify commitee" as MP 
+
+}
+
+fc - -> CS
+fc - -> ED 
+fc - -> MP 
+
+CS ..> DB
+ED ..> DB
+MP ..> DB
+
+rectangle CommiteeMember{
+  usecase "create member" as CM 
+  usecase "modify member" as MM 
+  usecase "delete member"  as DM 
+}
+
+fc - -> CM 
+fc - -> MM 
+fc - -> DM 
+
+CM ..> DB
+MM ..> DB
+DM ..> DB 
+
+rectangle Scholarship{
+  usecase "establish scholarship" as ES 
+  usecase "modify scholarship"  as MS
+  usecase "Delete Scholarship" as DS 
+  usecase "Designate Scholarship" as DES 
+  usecase "award scholarship"  as WS 
+
+
+}
+
+
+fc - -> ES 
+fc - ->  MS 
+fc - -> DS 
+fc - -> DES 
+fc - -> WS 
+
+WS ..> DB
+ES ..> DB
+MS ..> DB
+DES ..> DB
+DS ..> DB 
+
+
+
+
+
+
+@enduml
+
+@startuml usecade_user
+
+
+
+skinparam backgroundColor 777
+skinparam stereotypeCBackgroundColor 1a66c2
+
+
+
+
+
+
+
+
+
+skinparam backgroundColor 777
+
+
+
+
+
+
+
+skinparam circledCharacter {
+  radius 8
+  fontSize 11
+  fontName Verdana
+}
+
+skinparam class {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+    arrowColor fff
+  arrowFontName Verdana
+  arrowFontColor bbb
+  arrowFontSize 11
+
+  attributeFontColor aaa
+  attributeFontSize 11
+  attributeIconSize 11
+}
+
+
+skinparam actor {
+    backgroundColor 1a66c2
+  borderColor 002642
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam participant {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam collections {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam SequenceBox{
+    backgroundColor 575757
+  borderColor 767676
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+
+skinparam interface {
+    backgroundColor 1a66c2
+  borderColor 002642
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam component {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam node {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam database {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam queue {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+
+skinparam usecase {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+    arrowColor fff
+  arrowFontName Verdana
+  arrowFontColor bbb
+  arrowFontSize 11
+}
+
+skinparam activity {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+    arrowColor fff
+  arrowFontName Verdana
+  arrowFontColor bbb
+  arrowFontSize 11
+}
+
+skinparam sequence {
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+    arrowColor fff
+  arrowFontName Verdana
+  arrowFontColor bbb
+  arrowFontSize 11
+
+  lifeLineBorderColor 1a66c2
+  lifeLineBackgroundColor 575757
+}
+
+skinparam boundary {
+    backgroundColor 1a66c2
+  borderColor 002642
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam control {
+    backgroundColor 1a66c2
+  borderColor 002642
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam entity {
+    backgroundColor 1a66c2
+  borderColor 002642
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+
+skinparam state {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+    arrowColor fff
+  arrowFontName Verdana
+  arrowFontColor bbb
+  arrowFontSize 11
+  startColor 1a66c2
+  endColor 002642
+}
+
+
+skinparam object {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+    arrowColor fff
+  arrowFontName Verdana
+  arrowFontColor bbb
+  arrowFontSize 11
+}
+
+
+skinparam note {
+    backgroundColor 1a66c2
+  borderColor 002642
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam cloud {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+    arrowColor fff
+  arrowFontName Verdana
+  arrowFontColor bbb
+  arrowFontSize 11
+}
+
+skinparam rectangle {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam storage {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+
+left to right direction
+actor "User" as fc
+database "Database" as DB
+
+rectangle Authentification {
+  usecase "Login and Logout" as UC1
+  usecase "Change Password" as UC2
+  usecase "Register New User" as UC3
+}
+fc - -> UC1
+fc - -> UC2
+fc - -> UC3
+
+UC1 ..> DB
+UC2 ..> DB 
+UC3 ..> DB
+
+rectangle Commitee{
+    usecase "edit committee" as CS 
+    usecase "delete commitee" as ED 
+    usecase "modify commitee" as MP 
+
+}
+
+fc - -> CS
+fc - -> ED 
+fc - -> MP 
+
+CS ..> DB
+ED ..> DB
+MP ..> DB
+
+rectangle CommiteeMember{
+  usecase "create member" as CM 
+  usecase "modify member" as MM 
+  usecase "delete member"  as DM 
+}
+
+fc - -> CM 
+fc - -> MM 
+fc - -> DM 
+
+CM ..> DB
+MM ..> DB
+DM ..> DB 
+
+rectangle Scholarship{
+  usecase "establish scholarship" as ES 
+  usecase "modify scholarship"  as MS
+  usecase "Delete Scholarship" as DS 
+  usecase "Designate Scholarship" as DES 
+  usecase "award scholarship"  as WS 
+
+
+}
+
+
+fc - -> ES 
+fc - ->  MS 
+fc - -> DS 
+fc - -> DES 
+fc - -> WS 
+
+WS ..> DB
+ES ..> DB
+MS ..> DB
+DES ..> DB
+DS ..> DB 
+
+
+
+
+
+
+@enduml
+
+PlantUML version 1.2021.7(Sun May 23 15:40:07 EAT 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>
