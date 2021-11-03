@@ -1,0 +1,98 @@
+@startuml joe_database
+!define DARKBLUE
+!includeurl https://raw.githubusercontent.com/Drakemor/RedDress-PlantUML/master/style.puml
+
+entity AdminAuth{
+    id:pk 
+    username :  CharField 
+    email: EmailField 
+    first_name :  CharField
+    last_name :  CharField
+    phone :  CharField
+    password :  CharField
+
+}
+
+
+entity PatientInfo{
+    id:pk 
+    username :  CharField
+    email :  CharField
+    first_name :  CharField
+    last_name :  CharField
+    phone :  CharField
+    password :  CharField
+
+}
+
+entity ClinicDetails{
+    id:pk 
+    name :  CharField
+    location_name :  CharField
+
+}
+
+PatientInfo||..|{ ClinicDetails
+
+entity TherapeuticCoucellor{
+    id:pk 
+    username :  CharField
+    email :  CharField
+    first_name :  CharField
+    last_name :  CharField
+    phone :  CharField
+    password :  CharField
+
+}
+
+entity TblPhysician{
+    id:pk 
+    username :  CharField
+    email :  CharField
+    first_name :  CharField
+    last_name :  CharField
+    phone :  CharField
+    password :  CharField
+
+}
+
+
+
+entity PatientClinicInfo{
+    id:pk 
+    patiend_id :  ForeignKey(PatientInfo)
+    height :  IntegerField 
+    weight :  IntegerField
+
+
+}
+
+PatientInfo||..|{ PatientClinicInfo
+
+entity PatientExtraInfo{
+    id:pk 
+    patiend_id :  ForeignKey(PatientInfo)
+    relationship_status :  CharField
+}
+
+PatientInfo ||..|{ PatientExtraInfo
+
+
+entity TblHouseVisit{
+    id:pk 
+    patient_id :  ForeignKey(PatientInfo)
+    therapycouselor_id  :  ForeignKey(TherapeuticCoucellor)
+    date_of_house_visit :  DateTimeField 
+
+}
+
+PatientInfo||..|{ TblHouseVisit
+TherapeuticCoucellor||..|{ TblHouseVisit
+
+
+
+
+
+
+
+@enduml

@@ -14,6 +14,7 @@ entity STUDENT{
 
 }
 
+
 entity ExtraInfo{
     id:pk
     student_id :  ForeignKey(STUDENT)
@@ -23,6 +24,8 @@ entity ExtraInfo{
     date_of_birth :  DateField 
 
 }
+
+
 note left of ExtraInfo :  used for recommendation \n of scholarship (AI)
 
 
@@ -89,7 +92,6 @@ entity Application{
     id:pk
     scholarship_id :  ForeignKey(Scholarship)
     student_id :  ForeignKey(CharField)
-    school_id :  ForeignKey(SchoolAttended)
     resume_letter :  FileField
     extra_notes_resume : CharField
     recommendation_letter :  FileField
@@ -100,7 +102,6 @@ entity Application{
 }
 
 STUDENT||..|{ Application
-SchoolAttended||..|{ Application
 Scholarship ||..|{ Application
 
 entity Feedback{

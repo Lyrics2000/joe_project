@@ -54,8 +54,6 @@ rectangle Scholarship{
   usecase "Delete Scholarship" as DS 
   usecase "Designate Scholarship" as DES 
   usecase "award scholarship"  as WS 
-
-
 }
 
 
@@ -70,8 +68,6 @@ ES ..> DB
 MS ..> DB
 DES ..> DB
 DS ..> DB 
-
-
 
 
 

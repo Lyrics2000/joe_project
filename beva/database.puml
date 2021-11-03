@@ -1,0 +1,74 @@
+@startuml kkk
+
+entity Complainant{
+    id:pk 
+    username : CharField 
+    first_name : CharField
+    last_name : CharField
+    email : EmailField 
+    password : CharField
+    
+}
+
+entity Committee{
+    id:pk 
+    username : CharField 
+    first_name : CharField
+    last_name : CharField
+    email : EmailField 
+    password : CharField
+    
+}
+
+
+entity Admin{
+    id:pk 
+    username : CharField 
+    first_name : CharField
+    last_name : CharField
+    email : EmailField 
+    password : CharField
+    
+}
+
+
+
+
+
+entity Inquiry{
+    id:pk 
+    inqury_details :  CharField
+    date_submited :  DateTime 
+    commitee_id : ForeignKey(Committee)
+    student_id :  ForeignKey(Complainant)
+
+
+
+}
+
+Committee||..|{ Inquiry
+Complainant||..|{ Inquiry
+
+
+entity Feedback{
+    id:pk 
+    inquiry_id :  ForeignKey(Inquiry)
+    feeback_details :  CharField
+    feedback_time :  DateTime
+
+
+}
+
+
+entity Response{
+    id:pk 
+    feedback_id : ForeignKey(Feedback)
+    response : CharField
+    response_date :  DateTime
+}
+
+
+
+
+
+@enduml
