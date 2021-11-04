@@ -2,66 +2,74 @@
 !define DARKBLUE
 !includeurl https://raw.githubusercontent.com/Drakemor/RedDress-PlantUML/master/style.puml
 
-left to right direction
-actor "User" as fc
-database "Database" as DB
 
-rectangle Authentification {
+left to right direction
+actor "Patient" as fc
+actor "Clinical Officer" as CC
+
+rectangle AuthentificationPatient {
   usecase "Login and Logout" as UC1
   usecase "Change Password" as UC2
-  usecase "Register New User" as UC3
+  usecase "Register as New User" as UC3
 }
-fc --> UC1
-fc --> UC2
-fc --> UC3
+fc ..> UC1
+fc ..> UC2
+fc ..> UC3
 
-UC1 ..> DB
-UC2 ..> DB 
-UC3 ..> DB
-
-rectangle Complaints{
-    usecase "submit complaints" as CS 
-    usecase "Check progress" as ED 
-    usecase "delete complaints" as MP 
-    usecase "modify complaints" as DP
-    
+rectangle ClinicalOfficerAUth{
+   usecase "Login and Logout" as UC22
+  usecase "Change Password" as UC20
+  usecase "Register as New User" as UC24
 
 }
 
-fc --> CS
-fc --> ED 
-fc --> MP 
-fc -->  DP 
+CC ..> UC22
+CC ..> UC20
+CC ..> UC24
 
+rectangle Patient{
+    usecase "Edit Patient" as AP 
+    usecase "View Records" as VR
+    usecase "Validate Patient records" as DP 
+    usecase "Receive patient request" as RP 
+    usecase "Approve patient request"  as AQ
 
-
-CS ..> DB
-ED ..> DB
-MP ..> DB
-DP ..> DB
-
-
-
-rectangle FeedBack{
-    usecase "check Feedback" as CF 
-    usecase "reply to feedback" as RF
 }
 
-fc --> CF 
-fc --> RF
+CC ..> AP 
+CC ..> DP 
+CC ..> RP 
+CC ..> AQ
 
-CF ..> DB
-RF ..> DB
+fc ..> VR
 
 
-rectangle Response{
-    usecase "check response" as cc 
-    usecase "reply response" as RC
+rectangle Drugs{
+    usecase "Send bulk alearts to patient \n on availability of drugs" as BL
+    usecase "Edit drugs" as ED
+    usecase "validate drugs" as VD
 }
 
-fc ..> cc
-fc ..> RC 
-cc ..> DB 
-RC ..> DB
+CC ..> BL
+CC ..> ED 
+CC ..> VD
+
+
+rectangle Clinic{
+    usecase "edit clinic record" as EDD
+    usecase "view clinic record" as VC
+
+}
+
+
+CC ..> EDD
+fc ..> VC
+CC ..> VC
+
+
+
+
+
+
 
 @enduml

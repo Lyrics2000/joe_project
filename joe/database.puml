@@ -2,92 +2,235 @@
 !define DARKBLUE
 !includeurl https://raw.githubusercontent.com/Drakemor/RedDress-PlantUML/master/style.puml
 
-entity AdminAuth{
-    id:pk 
-    username :  CharField 
-    email: EmailField 
-    first_name :  CharField
-    last_name :  CharField
-    phone :  CharField
-    password :  CharField
 
-}
-
-
-entity PatientInfo{
-    id:pk 
+entity Patient{
+    id: pk 
     username :  CharField
-    email :  CharField
     first_name :  CharField
-    last_name :  CharField
-    phone :  CharField
-    password :  CharField
+    last_name : CharField
+    phone : CharField
+    email :  EmailField
+    password : CharField
 
 }
 
-entity ClinicDetails{
+entity PatientLOcation{
     id:pk 
+    patient_id :  ForeignKey(Patient)
+    location_name : CharField
+    longitude :  CharField
+    latitude :  CharField
+
+
+
+}
+
+Patient||..|{ PatientLocation
+
+entity ClinicalOfficer{
+    id: pk 
+    username :  CharField
+    first_name :  CharField
+    last_name : CharField
+    phone : CharField
+    email :  EmailField
+    password : CharField
+    
+}
+
+entity Clinics{
+    id:pk
+    clinical_officer_id :  ForeignKey(ClinicalOfficer)
     name :  CharField
-    location_name :  CharField
+    locatione_name :   CharField
+    longitude :  CharField
+    latitude :  CharField
+    
+}
+
+entity PatientAccepted{
+    id:pk
+    patient_id :  ForeignKey(Patient)
+    clinics_id :  ForeignKey(Clinics)
+    accepted :  Boolean
+    requested  : Boolean
 
 }
 
-PatientInfo||..|{ ClinicDetails
+note left of PatientAccepted :  patient sends request on a clinic \n the requested changes from False to True \n clinical officer checks the info of patient and changes accepted to true \n so that the system knows the patient is accepted
 
-entity TherapeuticCoucellor{
+ClinicalOfficer||..|{ Clinics
+Clinics||..|{ PatientAccepted
+
+entity AcceptedFeedback{
     id:pk 
-    username :  CharField
-    email :  CharField
-    first_name :  CharField
-    last_name :  CharField
-    phone :  CharField
-    password :  CharField
+    patient_accpted  : ForeignKey(PatientAccepted)
+    date_created :  DateTimeField
+    feedback_details : CharField
 
 }
 
-entity TblPhysician{
+PatientAccepted||..|{ AcceptedFeedback
+patient||..|{ AcceptedFeedback
+
+entity Response{
     id:pk 
-    username :  CharField
-    email :  CharField
-    first_name :  CharField
-    last_name :  CharField
-    phone :  CharField
-    password :  CharField
+    patient_id :  ForeignKey(Patient)
+    feedback_id :  ForeignKey(AcceptedFeedback)
+    respose_details :  CharField
 
 }
 
+Patient||..|{ Response
+AcceptedFeedback||..|{ Response
 
-
-entity PatientClinicInfo{
+entity Drugs{
     id:pk 
-    patiend_id :  ForeignKey(PatientInfo)
-    height :  IntegerField 
-    weight :  IntegerField
-
-
-}
-
-PatientInfo||..|{ PatientClinicInfo
-
-entity PatientExtraInfo{
-    id:pk 
-    patiend_id :  ForeignKey(PatientInfo)
-    relationship_status :  CharField
-}
-
-PatientInfo ||..|{ PatientExtraInfo
-
-
-entity TblHouseVisit{
-    id:pk 
-    patient_id :  ForeignKey(PatientInfo)
-    therapycouselor_id  :  ForeignKey(TherapeuticCoucellor)
-    date_of_house_visit :  DateTimeField 
+    drug_type :  CharField
+    clinical_id :  ForeignKey(Clinics)
+    availability : Boolean
 
 }
 
-PatientInfo||..|{ TblHouseVisit
-TherapeuticCoucellor||..|{ TblHouseVisit
+
+
+Clinics ||..|{ Drugs
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+' entity AdminAuth{
+'     id:pk 
+'     username :  CharField 
+'     email: EmailField 
+'     first_name :  CharField
+'     last_name :  CharField
+'     phone :  CharField
+'     password :  CharField
+
+' }
+
+
+' entity PatientInfo{
+'     id:pk 
+'     username :  CharField
+'     email :  CharField
+'     first_name :  CharField
+'     last_name :  CharField
+'     phone :  CharField
+'     password :  CharField
+
+' }
+
+' entity ClinicDetails{
+'     id:pk 
+'     name :  CharField
+'     location_name :  CharField
+
+' }
+
+' PatientInfo||..|{ ClinicDetails
+
+' entity TherapeuticCoucellor{
+'     id:pk 
+'     username :  CharField
+'     email :  CharField
+'     first_name :  CharField
+'     last_name :  CharField
+'     phone :  CharField
+'     password :  CharField
+
+' }
+
+' entity TblPhysician{
+'     id:pk 
+'     username :  CharField
+'     email :  CharField
+'     first_name :  CharField
+'     last_name :  CharField
+'     phone :  CharField
+'     password :  CharField
+
+' }
+
+
+
+' entity PatientClinicInfo{
+'     id:pk 
+'     patiend_id :  ForeignKey(PatientInfo)
+'     height :  IntegerField 
+'     weight :  IntegerField
+
+
+' }
+
+' PatientInfo||..|{ PatientClinicInfo
+
+' entity PatientExtraInfo{
+'     id:pk 
+'     patiend_id :  ForeignKey(PatientInfo)
+'     relationship_status :  CharField
+' }
+
+' PatientInfo ||..|{ PatientExtraInfo
+
+
+' entity TblHouseVisit{
+'     id:pk 
+'     patient_id :  ForeignKey(PatientInfo)
+'     therapycouselor_id  :  ForeignKey(TherapeuticCoucellor)
+'     date_of_house_visit :  DateTimeField 
+
+' }
+
+' PatientInfo||..|{ TblHouseVisit
+' TherapeuticCoucellor||..|{ TblHouseVisit
 
 
 
