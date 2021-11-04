@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="872px" preserveAspectRatio="none" style="width:375px;height:872px;background:#777777;" version="1.1" viewBox="0 0 375 872" width="375px" zoomAndPan="magnify"><defs><filter height="300%" id="f1oidyypum7iig" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[e8e9b11ceb681b59a8cb54b341dfa30f]
+cluster Authentification--><rect fill="#2E2E2E" filter="url(#f1oidyypum7iig)" height="215" style="stroke:#1B1B1B;stroke-width:1.5;" width="172" x="78" y="7"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="103" x="112.5" y="19.2104">Authentification</text><!--MD5=[182eb8475c0ba9296d0e6ecc0ae671b3]
+cluster Complaints--><rect fill="#2E2E2E" filter="url(#f1oidyypum7iig)" height="280" style="stroke:#1B1B1B;stroke-width:1.5;" width="171" x="78.5" y="246"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="72" x="128" y="258.2104">Complaints</text><!--MD5=[b82e8dfeab15a9ba869171c3c3bbb137]
+cluster FeedBack--><rect fill="#2E2E2E" filter="url(#f1oidyypum7iig)" height="144" style="stroke:#1B1B1B;stroke-width:1.5;" width="165" x="81.5" y="550"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="63" x="132.5" y="562.2104">FeedBack</text><!--MD5=[ef93030427041cf395e60b3bd13f8ff4]
+cluster Response--><rect fill="#2E2E2E" filter="url(#f1oidyypum7iig)" height="142" style="stroke:#1B1B1B;stroke-width:1.5;" width="158" x="85" y="718"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="62" x="133" y="730.2104">Response</text><ellipse cx="164.206" cy="54.1412" fill="#2E2E2E" filter="url(#f1oidyypum7iig)" rx="66.206" ry="15.6412" style="stroke:#1B1B1B;stroke-width:1.5;"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="97" x="115.706" y="55.9493">Login and Logout</text><ellipse cx="163.8103" cy="121.1621" fill="#2E2E2E" filter="url(#f1oidyypum7iig)" rx="68.8103" ry="16.1621" style="stroke:#1B1B1B;stroke-width:1.5;"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="103" x="112.3103" y="122.9702">Change Password</text><ellipse cx="164.1249" cy="188.925" fill="#2E2E2E" filter="url(#f1oidyypum7iig)" rx="70.1249" ry="16.425" style="stroke:#1B1B1B;stroke-width:1.5;"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="106" x="111.1249" y="190.7331">Register New User</text><ellipse cx="164.1858" cy="293.8372" fill="#2E2E2E" filter="url(#f1oidyypum7iig)" rx="69.6858" ry="16.3372" style="stroke:#1B1B1B;stroke-width:1.5;"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="105" x="111.6858" y="295.6453">submit complaints</text><ellipse cx="164.2142" cy="361.0428" fill="#2E2E2E" filter="url(#f1oidyypum7iig)" rx="63.2142" ry="15.0428" style="stroke:#1B1B1B;stroke-width:1.5;"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="90" x="119.2142" y="362.8509">Check progress</text><ellipse cx="163.9384" cy="426.9877" fill="#2E2E2E" filter="url(#f1oidyypum7iig)" rx="67.9384" ry="15.9877" style="stroke:#1B1B1B;stroke-width:1.5;"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="101" x="113.4384" y="428.7958">delete complaints</text><ellipse cx="164.2476" cy="494.2495" fill="#2E2E2E" filter="url(#f1oidyypum7iig)" rx="69.2476" ry="16.2495" style="stroke:#1B1B1B;stroke-width:1.5;"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="104" x="112.2476" y="496.0576">modify complaints</text><ellipse cx="163.7913" cy="595.9583" fill="#2E2E2E" filter="url(#f1oidyypum7iig)" rx="62.7913" ry="14.9583" style="stroke:#1B1B1B;stroke-width:1.5;"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="89" x="119.2913" y="597.7664">check Feedback</text><ellipse cx="164.1376" cy="662.2275" fill="#2E2E2E" filter="url(#f1oidyypum7iig)" rx="66.6376" ry="15.7275" style="stroke:#1B1B1B;stroke-width:1.5;"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="98" x="115.1376" y="664.0356">reply to feedback</text><ellipse cx="164.2142" cy="764.0428" fill="#2E2E2E" filter="url(#f1oidyypum7iig)" rx="63.2142" ry="15.0428" style="stroke:#1B1B1B;stroke-width:1.5;"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="90" x="119.2142" y="765.8509">check response</text><ellipse cx="164.0299" cy="829.206" fill="#2E2E2E" filter="url(#f1oidyypum7iig)" rx="61.5299" ry="14.706" style="stroke:#1B1B1B;stroke-width:1.5;"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="86" x="121.0299" y="831.0141">reply response</text><!--MD5=[db756db308cf6ff8cfeeb51570136b75]
+entity fc--><ellipse cx="19.5" cy="397.5" fill="#1A66C2" filter="url(#f1oidyypum7iig)" rx="8" ry="8" style="stroke:#002642;stroke-width:1.5;"/><path d="M19.5,405.5 L19.5,432.5 M6.5,413.5 L32.5,413.5 M19.5,432.5 L6.5,447.5 M19.5,432.5 L32.5,447.5 " fill="none" filter="url(#f1oidyypum7iig)" style="stroke:#002642;stroke-width:1.5;"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="27" x="6" y="463.2104">User</text><!--MD5=[f9ba5bf973e7832d2ce5ed59077b93f7]
+entity DB--><path d="M294,416 C294,406 331,406 331,406 C331,406 368,406 368,416 L368,437.8047 C368,447.8047 331,447.8047 331,447.8047 C331,447.8047 294,447.8047 294,437.8047 L294,416 " fill="#2E2E2E" filter="url(#f1oidyypum7iig)" style="stroke:#1B1B1B;stroke-width:1.5;"/><path d="M294,416 C294,426 331,426 331,426 C331,426 368,426 368,416 " fill="none" style="stroke:#1B1B1B;stroke-width:1.5;"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="54" x="304" y="440.2104">Database</text><!--MD5=[e9923d9fd4075a960db40f09654be8d8]
+link fc to UC1--><path d="M21.25,387.78 C23.55,308.38 32.82,132.3 70,87 C78.71,76.38 91.09,69.18 103.97,64.29 " fill="none" id="fc-to-UC1" style="stroke:#FFFFFF;stroke-width:1.0;"/><polygon fill="#FFFFFF" points="108.74,62.6,98.918,61.8733,104.0336,64.288,101.6188,69.4036,108.74,62.6" style="stroke:#FFFFFF;stroke-width:1.0;"/><!--MD5=[4af9e8427d276ef4a9c3c7d33d3ba91c]
+link fc to UC2--><path d="M22.89,387.99 C27.72,321.41 40.77,189.69 70,155 C78.78,144.58 91.04,137.35 103.78,132.34 " fill="none" id="fc-to-UC2" style="stroke:#FFFFFF;stroke-width:1.0;"/><polygon fill="#FFFFFF" points="108.49,130.59,98.6601,129.9785,103.8037,132.3331,101.4491,137.4766,108.49,130.59" style="stroke:#FFFFFF;stroke-width:1.0;"/><!--MD5=[71fba4d683dd6a260b46bc412e62a629]
+link fc to UC3--><path d="M25.23,387.83 C31.06,352.19 43.65,299.45 70,261 C85.56,238.3 110.52,219.54 130.67,206.87 " fill="none" id="fc-to-UC3" style="stroke:#FFFFFF;stroke-width:1.0;"/><polygon fill="#FFFFFF" points="135.15,204.1,125.3927,205.4395,130.8996,206.7333,129.6059,212.2402,135.15,204.1" style="stroke:#FFFFFF;stroke-width:1.0;"/><!--MD5=[97a67b7ea2b886edfb868848c004615f]
+link UC1 to DB--><path d="M218.3,62.84 C233.01,67.71 247.73,75.27 258,87 C299.26,134.11 320.95,328.39 327.68,400.18 " fill="none" id="UC1-to-DB" style="stroke:#FFFFFF;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#FFFFFF" points="328.17,405.54,331.3291,396.2115,327.7122,400.561,323.3627,396.9441,328.17,405.54" style="stroke:#FFFFFF;stroke-width:1.0;"/><!--MD5=[43a32e4bc68aa4607e626889fb1302ed]
+link UC2 to DB--><path d="M218.45,130.93 C232.98,135.97 247.57,143.57 258,155 C322.45,225.65 330.43,347.32 330.62,400.65 " fill="none" id="UC2-to-DB" style="stroke:#FFFFFF;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#FFFFFF" points="330.62,405.9,334.62,396.9,330.62,400.9,326.62,396.9,330.62,405.9" style="stroke:#FFFFFF;stroke-width:1.0;"/><!--MD5=[6c4ccef58805d0da3aaaa2cc0d8ed6aa]
+link UC3 to DB--><path d="M191.62,204.42 C212.03,217.35 239.71,237.46 258,261 C291.8,304.5 313.08,366.31 323.13,400.92 " fill="none" id="UC3-to-DB" style="stroke:#FFFFFF;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#FFFFFF" points="324.53,405.82,325.9036,396.0674,323.1564,401.0124,318.2114,398.2652,324.53,405.82" style="stroke:#FFFFFF;stroke-width:1.0;"/><!--MD5=[664883dfbdbdca4d0f168eb1b1ee8916]
+link fc to CS--><path d="M32.23,387.84 C40.06,367.59 52.23,343.87 70,328 C80.51,318.62 93.82,311.76 107.06,306.77 " fill="none" id="fc-to-CS" style="stroke:#FFFFFF;stroke-width:1.0;"/><polygon fill="#FFFFFF" points="111.93,305.01,102.1068,304.3002,107.2265,306.7061,104.8205,311.8258,111.93,305.01" style="stroke:#FFFFFF;stroke-width:1.0;"/><!--MD5=[d68b6a1f1c9c2d96c164ad8afa373df6]
+link fc to ED--><path d="M34.17,416.11 C43.77,408.85 57.15,399.47 70,393 C84.8,385.55 101.74,379.15 117.07,374.07 " fill="none" id="fc-to-ED" style="stroke:#FFFFFF;stroke-width:1.0;"/><polygon fill="#FFFFFF" points="122.2,372.4,112.405,371.3717,117.4439,373.9425,114.873,378.9814,122.2,372.4" style="stroke:#FFFFFF;stroke-width:1.0;"/><!--MD5=[1c3cf58fbb8b0c46a73d2e1d9c212b9b]
+link fc to MP--><path d="M34.16,427 C47.51,427 68.92,427 90.48,427 " fill="none" id="fc-to-MP" style="stroke:#FFFFFF;stroke-width:1.0;"/><polygon fill="#FFFFFF" points="95.66,427,86.66,423,90.66,427,86.66,431,95.66,427" style="stroke:#FFFFFF;stroke-width:1.0;"/><!--MD5=[308e26696cbdabd5d7b35f5de9346cdd]
+link fc to DP--><path d="M34.25,437.46 C43.9,444.47 57.29,453.55 70,460 C84.74,467.47 101.52,474.13 116.74,479.53 " fill="none" id="fc-to-DP" style="stroke:#FFFFFF;stroke-width:1.0;"/><polygon fill="#FFFFFF" points="121.83,481.31,114.6476,474.5711,117.1085,479.6646,112.015,482.1255,121.83,481.31" style="stroke:#FFFFFF;stroke-width:1.0;"/><!--MD5=[665c5c29001ac0752f63cb630c7c6611]
+link CS to DB--><path d="M213.61,305.76 C228.79,310.95 244.96,318.17 258,328 C283.98,347.59 304.64,379.16 317.05,401.37 " fill="none" id="CS-to-DB" style="stroke:#FFFFFF;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#FFFFFF" points="319.57,405.96,318.745,396.1458,317.1637,401.5771,311.7324,399.9958,319.57,405.96" style="stroke:#FFFFFF;stroke-width:1.0;"/><!--MD5=[6e62f6da8c3b94ad7341eb35212d39fa]
+link ED to DB--><path d="M202.91,372.99 C219.91,378.64 240.13,385.73 258,393 C268.22,397.16 279.06,402.02 289.14,406.75 " fill="none" id="ED-to-DB" style="stroke:#FFFFFF;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#FFFFFF" points="293.72,408.92,287.2855,401.4636,289.1975,406.7876,283.8736,408.6996,293.72,408.92" style="stroke:#FFFFFF;stroke-width:1.0;"/><!--MD5=[3ebe6add66570dcf368c2a3368026d82]
+link MP to DB--><path d="M232.11,427 C251.19,427 271.41,427 288.49,427 " fill="none" id="MP-to-DB" style="stroke:#FFFFFF;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#FFFFFF" points="293.69,427,284.69,423,288.69,427,284.69,431,293.69,427" style="stroke:#FFFFFF;stroke-width:1.0;"/><!--MD5=[4a92d8fa351291173d6f0d273b81b623]
+link DP to DB--><path d="M203.27,480.78 C220.17,474.75 240.19,467.32 258,460 C268.26,455.78 279.2,450.95 289.37,446.3 " fill="none" id="DP-to-DB" style="stroke:#FFFFFF;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#FFFFFF" points="293.99,444.18,284.1419,444.3,289.446,446.2662,287.4798,451.5704,293.99,444.18" style="stroke:#FFFFFF;stroke-width:1.0;"/><!--MD5=[585470297c92fd5ebda9e70a5ff01c32]
+link fc to CF--><path d="M34.04,463.74 C42.46,483.51 54.62,507.55 70,526 C88.16,547.8 114.37,566.74 134.34,579.4 " fill="none" id="fc-to-CF" style="stroke:#FFFFFF;stroke-width:1.0;"/><polygon fill="#FFFFFF" points="138.76,582.16,133.2554,573.993,134.5224,579.5062,129.0093,580.7732,138.76,582.16" style="stroke:#FFFFFF;stroke-width:1.0;"/><!--MD5=[5394a7455d45250b2943bc278748f8fb]
+link fc to RF--><path d="M19.75,466.39 C21.03,510.96 29.82,583.18 70,628 C79.4,638.49 92.31,645.75 105.52,650.77 " fill="none" id="fc-to-RF" style="stroke:#FFFFFF;stroke-width:1.0;"/><polygon fill="#FFFFFF" points="110.4,652.52,103.2788,645.7164,105.6936,650.832,100.578,653.2467,110.4,652.52" style="stroke:#FFFFFF;stroke-width:1.0;"/><!--MD5=[e4d500ba4c9f9149787947f74212437d]
+link CF to DB--><path d="M187.52,581.83 C207.33,568.74 236.32,548.04 258,526 C280.26,503.37 301.06,473.44 314.52,452.44 " fill="none" id="CF-to-DB" style="stroke:#FFFFFF;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#FFFFFF" points="317.28,448.1,309.0699,453.5401,314.5928,452.3165,315.8164,457.8395,317.28,448.1" style="stroke:#FFFFFF;stroke-width:1.0;"/><!--MD5=[9cbcd4a6be3cea5ca16de04840b1780a]
+link RF to DB--><path d="M215.91,652.16 C231.05,647.09 246.61,639.46 258,628 C306.35,579.33 322.42,495.97 327.62,453.52 " fill="none" id="RF-to-DB" style="stroke:#FFFFFF;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#FFFFFF" points="328.23,448.31,323.2016,456.7785,327.6433,453.2755,331.1463,457.7172,328.23,448.31" style="stroke:#FFFFFF;stroke-width:1.0;"/><!--MD5=[bdb32987a41566f627f50999cb9215a6]
+link fc to cc--><path d="M24.24,466.05 C30.99,530.66 46.73,656.42 70,694 C84.54,717.48 110.06,735.84 130.69,747.86 " fill="none" id="fc-to-cc" style="stroke:#FFFFFF;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#FFFFFF" points="135.28,750.47,129.456,742.5277,130.9405,747.9862,125.482,749.4708,135.28,750.47" style="stroke:#FFFFFF;stroke-width:1.0;"/><!--MD5=[ee4f3bcfc6d30c9c4bff8361409dfd9d]
+link fc to RC--><path d="M20.74,466.31 C22.05,550.79 29.48,746.06 70,796 C79.23,807.38 92.67,814.83 106.47,819.72 " fill="none" id="fc-to-RC" style="stroke:#FFFFFF;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#FFFFFF" points="111.57,821.41,104.2848,814.7824,106.8237,819.8374,101.7687,822.3764,111.57,821.41" style="stroke:#FFFFFF;stroke-width:1.0;"/><!--MD5=[e34c1ae86dfb18f39839c9bc8cc01e36]
+link cc to DB--><path d="M191.75,750.37 C212.78,738.3 241.25,718.78 258,694 C309.99,617.09 324.52,504.04 328.52,453.32 " fill="none" id="cc-to-DB" style="stroke:#FFFFFF;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#FFFFFF" points="328.89,448.32,324.2324,456.998,328.5185,453.3062,332.2103,457.5923,328.89,448.32" style="stroke:#FFFFFF;stroke-width:1.0;"/><!--MD5=[6c237cf6acfc94c9298a36b6f3ba1e3e]
+link RC to DB--><path d="M215.99,821.04 C231.5,816.21 247.26,808.46 258,796 C302.73,744.09 322.52,529.12 328.19,453.47 " fill="none" id="RC-to-DB" style="stroke:#FFFFFF;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#FFFFFF" points="328.58,448.27,323.9224,456.948,328.2085,453.2562,331.9003,457.5423,328.58,448.27" style="stroke:#FFFFFF;stroke-width:1.0;"/><!--MD5=[cd93a9d871a42bdd23cb62978ee6831d]
+@startuml usecade_user
+!define DARKBLUE
+!includeurl https://raw.githubusercontent.com/Drakemor/RedDress-PlantUML/master/style.puml
+
+left to right direction
+actor "User" as fc
+database "Database" as DB
+
+rectangle Authentification {
+  usecase "Login and Logout" as UC1
+  usecase "Change Password" as UC2
+  usecase "Register New User" as UC3
+}
+fc - -> UC1
+fc - -> UC2
+fc - -> UC3
+
+UC1 ..> DB
+UC2 ..> DB 
+UC3 ..> DB
+
+rectangle Complaints{
+    usecase "submit complaints" as CS 
+    usecase "Check progress" as ED 
+    usecase "delete complaints" as MP 
+    usecase "modify complaints" as DP
+    
+
+}
+
+fc - -> CS
+fc - -> ED 
+fc - -> MP 
+fc - ->  DP 
+
+
+
+CS ..> DB
+ED ..> DB
+MP ..> DB
+DP ..> DB
+
+
+
+rectangle FeedBack{
+    usecase "check Feedback" as CF 
+    usecase "reply to feedback" as RF
+}
+
+fc - -> CF 
+fc - -> RF
+
+CF ..> DB
+RF ..> DB
+
+
+rectangle Response{
+    usecase "check response" as cc 
+    usecase "reply response" as RC
+}
+
+fc ..> cc
+fc ..> RC 
+cc ..> DB 
+RC ..> DB
+
+@enduml
+
+@startuml usecade_user
+
+
+
+skinparam backgroundColor 777
+skinparam stereotypeCBackgroundColor 1a66c2
+
+
+
+
+
+
+
+
+
+skinparam backgroundColor 777
+
+
+
+
+
+
+
+skinparam circledCharacter {
+  radius 8
+  fontSize 11
+  fontName Verdana
+}
+
+skinparam class {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+    arrowColor fff
+  arrowFontName Verdana
+  arrowFontColor bbb
+  arrowFontSize 11
+
+  attributeFontColor aaa
+  attributeFontSize 11
+  attributeIconSize 11
+}
+
+
+skinparam actor {
+    backgroundColor 1a66c2
+  borderColor 002642
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam participant {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam collections {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam SequenceBox{
+    backgroundColor 575757
+  borderColor 767676
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+
+skinparam interface {
+    backgroundColor 1a66c2
+  borderColor 002642
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam component {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam node {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam database {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam queue {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+
+skinparam usecase {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+    arrowColor fff
+  arrowFontName Verdana
+  arrowFontColor bbb
+  arrowFontSize 11
+}
+
+skinparam activity {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+    arrowColor fff
+  arrowFontName Verdana
+  arrowFontColor bbb
+  arrowFontSize 11
+}
+
+skinparam sequence {
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+    arrowColor fff
+  arrowFontName Verdana
+  arrowFontColor bbb
+  arrowFontSize 11
+
+  lifeLineBorderColor 1a66c2
+  lifeLineBackgroundColor 575757
+}
+
+skinparam boundary {
+    backgroundColor 1a66c2
+  borderColor 002642
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam control {
+    backgroundColor 1a66c2
+  borderColor 002642
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam entity {
+    backgroundColor 1a66c2
+  borderColor 002642
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+
+skinparam state {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+    arrowColor fff
+  arrowFontName Verdana
+  arrowFontColor bbb
+  arrowFontSize 11
+  startColor 1a66c2
+  endColor 002642
+}
+
+
+skinparam object {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+    arrowColor fff
+  arrowFontName Verdana
+  arrowFontColor bbb
+  arrowFontSize 11
+}
+
+
+skinparam note {
+    backgroundColor 1a66c2
+  borderColor 002642
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam cloud {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+    arrowColor fff
+  arrowFontName Verdana
+  arrowFontColor bbb
+  arrowFontSize 11
+}
+
+skinparam rectangle {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam storage {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+
+left to right direction
+actor "User" as fc
+database "Database" as DB
+
+rectangle Authentification {
+  usecase "Login and Logout" as UC1
+  usecase "Change Password" as UC2
+  usecase "Register New User" as UC3
+}
+fc - -> UC1
+fc - -> UC2
+fc - -> UC3
+
+UC1 ..> DB
+UC2 ..> DB 
+UC3 ..> DB
+
+rectangle Complaints{
+    usecase "submit complaints" as CS 
+    usecase "Check progress" as ED 
+    usecase "delete complaints" as MP 
+    usecase "modify complaints" as DP
+    
+
+}
+
+fc - -> CS
+fc - -> ED 
+fc - -> MP 
+fc - ->  DP 
+
+
+
+CS ..> DB
+ED ..> DB
+MP ..> DB
+DP ..> DB
+
+
+
+rectangle FeedBack{
+    usecase "check Feedback" as CF 
+    usecase "reply to feedback" as RF
+}
+
+fc - -> CF 
+fc - -> RF
+
+CF ..> DB
+RF ..> DB
+
+
+rectangle Response{
+    usecase "check response" as cc 
+    usecase "reply response" as RC
+}
+
+fc ..> cc
+fc ..> RC 
+cc ..> DB 
+RC ..> DB
+
+@enduml
+
+PlantUML version 1.2021.7(Sun May 23 15:40:07 EAT 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>
