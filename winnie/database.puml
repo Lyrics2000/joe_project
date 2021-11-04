@@ -1,0 +1,39 @@
+@startuml winnie_database
+!define DARKBLUE
+!includeurl https://raw.githubusercontent.com/Drakemor/RedDress-PlantUML/master/style.puml
+
+
+entity Patient{
+    id:pk 
+    username :  Charfield
+    email :  EmailField
+    first_name :  Charfield
+    last_name :  Charfield
+    phone :  Charfield
+    password :  Charfield
+}
+
+entity PatientPersonalInfo{
+    id:pk
+    patient_id :  ForeignKey(Patient)
+    date_of_birth :  DateTime 
+    permanent_address :  Charfield
+    current_address :  Charfield
+
+
+}
+
+Patient||..|{ PatientPersonalInfo
+
+entity CommunityHealthWorker{
+    id:pk 
+    username :  Charfield
+    email :  EmailField
+    first_name :  Charfield
+    last_name :  Charfield
+    password :  Charfield
+}
+
+
+
+@enduml

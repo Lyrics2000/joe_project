@@ -1,4 +1,7 @@
 @startuml kkk
+!define DARKBLUE
+!includeurl https://raw.githubusercontent.com/Drakemor/RedDress-PlantUML/master/style.puml
+
 
 entity Complainant{
     id:pk 
@@ -53,11 +56,16 @@ Complainant||..|{ Inquiry
 entity Feedback{
     id:pk 
     inquiry_id :  ForeignKey(Inquiry)
+    commitee_id :  ForeignKey(Committee)
     feeback_details :  CharField
     feedback_time :  DateTime
 
 
 }
+
+Inquiry||..|{ Feedback
+
+
 
 
 entity Response{
@@ -66,6 +74,8 @@ entity Response{
     response : CharField
     response_date :  DateTime
 }
+
+Feedback||..|{ Response
 
 
 
