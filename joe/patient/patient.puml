@@ -1,0 +1,75 @@
+@startuml joeuse_user
+!define DARKBLUE
+!includeurl https://raw.githubusercontent.com/Drakemor/RedDress-PlantUML/master/style.puml
+
+
+left to right direction
+actor "Patient" as fc
+actor "Clinical Officer" as CC
+
+rectangle AuthentificationPatient {
+  usecase "Login and Logout" as UC1
+  usecase "Change Password" as UC2
+  usecase "Register as New User" as UC3
+}
+fc ..> UC1
+fc ..> UC2
+fc ..> UC3
+
+rectangle ClinicalOfficerAUth{
+   usecase "Login and Logout" as UC22
+  usecase "Change Password" as UC20
+  usecase "Register as New User" as UC24
+
+}
+
+CC ..> UC22
+CC ..> UC20
+CC ..> UC24
+
+rectangle Patient{
+    usecase "Edit Patient" as AP 
+    usecase "View Records" as VR
+    usecase "Validate Patient records" as DP 
+    usecase "Receive patient request" as RP 
+    usecase "Approve patient request"  as AQ
+
+}
+
+CC ..> AP 
+CC ..> DP 
+CC ..> RP 
+CC ..> AQ
+
+fc ..> VR
+
+
+rectangle Drugs{
+    usecase "Send bulk alearts to patient \n on availability of drugs" as BL
+    usecase "Edit drugs" as ED
+    usecase "validate drugs" as VD
+}
+
+CC ..> BL
+CC ..> ED 
+CC ..> VD
+
+
+rectangle Clinic{
+    usecase "edit clinic record" as EDD
+    usecase "view clinic record" as VC
+
+}
+
+
+CC ..> EDD
+fc ..> VC
+CC ..> VC
+
+
+
+
+
+
+
+@enduml
