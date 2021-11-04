@@ -42,7 +42,7 @@ rectangle CommiteeMember{
 
 fc --> CM 
 fc --> MM 
-fc --> DM 
+fc --> DM
 
 CM ..> DB
 MM ..> DB
