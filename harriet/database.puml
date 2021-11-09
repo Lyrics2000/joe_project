@@ -1,6 +1,4 @@
-@startuml harriet_database
-!define DARKBLUE
-!includeurl https://raw.githubusercontent.com/Drakemor/RedDress-PlantUML/master/style.puml
+@startuml hart_database
 
 
 entity  User{
@@ -9,9 +7,8 @@ entity  User{
     first_name :  CharField
     last_name :  CharField
     password :  Charfield
-
-
 }
+
 
 entity  Admin{
     id:pk 
@@ -32,24 +29,24 @@ entity Counties{
 Admin||..|{ Counties
 
 
-entity mashroom{
+entity mushroom{
     id:pk
     county_id: ForeignKey(Counties)
-    mashroom_image :  ImageField
-    Mashroom_name :  CharField
-    mashroon_description :  CharField
+    mushroom_image :  ImageField
+    mushroom_name :  CharField
+    mushroom_description :  CharField
 
 }
 
-Counties||..|{mashroom
+Counties||..|{mushroom
 
-entity MashroomCondition{
+entity mushroomCondition{
     id:pk
-    mashoom_id :  ForeignKey(mashroom)
+    mushroom_id :  ForeignKey(mushroom)
     condition : CharField
 }
 
-mashroom||..|{ MashroomCondition
+mushroom||..|{ mushroomCondition
 
 
 

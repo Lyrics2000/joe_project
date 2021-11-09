@@ -1,0 +1,20 @@
+@startuml usecade_user
+!define DARKBLUE
+!includeurl https://raw.githubusercontent.com/Drakemor/RedDress-PlantUML/master/style.puml
+
+
+rectangle WebsocketServer {
+  usecase "Token auth" as UC1
+  usecase "channels" as UC2
+  usecase "consumers" as UC3
+}
+
+
+rectangle Frontend{
+    usecase "get screenshot" as mm 
+    usecase "send screenshot via websocket" as ml 
+    usecase "receive screenshot from websocket" as ki
+}
+
+
+@enduml

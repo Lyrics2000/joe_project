@@ -1,38 +1,25 @@
-@startuml usecade_user
+@startuml commitee_uml
 !define LIGHTBLUE
 !includeurl https://raw.githubusercontent.com/Drakemor/RedDress-PlantUML/master/style.puml
 
 left to right direction
-actor "Admin" as fc
-
+actor "Commitee" as coo
 
 usecase "Login and Logout" as UC1
 usecase "Change Password" as UC2
 usecase "Register New User" as UC3
 
-fc --> UC1
-fc --> UC2
-fc --> UC3
-
+coo --> UC1 
+coo --> UC3
+coo --> UC2
 
 usecase "edit committee" as CS 
 usecase "delete commitee" as ED 
 usecase "modify commitee" as MP 
 
-
-
-fc --> CS
-fc --> ED 
-fc --> MP 
-
-
-  usecase "create member" as CM 
-  usecase "modify member" as MM 
-  usecase "delete member"  as DM 
-
-fc --> CM 
-fc --> MM 
-fc --> DM
+coo --> CS 
+coo --> ED 
+coo --> MP 
 
 
   usecase "establish scholarship" as ES 
@@ -41,13 +28,12 @@ fc --> DM
   usecase "Designate Scholarship" as DES 
   usecase "award scholarship"  as WS 
 
+coo --> ES 
+coo --> MS 
+coo --> DS 
+coo  --> DES 
+coo --> WS 
 
-
-fc --> ES 
-fc -->  MS 
-fc --> DS 
-fc --> DES 
-fc --> WS 
 
 
 

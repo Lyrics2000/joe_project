@@ -1,0 +1,88 @@
+@startuml user_usecase
+!define DARKBLUE
+!includeurl https://raw.githubusercontent.com/Drakemor/RedDress-PlantUML/master/style.puml
+
+
+
+
+left to right direction
+actor "User" as fc
+actor "Agent" as ag
+actor "Admin" as Ad 
+
+
+rectangle Authentification {
+  usecase "Login and Logout" as UC1
+  usecase "Change Password" as UC2
+  usecase "Register New User" as UC3
+}
+
+rectangle AuthentificationPropertyManager {
+  usecase "Login and Logout" as UC4
+  usecase "Change Password" as UC5
+  usecase "Register New User" as UC6
+}
+
+rectangle AuthentificationAdmin {
+  usecase "Login and Logout" as UC7
+  usecase "Change Password" as UC8
+  usecase "Register New User" as UC9
+}
+fc --> UC1
+fc --> UC2
+fc --> UC3
+
+ag --> UC4
+ag --> UC5
+ag --> UC6
+
+Ad --> UC7 
+Ad --> UC8
+Ad --> UC9 
+
+' login to see acount no
+rectangle BUilding{
+  usecase "view Buildings" as VBB
+
+}
+fc ..> VBB
+
+rectangle HousesAndRooms {
+    usecase "view Buidling info" as VB 
+    usecase "Edit BUilding Info" as ED 
+  
+
+}
+
+Ad --> VB
+Ad --> ED 
+fc --> VB 
+ag --> VB
+ag --> ED 
+
+rectangle PersonalDetailsUser{
+    usecase "Edit Personal Details" as EP 
+    usecase "View Personal DEtails" as VP 
+
+}
+
+fc --> EP 
+fc --> VP
+
+rectangle AngentPersonalDetails{
+    usecase "View Personal Details" as Av 
+
+}
+
+ag --> Av
+
+
+
+
+
+
+
+
+
+
+@enduml

@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="654px" preserveAspectRatio="none" style="width:246px;height:654px;background:#FFFFFF;" version="1.1" viewBox="0 0 246 654" width="246px" zoomAndPan="magnify"><defs><filter height="300%" id="fxisj3ddv7ub7" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[db756db308cf6ff8cfeeb51570136b75]
+entity fc--><ellipse cx="19.5" cy="296" fill="#2A86E2" filter="url(#fxisj3ddv7ub7)" rx="8" ry="8" style="stroke:#1A66C2;stroke-width:1.5;"/><path d="M19.5,304 L19.5,331 M6.5,312 L32.5,312 M19.5,331 L6.5,346 M19.5,331 L32.5,346 " fill="none" filter="url(#fxisj3ddv7ub7)" style="stroke:#1A66C2;stroke-width:1.5;"/><text fill="#000000" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="27" x="6" y="361.7104">User</text><ellipse cx="164.206" cy="21.6412" fill="#CCCCCC" filter="url(#fxisj3ddv7ub7)" rx="66.206" ry="15.6412" style="stroke:#AAAAAA;stroke-width:1.5;"/><text fill="#000000" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="97" x="115.706" y="23.4493">Login and Logout</text><ellipse cx="163.8103" cy="88.6621" fill="#CCCCCC" filter="url(#fxisj3ddv7ub7)" rx="68.8103" ry="16.1621" style="stroke:#AAAAAA;stroke-width:1.5;"/><text fill="#000000" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="103" x="112.3103" y="90.4702">Change Password</text><ellipse cx="164.1249" cy="156.425" fill="#CCCCCC" filter="url(#fxisj3ddv7ub7)" rx="70.1249" ry="16.425" style="stroke:#AAAAAA;stroke-width:1.5;"/><text fill="#000000" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="106" x="111.1249" y="158.2331">Register New User</text><ellipse cx="163.8739" cy="224.5748" fill="#CCCCCC" filter="url(#fxisj3ddv7ub7)" rx="68.3739" ry="16.0748" style="stroke:#AAAAAA;stroke-width:1.5;"/><text fill="#000000" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="102" x="112.8739" y="226.3829">check scholarship</text><ellipse cx="163.8103" cy="291.6621" fill="#CCCCCC" filter="url(#fxisj3ddv7ub7)" rx="68.8103" ry="16.1621" style="stroke:#AAAAAA;stroke-width:1.5;"/><text fill="#000000" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="103" x="112.3103" y="293.4702">Create Application</text><ellipse cx="163.9384" cy="358.4877" fill="#CCCCCC" filter="url(#fxisj3ddv7ub7)" rx="67.9384" ry="15.9877" style="stroke:#AAAAAA;stroke-width:1.5;"/><text fill="#000000" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="101" x="113.4384" y="360.2958">Modify Application</text><ellipse cx="163.9384" cy="425.4877" fill="#CCCCCC" filter="url(#fxisj3ddv7ub7)" rx="67.9384" ry="15.9877" style="stroke:#AAAAAA;stroke-width:1.5;"/><text fill="#000000" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="101" x="113.4384" y="427.2958">Delete Application</text><ellipse cx="164.1858" cy="493.3372" fill="#CCCCCC" filter="url(#fxisj3ddv7ub7)" rx="69.6858" ry="16.3372" style="stroke:#AAAAAA;stroke-width:1.5;"/><text fill="#000000" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="105" x="111.6858" y="495.1453">Submit Application</text><ellipse cx="163.7913" cy="560.4583" fill="#CCCCCC" filter="url(#fxisj3ddv7ub7)" rx="62.7913" ry="14.9583" style="stroke:#AAAAAA;stroke-width:1.5;"/><text fill="#000000" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="89" x="119.2913" y="562.2664">check Feedback</text><ellipse cx="164.1376" cy="626.7275" fill="#CCCCCC" filter="url(#fxisj3ddv7ub7)" rx="66.6376" ry="15.7275" style="stroke:#AAAAAA;stroke-width:1.5;"/><text fill="#000000" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="98" x="115.1376" y="628.5356">reply to feedback</text><!--MD5=[e9923d9fd4075a960db40f09654be8d8]
+link fc to UC1--><path d="M21.21,286.33 C24.23,229.09 37.67,122.09 94,54.5 C100.38,46.84 108.96,40.83 117.89,36.17 " fill="none" id="fc-to-UC1" style="stroke:#000000;stroke-width:1.0;"/><polygon fill="#000000" points="122.88,33.72,113.0387,34.1045,118.3937,35.9275,116.5707,41.2826,122.88,33.72" style="stroke:#000000;stroke-width:1.0;"/><!--MD5=[4af9e8427d276ef4a9c3c7d33d3ba91c]
+link fc to UC2--><path d="M25.76,286.26 C33.58,241.75 52.12,169.28 94,122.5 C100.89,114.8 109.91,108.66 119.16,103.82 " fill="none" id="fc-to-UC2" style="stroke:#000000;stroke-width:1.0;"/><polygon fill="#000000" points="123.7,101.55,113.8607,101.9846,119.225,103.7803,117.4293,109.1446,123.7,101.55" style="stroke:#000000;stroke-width:1.0;"/><!--MD5=[71fba4d683dd6a260b46bc412e62a629]
+link fc to UC3--><path d="M34.1,286.79 C46.08,257.32 65.99,217.39 94,190.5 C101.45,183.35 110.7,177.41 119.98,172.61 " fill="none" id="fc-to-UC3" style="stroke:#000000;stroke-width:1.0;"/><polygon fill="#000000" points="124.52,170.35,114.6807,170.7846,120.045,172.5803,118.2493,177.9446,124.52,170.35" style="stroke:#000000;stroke-width:1.0;"/><!--MD5=[664883dfbdbdca4d0f168eb1b1ee8916]
+link fc to CS--><path d="M34.05,310.57 C48.03,295.78 70.99,273.12 94,257.5 C103.34,251.16 114.08,245.4 124.26,240.52 " fill="none" id="fc-to-CS" style="stroke:#000000;stroke-width:1.0;"/><polygon fill="#000000" points="128.9,238.34,119.0536,238.5604,124.3775,240.4724,122.4655,245.7964,128.9,238.34" style="stroke:#000000;stroke-width:1.0;"/><!--MD5=[d68b6a1f1c9c2d96c164ad8afa373df6]
+link fc to ED--><path d="M34.16,322.24 C51.61,318.08 82.81,310.63 110.13,304.11 " fill="none" id="fc-to-ED" style="stroke:#000000;stroke-width:1.0;"/><polygon fill="#000000" points="115.19,302.91,105.508,301.1046,110.3261,304.0687,107.362,308.8868,115.19,302.91" style="stroke:#000000;stroke-width:1.0;"/><!--MD5=[1c3cf58fbb8b0c46a73d2e1d9c212b9b]
+link fc to MP--><path d="M34.16,328.66 C51.54,332.69 82.57,339.87 109.83,346.19 " fill="none" id="fc-to-MP" style="stroke:#000000;stroke-width:1.0;"/><polygon fill="#000000" points="114.87,347.35,107.005,341.422,109.999,346.2215,105.1994,349.2155,114.87,347.35" style="stroke:#000000;stroke-width:1.0;"/><!--MD5=[308e26696cbdabd5d7b35f5de9346cdd]
+link fc to DP--><path d="M34.17,339.9 C48.24,354.19 71.27,376.13 94,391.5 C103.69,398.05 114.82,404.1 125.28,409.23 " fill="none" id="fc-to-DP" style="stroke:#000000;stroke-width:1.0;"/><polygon fill="#000000" points="130.03,411.51,123.6627,403.9962,125.5269,409.3371,120.186,411.2012,130.03,411.51" style="stroke:#000000;stroke-width:1.0;"/><!--MD5=[c45f87b911e37d6acf0e51af8f3e4d09]
+link fc to SP--><path d="M34.07,362.95 C46.14,391.98 66.19,431.66 94,458.5 C101.72,465.96 111.35,472.17 120.94,477.18 " fill="none" id="fc-to-SP" style="stroke:#000000;stroke-width:1.0;"/><polygon fill="#000000" points="125.63,479.55,119.408,471.9154,121.1694,477.2911,115.7937,479.0525,125.63,479.55" style="stroke:#000000;stroke-width:1.0;"/><!--MD5=[585470297c92fd5ebda9e70a5ff01c32]
+link fc to CF--><path d="M25.72,364.63 C33.49,409.01 52,481.21 94,527.5 C101.21,535.44 110.74,541.66 120.41,546.45 " fill="none" id="fc-to-CF" style="stroke:#000000;stroke-width:1.0;"/><polygon fill="#000000" points="125.15,548.69,118.7257,541.2249,120.6304,546.5514,115.3039,548.4562,125.15,548.69" style="stroke:#000000;stroke-width:1.0;"/><!--MD5=[5394a7455d45250b2943bc278748f8fb]
+link fc to RF--><path d="M21.54,364.96 C25,421.48 39.01,525.98 94,592.5 C100.65,600.55 109.68,606.85 119.01,611.73 " fill="none" id="fc-to-RF" style="stroke:#000000;stroke-width:1.0;"/><polygon fill="#000000" points="123.61,614.01,117.3393,606.4154,119.135,611.7797,113.7707,613.5754,123.61,614.01" style="stroke:#000000;stroke-width:1.0;"/><!--MD5=[5b4354ec10635ea712347518ec8bb652]
+@startuml usecade_userdc
+!define LIGHTBLUE
+!includeurl https://raw.githubusercontent.com/Drakemor/RedDress-PlantUML/master/style.puml
+
+left to right direction
+actor "User" as fc
+
+usecase "Login and Logout" as UC1
+usecase "Change Password" as UC2
+usecase "Register New User" as UC3
+
+fc - -> UC1
+fc - -> UC2
+fc - -> UC3
+
+
+
+usecase "check scholarship" as CS 
+usecase "Create Application" as ED 
+usecase "Modify Application" as MP 
+usecase "Delete Application" as DP
+usecase "Submit Application"  as SP
+
+
+
+fc - -> CS
+fc - -> ED 
+fc - -> MP 
+fc - ->  DP 
+fc - -> SP 
+
+
+
+usecase "check Feedback" as CF 
+usecase "reply to feedback" as RF
+
+
+fc - -> CF 
+fc - -> RF
+
+
+@enduml
+
+@startuml usecade_userdc
+
+
+
+
+skinparam stereotypeCBackgroundColor 1a66c2
+
+
+
+
+
+
+
+skinparam backgroundColor fff
+
+
+
+
+
+
+
+
+skinparam circledCharacter {
+  radius 8
+  fontSize 11
+  fontName Verdana
+}
+
+skinparam class {
+    backgroundColor ccc
+  borderColor aaa
+    fontColor 000
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor 333
+  stereotypeFontSize 11
+    arrowColor 000
+  arrowFontName Verdana
+  arrowFontColor 333
+  arrowFontSize 11
+
+  attributeFontColor 333
+  attributeFontSize 11
+  attributeIconSize 11
+}
+
+
+skinparam actor {
+    backgroundColor 2a86e2
+  borderColor 1a66c2
+    fontColor 000
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor 333
+  stereotypeFontSize 11
+}
+
+skinparam participant {
+    backgroundColor ccc
+  borderColor aaa
+    fontColor 000
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor 333
+  stereotypeFontSize 11
+}
+
+skinparam collections {
+    backgroundColor ccc
+  borderColor aaa
+    fontColor 000
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor 333
+  stereotypeFontSize 11
+}
+
+skinparam SequenceBox{
+    backgroundColor e0e0e0
+  borderColor cccccc
+    fontColor 000
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor 333
+  stereotypeFontSize 11
+}
+
+
+skinparam interface {
+    backgroundColor 2a86e2
+  borderColor 1a66c2
+    fontColor 000
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor 333
+  stereotypeFontSize 11
+}
+
+skinparam component {
+    backgroundColor ccc
+  borderColor aaa
+    fontColor 000
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor 333
+  stereotypeFontSize 11
+}
+
+skinparam node {
+    backgroundColor ccc
+  borderColor aaa
+    fontColor 000
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor 333
+  stereotypeFontSize 11
+}
+
+skinparam database {
+    backgroundColor ccc
+  borderColor aaa
+    fontColor 000
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor 333
+  stereotypeFontSize 11
+}
+
+skinparam queue {
+    backgroundColor ccc
+  borderColor aaa
+    fontColor 000
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor 333
+  stereotypeFontSize 11
+}
+
+
+skinparam usecase {
+    backgroundColor ccc
+  borderColor aaa
+    fontColor 000
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor 333
+  stereotypeFontSize 11
+    arrowColor 000
+  arrowFontName Verdana
+  arrowFontColor 333
+  arrowFontSize 11
+}
+
+skinparam activity {
+    backgroundColor ccc
+  borderColor aaa
+    fontColor 000
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor 333
+  stereotypeFontSize 11
+    arrowColor 000
+  arrowFontName Verdana
+  arrowFontColor 333
+  arrowFontSize 11
+}
+
+skinparam sequence {
+    fontColor 000
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor 333
+  stereotypeFontSize 11
+    arrowColor 000
+  arrowFontName Verdana
+  arrowFontColor 333
+  arrowFontSize 11
+
+  lifeLineBorderColor 2a86e2
+  lifeLineBackgroundColor e0e0e0
+}
+
+skinparam boundary {
+    backgroundColor 2a86e2
+  borderColor 1a66c2
+    fontColor 000
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor 333
+  stereotypeFontSize 11
+}
+
+skinparam control {
+    backgroundColor 2a86e2
+  borderColor 1a66c2
+    fontColor 000
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor 333
+  stereotypeFontSize 11
+}
+
+skinparam entity {
+    backgroundColor 2a86e2
+  borderColor 1a66c2
+    fontColor 000
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor 333
+  stereotypeFontSize 11
+}
+
+
+skinparam state {
+    backgroundColor ccc
+  borderColor aaa
+    fontColor 000
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor 333
+  stereotypeFontSize 11
+    arrowColor 000
+  arrowFontName Verdana
+  arrowFontColor 333
+  arrowFontSize 11
+  startColor 2a86e2
+  endColor 1a66c2
+}
+
+
+skinparam object {
+    backgroundColor ccc
+  borderColor aaa
+    fontColor 000
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor 333
+  stereotypeFontSize 11
+    arrowColor 000
+  arrowFontName Verdana
+  arrowFontColor 333
+  arrowFontSize 11
+}
+
+
+skinparam note {
+    backgroundColor 2a86e2
+  borderColor 1a66c2
+    fontColor 000
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor 333
+  stereotypeFontSize 11
+}
+
+skinparam cloud {
+    backgroundColor ccc
+  borderColor aaa
+    fontColor 000
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor 333
+  stereotypeFontSize 11
+    arrowColor 000
+  arrowFontName Verdana
+  arrowFontColor 333
+  arrowFontSize 11
+}
+
+skinparam rectangle {
+    backgroundColor ccc
+  borderColor aaa
+    fontColor 000
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor 333
+  stereotypeFontSize 11
+}
+
+skinparam storage {
+    backgroundColor ccc
+  borderColor aaa
+    fontColor 000
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor 333
+  stereotypeFontSize 11
+}
+
+
+left to right direction
+actor "User" as fc
+
+usecase "Login and Logout" as UC1
+usecase "Change Password" as UC2
+usecase "Register New User" as UC3
+
+fc - -> UC1
+fc - -> UC2
+fc - -> UC3
+
+
+
+usecase "check scholarship" as CS 
+usecase "Create Application" as ED 
+usecase "Modify Application" as MP 
+usecase "Delete Application" as DP
+usecase "Submit Application"  as SP
+
+
+
+fc - -> CS
+fc - -> ED 
+fc - -> MP 
+fc - ->  DP 
+fc - -> SP 
+
+
+
+usecase "check Feedback" as CF 
+usecase "reply to feedback" as RF
+
+
+fc - -> CF 
+fc - -> RF
+
+
+@enduml
+
+PlantUML version 1.2021.7(Sun May 23 15:40:07 EAT 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

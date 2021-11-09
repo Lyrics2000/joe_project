@@ -1,5 +1,5 @@
 @startuml user_logic
-!define DARKBLUE
+!define LIGHTSTYLE
 !includeurl https://raw.githubusercontent.com/Drakemor/RedDress-PlantUML/master/style.puml
 
 

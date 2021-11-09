@@ -1,0 +1,46 @@
+@startuml usecade_user
+!define LIGHTBLUE
+!includeurl https://raw.githubusercontent.com/Drakemor/RedDress-PlantUML/master/style.puml
+
+left to right direction
+actor "Farmer" as fc
+
+
+usecase "Login and Logout" as UC1
+usecase "Change Password" as UC2
+usecase "Register New User" as UC3
+
+fc --> UC1
+fc --> UC2
+fc --> UC3
+
+usecase "check mashroom conditions" as MC 
+usecase "check mashroom prediction price" as LV 
+
+fc --> MC 
+fc --> LV
+
+usecase "apply for loan" as AL 
+usecase "check available loans" as CHK 
+usecase "edit assets for loans" as EDK
+
+usecase "edit employer details" as FGG
+
+fc --> AL 
+fc  --> CHK 
+fc --> EDK
+fc --> FGG
+
+
+
+
+
+
+
+
+
+
+
+
+
+@enduml

@@ -1,32 +1,27 @@
-@startuml usecade_user
-!define DARKBLUE
+@startuml usecade_userdc
+!define LIGHTBLUE
 !includeurl https://raw.githubusercontent.com/Drakemor/RedDress-PlantUML/master/style.puml
 
 left to right direction
 actor "User" as fc
-database "Database" as DB
 
-rectangle Authentification {
-  usecase "Login and Logout" as UC1
-  usecase "Change Password" as UC2
-  usecase "Register New User" as UC3
-}
+usecase "Login and Logout" as UC1
+usecase "Change Password" as UC2
+usecase "Register New User" as UC3
+
 fc --> UC1
 fc --> UC2
 fc --> UC3
 
-UC1 ..> DB
-UC2 ..> DB 
-UC3 ..> DB
 
-rectangle Scholarship{
-    usecase "check scholarship" as CS 
-    usecase "Create Application" as ED 
-    usecase "Modify Application" as MP 
-    usecase "Delete Application" as DP
-    usecase "Submit Application"  as SP
 
-}
+usecase "check scholarship" as CS 
+usecase "Create Application" as ED 
+usecase "Modify Application" as MP 
+usecase "Delete Application" as DP
+usecase "Submit Application"  as SP
+
+
 
 fc --> CS
 fc --> ED 
@@ -35,23 +30,13 @@ fc -->  DP
 fc --> SP 
 
 
-CS ..> DB
-ED ..> DB
-MP ..> DB
-DP ..> DB
-SP ..> DB
 
+usecase "check Feedback" as CF 
+usecase "reply to feedback" as RF
 
-
-rectangle FeedBack{
-    usecase "check Feedback" as CF 
-    usecase "reply to feedback" as RF
-}
 
 fc --> CF 
 fc --> RF
 
-CF ..> DB
-RF ..> DB
 
 @enduml

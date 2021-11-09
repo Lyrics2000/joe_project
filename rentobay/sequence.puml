@@ -1,0 +1,17 @@
+@startuml rentobay_sequence 
+!define DARKBLUE
+!includeurl https://raw.githubusercontent.com/Drakemor/RedDress-PlantUML/master/style.puml
+
+
+
+participant Week1 as wk1
+participant Week2 as wk2
+participant Week3 as wk3
+participant Week4 as wk4
+
+wk1 -> wk2 : Authentification backend and \n Database Design \n backend adn api design  
+wk2 -> wk3 :  front end design \n homepage for user and and agent \n and intergrate auth api
+wk3 --> wk4 :detailed page of the buidlings \n shud contain rooms \n and also agent building verified \n or non verified upload \n
+
+
+@enduml

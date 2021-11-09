@@ -1,5 +1,5 @@
 @startuml edu_database
-!define DARKBLUE
+!define LIGHTBLUE
 !includeurl https://raw.githubusercontent.com/Drakemor/RedDress-PlantUML/master/style.puml
 
 
@@ -11,11 +11,12 @@ entity STUDENT{
     email :  EmailField
     phone :  CharField
     password :  CharField
-
 }
 
 
-entity ExtraInfo{
+
+
+entity ExtraInfo {
     id:pk
     student_id :  ForeignKey(STUDENT)
     permanent_address :  CharField
@@ -30,6 +31,8 @@ note left of ExtraInfo :  used for recommendation \n of scholarship (AI)
 
 
 STUDENT ||..|{ ExtraInfo
+
+
 
 entity EmployerDetails{
     id:pk 

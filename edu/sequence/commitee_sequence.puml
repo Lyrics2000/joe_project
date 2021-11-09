@@ -1,0 +1,30 @@
+@startuml user_sequence
+!define LIGHTBLUE
+!includeurl https://raw.githubusercontent.com/Drakemor/RedDress-PlantUML/master/style.puml
+
+
+actor "Commitee" as fc 
+database "Database" as DB 
+actor "User" as eu
+participant "Scholarship" as SC  
+
+
+
+fc --> DB : Authentication Request
+DB --> fc : Authentication Response 
+fc --> SC : edit scholarship 
+SC --> DB : request scholarship 
+DB --> SC : respond to request
+DB --> eu : respond to user request
+eu --> DB : request 
+fc --> eu : create feedback 
+fc --> eu : respond to feedback response 
+fc --> DB : edit commitee
+eu --> fc : request feedback
+eu --> fc : create feedback response
+
+
+
+
+
+@enduml

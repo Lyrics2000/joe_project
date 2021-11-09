@@ -1,0 +1,109 @@
+@startuml rentobay_database
+!define DARKBLUE
+!includeurl https://raw.githubusercontent.com/Drakemor/RedDress-PlantUML/master/style.puml
+
+
+entity PropertyManager{
+    id:pk 
+    agent_name :  CharField 
+    mobile_number :  CharField
+    email :  EmailField 
+    approved :  BooleanField 
+    address_name :  CharField
+    latitude :  CharField
+    longitude :  CharField    
+}
+
+
+
+
+entity Building{
+    id:pk 
+    agent_id :  ForeignKey(Agent)
+    building_name :  CharField
+    no_of_floors :  INtegerField
+    no_of_Room :  INtegerField
+    location_name :  CharField
+    location_address : CharField
+    latitude :  INtegerField
+    longitude :  INtegerField
+    parking_space : CharField
+    security :  BooleanField 
+    tv_connection :  BooleanField
+    account_number :  CharField
+    owner :  CharField
+    payment_deadline :  DateField("every month")
+    penalties :  CharField
+    building_main_pic :  ImageField
+    featured :  BooleanField
+    approval :  BooleanField
+
+}
+note left of AgentBuildings : aprroval field is used to check \n if building is active ama
+note left of AgentBuildings : payment deadline and panalties to be shown \n when the customer has booked the room  
+Agent||..|{ AgentBuildings
+
+
+
+entity Room{
+    id: pk
+    building_id :  ForeignKey(AgentBuildings)
+    room_name :  CharField
+    room_type :  CharField("contains choises")
+    rent :  DecimalField 
+    deposit :  DecimalField
+    floor :  INtegerField
+    balcony :  BooleanField
+    room_size :  CharField
+    room_picture :  ImageField
+    featured :  BooleanField
+}
+
+AgentBuildings||..|{ Room
+
+
+
+entity RoomMorePicture{
+    id: pk
+    room_id :  ForeignKey(Room)
+    picture :  ImageField
+
+}
+
+entity Booking{
+    id:pk 
+    building_id :  ForeignKey(building);
+    property_manager :  ForeignKey(PropertyManager)
+    room_id :  ForeignKey(Room)
+    booking_status :  BooleanField
+}
+
+Building||..|{ Booking
+PropertyManager||..|{ Booking
+Room||..|{ Booking
+
+
+entity Payment{
+    id:pk 
+    booking_id :  ForeignKey(Booking)
+    amount_paid :  DecimalField 
+    payment_status :  BooleanField
+    payment_type : CharField("full payment","partial payment")
+    
+
+}
+
+Room||..|{ RoomMorePicture
+
+entity BuildingMorePic{
+    id:pk 
+    building_id :  ForeignKey(AgentBuildings)
+    picture :  ImageField
+}
+
+AgentBuildings||..|{ BuildingMorePic
+
+
+
+
+@enduml

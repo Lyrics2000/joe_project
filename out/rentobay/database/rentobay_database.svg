@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="740px" preserveAspectRatio="none" style="width:1213px;height:740px;background:#777777;" version="1.1" viewBox="0 0 1213 740" width="1213px" zoomAndPan="magnify"><defs><filter height="300%" id="fosevilkz2t6j" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[9cf09b0fbe01ecf9b0af5ac2a2819cb8]
+class PropertyManager--><rect codeLine="5" fill="#2E2E2E" filter="url(#fosevilkz2t6j)" height="144.4375" id="PropertyManager" style="stroke:#1B1B1B;stroke-width:1.5;" width="169" x="7" y="345.5"/><ellipse cx="39.7" cy="358.5" fill="#1A66C2" rx="8" ry="8" style="stroke:#1B1B1B;stroke-width:1.0;"/><path d="M36.7156,354.4844 L42.2938,354.4844 L42.2938,356.0469 L38.7781,356.0469 L38.7781,357.5313 L42.075,357.5313 L42.075,359.0938 L38.7781,359.0938 L38.7781,360.9375 L42.4031,360.9375 L42.4031,362.5 L36.7156,362.5 L36.7156,354.4844 Z " fill="#000000"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="97" x="55.3" y="362.3081">PropertyManager</text><line style="stroke:#1B1B1B;stroke-width:1.5;" x1="8" x2="175" y1="371.5" y2="371.5"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="27" x="13" y="385.7104">id:pk</text><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="139" x="13" y="398.5151">agent_name :  CharField</text><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="157" x="13" y="411.3198">mobile_number :  CharField</text><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="104" x="13" y="424.1245">email :  EmailField</text><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="141" x="13" y="436.9292">approved :  BooleanField</text><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="154" x="13" y="449.7339">address_name :  CharField</text><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="111" x="13" y="462.5386">latitude :  CharField</text><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="121" x="13" y="475.3433">longitude :  CharField</text><line style="stroke:#1B1B1B;stroke-width:1.5;" x1="8" x2="175" y1="481.9375" y2="481.9375"/><!--MD5=[8560f289a30852a9f75d64e53f926853]
+class Building--><rect codeLine="20" fill="#2E2E2E" filter="url(#fosevilkz2t6j)" height="285.2891" id="Building" style="stroke:#1B1B1B;stroke-width:1.5;" width="272" x="211.5" y="275"/><ellipse cx="321.5" cy="288" fill="#1A66C2" rx="8" ry="8" style="stroke:#1B1B1B;stroke-width:1.0;"/><path d="M318.5156,283.9844 L324.0938,283.9844 L324.0938,285.5469 L320.5781,285.5469 L320.5781,287.0313 L323.875,287.0313 L323.875,288.5938 L320.5781,288.5938 L320.5781,290.4375 L324.2031,290.4375 L324.2031,292 L318.5156,292 L318.5156,283.9844 Z " fill="#000000"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="45" x="337.5" y="291.8081">Building</text><line style="stroke:#1B1B1B;stroke-width:1.5;" x1="212.5" x2="482.5" y1="301" y2="301"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="27" x="217.5" y="315.2104">id:pk</text><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="151" x="217.5" y="328.0151">building_name :  CharField</text><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="153" x="217.5" y="340.8198">no_of_floors :  INtegerField</text><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="152" x="217.5" y="353.6245">no_of_Room :  INtegerField</text><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="151" x="217.5" y="366.4292">location_name :  CharField</text><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="162" x="217.5" y="379.2339">location_address : CharField</text><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="125" x="217.5" y="392.0386">latitude :  INtegerField</text><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="135" x="217.5" y="404.8433">longitude :  INtegerField</text><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="147" x="217.5" y="417.6479">parking_space : CharField</text><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="133" x="217.5" y="430.4526">security :  BooleanField</text><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="165" x="217.5" y="443.2573">tv_connection :  BooleanField</text><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="163" x="217.5" y="456.062">account_number :  CharField</text><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="104" x="217.5" y="468.8667">owner :  CharField</text><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="121" x="217.5" y="481.6714">penalties :  CharField</text><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="177" x="217.5" y="494.4761">building_main_pic :  ImageField</text><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="136" x="217.5" y="507.2808">featured :  BooleanField</text><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="137" x="217.5" y="520.0854">approval :  BooleanField</text><line style="stroke:#1B1B1B;stroke-width:1.5;" x1="212.5" x2="482.5" y1="526.6797" y2="526.6797"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="166" x="217.5" y="540.8901">agent_id :  ForeignKey(Agent)</text><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="260" x="217.5" y="553.6948">payment_deadline :  DateField("every month")</text><!--MD5=[45117a111c5f6a463565e01e0b69ca4d]
+class AgentBuildings--><rect fill="#2E2E2E" filter="url(#fosevilkz2t6j)" height="42" id="AgentBuildings" style="stroke:#1B1B1B;stroke-width:1.5;" width="110" x="733.5" y="173"/><ellipse cx="745.5" cy="186" fill="#1A66C2" rx="8" ry="8" style="stroke:#1B1B1B;stroke-width:1.0;"/><path d="M747.625,189.5625 Q747.0469,189.8594 746.4219,190 Q745.8125,190.1563 745.1406,190.1563 Q743.1406,190.1563 741.9688,189.0469 Q740.7969,187.9219 740.7969,186 Q740.7969,184.0781 741.9688,182.9531 Q743.1406,181.8281 745.1406,181.8281 Q745.8125,181.8281 746.4219,181.9844 Q747.0469,182.1406 747.625,182.4375 L747.625,184.0938 Q747.0469,183.7031 746.4844,183.5156 Q745.9219,183.3281 745.3125,183.3281 Q744.2031,183.3281 743.5625,184.0469 Q742.9375,184.75 742.9375,186 Q742.9375,187.2344 743.5625,187.9531 Q744.2031,188.6563 745.3125,188.6563 Q745.9219,188.6563 746.4844,188.4844 Q747.0469,188.2969 747.625,187.9063 L747.625,189.5625 Z " fill="#000000"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="84" x="756.5" y="189.8081">AgentBuildings</text><line style="stroke:#1B1B1B;stroke-width:1.5;" x1="734.5" x2="842.5" y1="199" y2="199"/><line style="stroke:#1B1B1B;stroke-width:1.5;" x1="734.5" x2="842.5" y1="207" y2="207"/><path d="M185,176 L185,211.6094 L382,211.6094 L382,186 L372,176 L185,176 " fill="#1A66C2" filter="url(#fosevilkz2t6j)" style="stroke:#002642;stroke-width:1.0;"/><path d="M372,176 L372,186 L382,186 L372,176 " fill="#1A66C2" style="stroke:#002642;stroke-width:1.0;"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="172" x="191" y="191.2104">aprroval field is used to check</text><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="135" x="195" y="204.0151">if building is active ama</text><path d="M417,176 L417,211.6094 A0,0 0 0 0 417,211.6094 L698,211.6094 A0,0 0 0 0 698,211.6094 L698,198 L733.16,194 L698,190 L698,186 L688,176 L417,176 A0,0 0 0 0 417,176 " fill="#1A66C2" filter="url(#fosevilkz2t6j)" style="stroke:#002642;stroke-width:1.0;"/><path d="M688,176 L688,186 L698,186 L688,176 " fill="#1A66C2" style="stroke:#002642;stroke-width:1.0;"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="256" x="423" y="191.2104">payment deadline and panalties to be shown</text><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="236" x="427" y="204.0151">when the customer has booked the room</text><!--MD5=[9d44916250b776386006c440668bcfbb]
+class Agent--><rect fill="#2E2E2E" filter="url(#fosevilkz2t6j)" height="42" id="Agent" style="stroke:#1B1B1B;stroke-width:1.5;" width="58" x="759.5" y="39"/><ellipse cx="771.5" cy="52" fill="#1A66C2" rx="8" ry="8" style="stroke:#1B1B1B;stroke-width:1.0;"/><path d="M773.625,55.5625 Q773.0469,55.8594 772.4219,56 Q771.8125,56.1563 771.1406,56.1563 Q769.1406,56.1563 767.9688,55.0469 Q766.7969,53.9219 766.7969,52 Q766.7969,50.0781 767.9688,48.9531 Q769.1406,47.8281 771.1406,47.8281 Q771.8125,47.8281 772.4219,47.9844 Q773.0469,48.1406 773.625,48.4375 L773.625,50.0938 Q773.0469,49.7031 772.4844,49.5156 Q771.9219,49.3281 771.3125,49.3281 Q770.2031,49.3281 769.5625,50.0469 Q768.9375,50.75 768.9375,52 Q768.9375,53.2344 769.5625,53.9531 Q770.2031,54.6563 771.3125,54.6563 Q771.9219,54.6563 772.4844,54.4844 Q773.0469,54.2969 773.625,53.9063 L773.625,55.5625 Z " fill="#000000"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="32" x="782.5" y="55.8081">Agent</text><line style="stroke:#1B1B1B;stroke-width:1.5;" x1="760.5" x2="816.5" y1="65" y2="65"/><line style="stroke:#1B1B1B;stroke-width:1.5;" x1="760.5" x2="816.5" y1="73" y2="73"/><!--MD5=[d218c48b946d362ff1ecd879cabebcad]
+class Room--><rect codeLine="48" fill="#2E2E2E" filter="url(#fosevilkz2t6j)" height="182.8516" id="Room" style="stroke:#1B1B1B;stroke-width:1.5;" width="255" x="519" y="326"/><ellipse cx="627" cy="339" fill="#1A66C2" rx="8" ry="8" style="stroke:#1B1B1B;stroke-width:1.0;"/><path d="M624.0156,334.9844 L629.5938,334.9844 L629.5938,336.5469 L626.0781,336.5469 L626.0781,338.0313 L629.375,338.0313 L629.375,339.5938 L626.0781,339.5938 L626.0781,341.4375 L629.7031,341.4375 L629.7031,343 L624.0156,343 L624.0156,334.9844 Z " fill="#000000"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="32" x="643" y="342.8081">Room</text><line style="stroke:#1B1B1B;stroke-width:1.5;" x1="520" x2="773" y1="352" y2="352"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="31" x="525" y="366.2104">id: pk</text><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="137" x="525" y="379.0151">room_name :  CharField</text><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="110" x="525" y="391.8198">rent :  DecimalField</text><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="129" x="525" y="404.6245">deposit :  DecimalField</text><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="109" x="525" y="417.4292">floor :  INtegerField</text><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="131" x="525" y="430.2339">balcony :  BooleanField</text><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="127" x="525" y="443.0386">room_size :  CharField</text><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="152" x="525" y="455.8433">room_picture :  ImageField</text><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="136" x="525" y="468.6479">featured :  BooleanField</text><line style="stroke:#1B1B1B;stroke-width:1.5;" x1="520" x2="773" y1="475.2422" y2="475.2422"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="230" x="525" y="489.4526">building_id :  ForeignKey(AgentBuildings)</text><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="243" x="525" y="502.2573">room_type :  CharField("contains choises")</text><!--MD5=[bee380a13d9bc24b20b738dfdba22b27]
+class RoomMorePicture--><rect codeLine="66" fill="#2E2E2E" filter="url(#fosevilkz2t6j)" height="80.4141" id="RoomMorePicture" style="stroke:#1B1B1B;stroke-width:1.5;" width="176" x="558.5" y="633"/><ellipse cx="593.5" cy="646" fill="#1A66C2" rx="8" ry="8" style="stroke:#1B1B1B;stroke-width:1.0;"/><path d="M590.5156,641.9844 L596.0938,641.9844 L596.0938,643.5469 L592.5781,643.5469 L592.5781,645.0313 L595.875,645.0313 L595.875,646.5938 L592.5781,646.5938 L592.5781,648.4375 L596.2031,648.4375 L596.2031,650 L590.5156,650 L590.5156,641.9844 Z " fill="#000000"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="99" x="609.5" y="649.8081">RoomMorePicture</text><line style="stroke:#1B1B1B;stroke-width:1.5;" x1="559.5" x2="733.5" y1="659" y2="659"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="31" x="564.5" y="673.2104">id: pk</text><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="116" x="564.5" y="686.0151">picture :  ImageField</text><line style="stroke:#1B1B1B;stroke-width:1.5;" x1="559.5" x2="733.5" y1="692.6094" y2="692.6094"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="164" x="564.5" y="706.8198">room_id :  ForeignKey(Room)</text><!--MD5=[c6c2aa411a70f0170997fbec83374a43]
+class Booking--><rect codeLine="73" fill="#2E2E2E" filter="url(#fosevilkz2t6j)" height="106.0234" id="Booking" style="stroke:#1B1B1B;stroke-width:1.5;" width="300" x="197.5" y="620"/><ellipse cx="321.5" cy="633" fill="#1A66C2" rx="8" ry="8" style="stroke:#1B1B1B;stroke-width:1.0;"/><path d="M318.5156,628.9844 L324.0938,628.9844 L324.0938,630.5469 L320.5781,630.5469 L320.5781,632.0313 L323.875,632.0313 L323.875,633.5938 L320.5781,633.5938 L320.5781,635.4375 L324.2031,635.4375 L324.2031,637 L318.5156,637 L318.5156,628.9844 Z " fill="#000000"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="45" x="337.5" y="636.8081">Booking</text><line style="stroke:#1B1B1B;stroke-width:1.5;" x1="198.5" x2="496.5" y1="646" y2="646"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="27" x="203.5" y="660.2104">id:pk</text><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="174" x="203.5" y="673.0151">booking_status :  BooleanField</text><line style="stroke:#1B1B1B;stroke-width:1.5;" x1="198.5" x2="496.5" y1="679.6094" y2="679.6094"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="194" x="203.5" y="693.8198">building_id :  ForeignKey(building);</text><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="288" x="203.5" y="706.6245">property_manager :  ForeignKey(PropertyManager)</text><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="164" x="203.5" y="719.4292">room_id :  ForeignKey(Room)</text><!--MD5=[764fca796ce7f635542948d8fc39db5e]
+class Payment--><rect codeLine="86" fill="#2E2E2E" filter="url(#fosevilkz2t6j)" height="106.0234" id="Payment" style="stroke:#1B1B1B;stroke-width:1.5;" width="347" x="852" y="7"/><ellipse cx="997.5" cy="20" fill="#1A66C2" rx="8" ry="8" style="stroke:#1B1B1B;stroke-width:1.0;"/><path d="M994.5156,15.9844 L1000.0938,15.9844 L1000.0938,17.5469 L996.5781,17.5469 L996.5781,19.0313 L999.875,19.0313 L999.875,20.5938 L996.5781,20.5938 L996.5781,22.4375 L1000.2031,22.4375 L1000.2031,24 L994.5156,24 L994.5156,15.9844 Z " fill="#000000"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="49" x="1013.5" y="23.8081">Payment</text><line style="stroke:#1B1B1B;stroke-width:1.5;" x1="853" x2="1198" y1="33" y2="33"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="27" x="858" y="47.2104">id:pk</text><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="160" x="858" y="60.0151">amount_paid :  DecimalField</text><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="179" x="858" y="72.8198">payment_status :  BooleanField</text><line style="stroke:#1B1B1B;stroke-width:1.5;" x1="853" x2="1198" y1="79.4141" y2="79.4141"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="191" x="858" y="93.6245">booking_id :  ForeignKey(Booking)</text><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="335" x="858" y="106.4292">payment_type : CharField("full payment","partial payment")</text><!--MD5=[ba44420db9a98343ce2e05f91cd25d4f]
+class BuildingMorePic--><rect codeLine="98" fill="#2E2E2E" filter="url(#fosevilkz2t6j)" height="80.4141" id="BuildingMorePic" style="stroke:#1B1B1B;stroke-width:1.5;" width="242" x="809.5" y="377.5"/><ellipse cx="882.5" cy="390.5" fill="#1A66C2" rx="8" ry="8" style="stroke:#1B1B1B;stroke-width:1.0;"/><path d="M879.5156,386.4844 L885.0938,386.4844 L885.0938,388.0469 L881.5781,388.0469 L881.5781,389.5313 L884.875,389.5313 L884.875,391.0938 L881.5781,391.0938 L881.5781,392.9375 L885.2031,392.9375 L885.2031,394.5 L879.5156,394.5 L879.5156,386.4844 Z " fill="#000000"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="89" x="898.5" y="394.3081">BuildingMorePic</text><line style="stroke:#1B1B1B;stroke-width:1.5;" x1="810.5" x2="1050.5" y1="403.5" y2="403.5"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="27" x="815.5" y="417.7104">id:pk</text><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="116" x="815.5" y="430.5151">picture :  ImageField</text><line style="stroke:#1B1B1B;stroke-width:1.5;" x1="810.5" x2="1050.5" y1="437.1094" y2="437.1094"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="230" x="815.5" y="451.3198">building_id :  ForeignKey(AgentBuildings)</text><!--MD5=[018366b365a5bfade5c5dad160bf1e0f]
+link GMN5 to AgentBuildings--><path d="M319.85,175.96 C346.12,163.96 382.84,149.3 417,143 C539.82,120.34 577.2,111.31 698,143 C720.33,148.86 742.95,161.61 760,172.89 " fill="none" id="GMN5-AgentBuildings" style="stroke:#FFFFFF;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><!--MD5=[c31244ee957347f57f23795f3819b104]
+link Agent to AgentBuildings--><path codeLine="44" d="M788.5,89.1 C788.5,111.37 788.5,142.34 788.5,164.67 " fill="none" id="Agent-AgentBuildings" style="stroke:#FFFFFF;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="788.5" x2="794.5" y1="164.76" y2="172.76"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="788.5" x2="782.5" y1="164.76" y2="172.76"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="788.5" x2="788.5" y1="164.76" y2="172.76"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="792.5" x2="784.5" y1="162.76" y2="162.76"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="784.5" x2="792.5" y1="85.05" y2="85.05"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="784.5" x2="792.5" y1="88.05" y2="88.05"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="788.5" x2="788.5" y1="89.05" y2="81.05"/><!--MD5=[5cd59284fe0a26e5eeafe6937eb9aa9c]
+link AgentBuildings to Room--><path codeLine="62" d="M771.22,221.95 C755.66,246.23 731.8,283.44 709.1,318.85 " fill="none" id="AgentBuildings-Room" style="stroke:#FFFFFF;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="708.8981" x2="709.6309" y1="319.1655" y2="329.1386"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="708.8981" x2="699.5291" y1="319.1655" y2="322.6614"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="708.8981" x2="704.58" y1="319.1655" y2="325.9"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="713.3449" x2="706.6104" y1="319.6409" y2="315.3228"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="770.1248" x2="776.8635" y1="216.2635" y2="220.5752"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="768.508" x2="775.2467" y1="218.7905" y2="223.1022"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="771.3384" x2="775.65" y1="221.7887" y2="215.05"/><!--MD5=[68ad70d5c2a3a93d1d2d01be78051600]
+link Building to Booking--><path codeLine="81" d="M347.5,568.53 C347.5,583.71 347.5,598.42 347.5,611.76 " fill="none" id="Building-Booking" style="stroke:#FFFFFF;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="347.5" x2="353.5" y1="611.88" y2="619.88"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="347.5" x2="341.5" y1="611.88" y2="619.88"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="347.5" x2="347.5" y1="611.88" y2="619.88"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="351.5" x2="343.5" y1="609.88" y2="609.88"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="343.5" x2="351.5" y1="564.07" y2="564.07"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="343.5" x2="351.5" y1="567.07" y2="567.07"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="347.5" x2="347.5" y1="568.07" y2="560.07"/><!--MD5=[61d946fe6fa3736cf0191f6922cf715f]
+link PropertyManager to Booking--><path codeLine="82" d="M140.91,496.34 C156.44,518.08 174.52,540.94 193.5,560 C213.14,579.72 236.52,598.59 259.05,615.02 " fill="none" id="PropertyManager-Booking" style="stroke:#FFFFFF;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="259.1937" x2="269.1916" y1="615.1512" y2="614.9477"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="259.1937" x2="262.1884" y1="615.1512" y2="624.6923"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="259.1937" x2="265.69" y1="615.1512" y2="619.82"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="259.904" x2="255.2352" y1="610.7358" y2="617.2322"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="135.2203" x2="141.7466" y1="495.2166" y2="490.5897"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="136.9554" x2="143.4817" y1="497.6639" y2="493.037"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="140.7969" x2="136.17" y1="496.1662" y2="489.64"/><!--MD5=[0193399a6ef944d35d892d108ad76c2e]
+link Room to Booking--><path codeLine="83" d="M551.53,514.96 C535.21,530.43 518.14,545.96 501.5,560 C479.1,578.91 453.74,598.15 430.16,615.23 " fill="none" id="Room-Booking" style="stroke:#FFFFFF;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="430.0615" x2="427.0767" y1="615.3144" y2="624.8586"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="430.0615" x2="420.0633" y1="615.3144" y2="615.1214"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="430.0615" x2="423.57" y1="615.3144" y2="619.99"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="434.0221" x2="429.3465" y1="617.3913" y2="610.8998"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="551.8449" x2="557.3572" y1="509.1272" y2="514.9251"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="549.6708" x2="555.183" y1="511.1943" y2="516.9921"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="551.7021" x2="557.5" y1="514.7822" y2="509.27"/><!--MD5=[b39cadfa36bf2845b97c51ce5978a405]
+link Room to RoomMorePicture--><path codeLine="96" d="M646.5,517.3 C646.5,554.14 646.5,594.29 646.5,624.45 " fill="none" id="Room-RoomMorePicture" style="stroke:#FFFFFF;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="646.5" x2="652.5" y1="624.68" y2="632.68"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="646.5" x2="640.5" y1="624.68" y2="632.68"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="646.5" x2="646.5" y1="624.68" y2="632.68"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="650.5" x2="642.5" y1="622.68" y2="622.68"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="642.5" x2="650.5" y1="513.3" y2="513.3"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="642.5" x2="650.5" y1="516.3" y2="516.3"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="646.5" x2="646.5" y1="517.3" y2="509.3"/><!--MD5=[18bd8a113186b758bf034b76bef2aaeb]
+link AgentBuildings to BuildingMorePic--><path codeLine="104" d="M805.75,221.9 C829.44,258.86 872.39,325.85 901.18,370.76 " fill="none" id="AgentBuildings-BuildingMorePic" style="stroke:#FFFFFF;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="901.1884" x2="910.554" y1="370.7613" y2="374.2663"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="901.1884" x2="900.446" y1="370.7613" y2="380.7337"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="901.1884" x2="905.5" y1="370.7613" y2="377.5"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="903.4798" x2="896.7411" y1="366.9208" y2="371.2324"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="800.1365" x2="806.8752" y1="220.5752" y2="216.2635"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="801.7533" x2="808.492" y1="223.1022" y2="218.7905"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="805.6616" x2="801.35" y1="221.7887" y2="215.05"/><!--MD5=[0d3050c38e2b9a3a2290c75ac4223539]
+@startuml rentobay_database
+!define DARKBLUE
+!includeurl https://raw.githubusercontent.com/Drakemor/RedDress-PlantUML/master/style.puml
+
+
+entity PropertyManager{
+    id:pk 
+    agent_name :  CharField 
+    mobile_number :  CharField
+    email :  EmailField 
+    approved :  BooleanField 
+    address_name :  CharField
+    latitude :  CharField
+    longitude :  CharField
+    
+}
+
+
+
+
+entity Building{
+    id:pk 
+    agent_id :  ForeignKey(Agent)
+    building_name :  CharField
+    no_of_floors :  INtegerField
+    no_of_Room :  INtegerField
+    location_name :  CharField
+    location_address : CharField
+    latitude :  INtegerField
+    longitude :  INtegerField
+    parking_space : CharField
+    security :  BooleanField 
+    tv_connection :  BooleanField
+    account_number :  CharField
+    owner :  CharField
+    payment_deadline :  DateField("every month")
+    penalties :  CharField
+    building_main_pic :  ImageField
+    featured :  BooleanField
+    approval :  BooleanField
+
+}
+note left of AgentBuildings : aprroval field is used to check \n if building is active ama
+note left of AgentBuildings : payment deadline and panalties to be shown \n when the customer has booked the room  
+Agent||..|{ AgentBuildings
+
+
+
+entity Room{
+    id: pk
+    building_id :  ForeignKey(AgentBuildings)
+    room_name :  CharField
+    room_type :  CharField("contains choises")
+    rent :  DecimalField 
+    deposit :  DecimalField
+    floor :  INtegerField
+    balcony :  BooleanField
+    room_size :  CharField
+    room_picture :  ImageField
+    featured :  BooleanField
+}
+
+AgentBuildings||..|{ Room
+
+
+
+entity RoomMorePicture{
+    id: pk
+    room_id :  ForeignKey(Room)
+    picture :  ImageField
+
+}
+
+entity Booking{
+    id:pk 
+    building_id :  ForeignKey(building);
+    property_manager :  ForeignKey(PropertyManager)
+    room_id :  ForeignKey(Room)
+    booking_status :  BooleanField
+}
+
+Building||..|{ Booking
+PropertyManager||..|{ Booking
+Room||..|{ Booking
+
+
+entity Payment{
+    id:pk 
+    booking_id :  ForeignKey(Booking)
+    amount_paid :  DecimalField 
+    payment_status :  BooleanField
+    payment_type : CharField("full payment","partial payment")
+    
+
+}
+
+Room||..|{ RoomMorePicture
+
+entity BuildingMorePic{
+    id:pk 
+    building_id :  ForeignKey(AgentBuildings)
+    picture :  ImageField
+}
+
+AgentBuildings||..|{ BuildingMorePic
+
+
+
+
+@enduml
+
+@startuml rentobay_database
+
+
+
+skinparam backgroundColor 777
+skinparam stereotypeCBackgroundColor 1a66c2
+
+
+
+
+
+
+
+
+
+skinparam backgroundColor 777
+
+
+
+
+
+
+
+skinparam circledCharacter {
+  radius 8
+  fontSize 11
+  fontName Verdana
+}
+
+skinparam class {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+    arrowColor fff
+  arrowFontName Verdana
+  arrowFontColor bbb
+  arrowFontSize 11
+
+  attributeFontColor aaa
+  attributeFontSize 11
+  attributeIconSize 11
+}
+
+
+skinparam actor {
+    backgroundColor 1a66c2
+  borderColor 002642
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam participant {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam collections {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam SequenceBox{
+    backgroundColor 575757
+  borderColor 767676
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+
+skinparam interface {
+    backgroundColor 1a66c2
+  borderColor 002642
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam component {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam node {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam database {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam queue {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+
+skinparam usecase {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+    arrowColor fff
+  arrowFontName Verdana
+  arrowFontColor bbb
+  arrowFontSize 11
+}
+
+skinparam activity {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+    arrowColor fff
+  arrowFontName Verdana
+  arrowFontColor bbb
+  arrowFontSize 11
+}
+
+skinparam sequence {
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+    arrowColor fff
+  arrowFontName Verdana
+  arrowFontColor bbb
+  arrowFontSize 11
+
+  lifeLineBorderColor 1a66c2
+  lifeLineBackgroundColor 575757
+}
+
+skinparam boundary {
+    backgroundColor 1a66c2
+  borderColor 002642
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam control {
+    backgroundColor 1a66c2
+  borderColor 002642
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam entity {
+    backgroundColor 1a66c2
+  borderColor 002642
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+
+skinparam state {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+    arrowColor fff
+  arrowFontName Verdana
+  arrowFontColor bbb
+  arrowFontSize 11
+  startColor 1a66c2
+  endColor 002642
+}
+
+
+skinparam object {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+    arrowColor fff
+  arrowFontName Verdana
+  arrowFontColor bbb
+  arrowFontSize 11
+}
+
+
+skinparam note {
+    backgroundColor 1a66c2
+  borderColor 002642
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam cloud {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+    arrowColor fff
+  arrowFontName Verdana
+  arrowFontColor bbb
+  arrowFontSize 11
+}
+
+skinparam rectangle {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam storage {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+
+
+entity PropertyManager{
+    id:pk 
+    agent_name :  CharField 
+    mobile_number :  CharField
+    email :  EmailField 
+    approved :  BooleanField 
+    address_name :  CharField
+    latitude :  CharField
+    longitude :  CharField
+    
+}
+
+
+
+
+entity Building{
+    id:pk 
+    agent_id :  ForeignKey(Agent)
+    building_name :  CharField
+    no_of_floors :  INtegerField
+    no_of_Room :  INtegerField
+    location_name :  CharField
+    location_address : CharField
+    latitude :  INtegerField
+    longitude :  INtegerField
+    parking_space : CharField
+    security :  BooleanField 
+    tv_connection :  BooleanField
+    account_number :  CharField
+    owner :  CharField
+    payment_deadline :  DateField("every month")
+    penalties :  CharField
+    building_main_pic :  ImageField
+    featured :  BooleanField
+    approval :  BooleanField
+
+}
+note left of AgentBuildings : aprroval field is used to check \n if building is active ama
+note left of AgentBuildings : payment deadline and panalties to be shown \n when the customer has booked the room  
+Agent||..|{ AgentBuildings
+
+
+
+entity Room{
+    id: pk
+    building_id :  ForeignKey(AgentBuildings)
+    room_name :  CharField
+    room_type :  CharField("contains choises")
+    rent :  DecimalField 
+    deposit :  DecimalField
+    floor :  INtegerField
+    balcony :  BooleanField
+    room_size :  CharField
+    room_picture :  ImageField
+    featured :  BooleanField
+}
+
+AgentBuildings||..|{ Room
+
+
+
+entity RoomMorePicture{
+    id: pk
+    room_id :  ForeignKey(Room)
+    picture :  ImageField
+
+}
+
+entity Booking{
+    id:pk 
+    building_id :  ForeignKey(building);
+    property_manager :  ForeignKey(PropertyManager)
+    room_id :  ForeignKey(Room)
+    booking_status :  BooleanField
+}
+
+Building||..|{ Booking
+PropertyManager||..|{ Booking
+Room||..|{ Booking
+
+
+entity Payment{
+    id:pk 
+    booking_id :  ForeignKey(Booking)
+    amount_paid :  DecimalField 
+    payment_status :  BooleanField
+    payment_type : CharField("full payment","partial payment")
+    
+
+}
+
+Room||..|{ RoomMorePicture
+
+entity BuildingMorePic{
+    id:pk 
+    building_id :  ForeignKey(AgentBuildings)
+    picture :  ImageField
+}
+
+AgentBuildings||..|{ BuildingMorePic
+
+
+
+
+@enduml
+
+PlantUML version 1.2021.7(Sun May 23 15:40:07 EAT 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>
